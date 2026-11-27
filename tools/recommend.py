@@ -162,6 +162,49 @@ def library_index(games):
     return seen
 
 
+# 奖项权重（T0–T4）。「年度游戏」满分 40，往里依次递减，
+# 运营类/技术类封顶 5 分——拿一打「最佳社区支持」也顶不过一个年度游戏。
+AWARD_W = {
+    # T0 定义年度
+    "年度游戏": 40, "最佳游戏指导": 30,
+    # T1 核心创作
+    "最佳叙事": 24, "最佳艺术指导": 23, "最佳动作冒险游戏": 20, "最佳角色扮演游戏": 18,
+    # T2 特殊影响力
+    "玩家之声": 14, "最佳独立游戏": 12, "最佳独立游戏首秀": 10,
+    # T3 类型专项
+    "最佳动作游戏": 8, "最佳格斗游戏": 6, "最佳家庭游戏": 6,
+    "最佳模拟策略游戏": 6, "最佳体育竞速游戏": 6, "最佳VR/AR游戏": 5, "最佳多人游戏": 5,
+    # T4 运营/技术向（都 ≤5）
+    "最佳持续运营": 4, "最佳配乐": 4, "最佳社区支持": 3, "最佳音效设计": 3,
+}
+AWARD_ALIAS = {          # 历年奖项改过名，归到同一档
+    "最佳策略游戏": "最佳模拟策略游戏", "最佳模拟策略游戏": "最佳模拟策略游戏",
+    "最佳VR游戏": "最佳VR/AR游戏", "最佳独立游戏处女作": "最佳独立游戏首秀",
+    "最佳配乐与音乐": "最佳配乐", "最佳原声": "最佳配乐",
+}
+
+
+def award_points(won_cats, nom_cats):
+    """奖项折算成分数（0–48）。单项取最高，其余按递减系数加成，避免刷奖。"""
+    def w(cat):
+        return AWARD_W.get(AWARD_ALIAS.get(cat, cat), 0)
+
+    ws = sorted((w(x) for x in won_cats), reverse=True)
+    if ws and ws[0] > 0:
+        best, rest = ws[0], sum(ws[1:])
+        pts = best + 8 * (1 - 1 / (1 + rest / 25))     # 纯年度游戏=40，多拿最多 +8
+        label = next((x for x in won_cats if w(x) == best), "TGA 获奖")
+        return round(pts, 1), "TGA %s" % label
+
+    ns = sorted((w(x) * 0.25 for x in nom_cats), reverse=True)
+    if ns and ns[0] > 0:
+        best, rest = ns[0], sum(ns[1:])
+        pts = min(16, 10 * (1 - 1 / (1 + best / 10)) + 5 * (1 - 1 / (1 + rest / 40)))
+        label = next((x for x in nom_cats if w(x) * 0.25 == best), "TGA 提名")
+        return round(pts, 1), "TGA %s 提名" % label
+    return 0.0, ""
+
+
 # 类型归族：M 站/Steam 的标签太细（「欧美角色扮演」「平台动作」），
 # 直接按字符串比对会跟你的口味画像（「角色扮演」「动作」）永远对不上。
 # 顺序即优先级：越具体的写在前面，先命中先算（「平台动作」不并进「动作」——
@@ -343,14 +386,7 @@ def main():
         won_cats = {x["cat"] for x in c["won"]}
         nom_cats = {x["cat"] for x in c["nom"]}
         c["won"] = [dict(t) for t in {(x["year"], x["cat"]): x for x in c["won"]}.values()]
-        if "年度游戏" in won_cats:
-            tier, tier_txt = 1.0, "TGA 年度游戏"
-        elif won_cats:
-            tier, tier_txt = 0.62, "TGA 获奖（%s）" % "、".join(sorted(won_cats)[:2])
-        elif "年度游戏" in nom_cats:
-            tier, tier_txt = 0.5, "TGA 年度游戏提名"
-        else:
-            tier, tier_txt = 0.28, "TGA 提名（%s）" % "、".join(sorted(nom_cats)[:2])
+        aw, aw_txt = award_points(won_cats, nom_cats)
 
         mc = c.get("metacritic") or 0
         s_mc = max(0.0, min(1.0, (mc - 70) / 25)) if mc else 0.35
@@ -360,9 +396,9 @@ def main():
         # 取最贴合的那一类，不求和：多挂几个标签不该比单挂多得分
         s_genre = min(1.0, prof[hit[0]] * 2.2) if hit else 0.0
 
-        score = tier * 40 + s_mc * 35 + s_genre * 25
+        score = aw + s_mc * 35 + s_genre * 25
 
-        why = [tier_txt]
+        why = [f"{aw_txt}（奖项 {aw} 分）" if aw else "无 TGA 记录（奖项 0 分）"]
         if mc:
             why.append(f"M 站 {mc}")
         if hit:
@@ -375,7 +411,7 @@ def main():
             time.sleep(SLEEP * 0.6)
         if not cover:
             cover = prev_covers.get(norm(c["name"]))
-        out.append({**c, "score": round(score, 1), "why": why, "tier": round(tier, 2), "cover": cover})
+        out.append({**c, "score": round(score, 1), "why": why, "awardPts": aw, "cover": cover})
 
     out.sort(key=lambda x: -x["score"])
     out = out[:args.limit]
