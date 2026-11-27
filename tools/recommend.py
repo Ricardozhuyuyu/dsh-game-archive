@@ -41,6 +41,56 @@ def genre_cn(name):
     return GENRE_CN.get(str(name).strip().lower(), name)
 
 
+# 维基 langlinks 给的中文名常是台译（碧血狂杀/快打旋风/黑帝斯），这里手动钉死国区译名
+MANUAL_CN = {
+    "Red Dead Redemption 2": "荒野大镖客 2",
+    "Hades": "哈迪斯",
+    "Hades II": "哈迪斯 II",
+    "Street Fighter 6": "街头霸王 6",
+    "Marvel's Spider-Man 2": "漫威蜘蛛侠 2",
+    "Devil May Cry 5": "鬼泣 5",
+    "Mario Kart 8 Deluxe": "马力欧卡丁车 8 豪华版",
+    "Super Mario 3D World + Bowser's Fury": "超级马力欧 3D 世界 + 狂怒世界",
+    "Monster Hunter World: Iceborne": "怪物猎人世界：冰原",
+    "Astro Bot": "宇宙机器人",
+    "The Last of Us Part II": "最后生还者 第二部",
+    "Baldur's Gate 3": "博德之门 3",
+    "Metaphor: ReFantazio": "暗喻幻想：ReFantazio",
+    "The Legend of Zelda: Ocarina of Time": "塞尔达传说：时之笛",
+    "Donkey Kong Bananza": "咚奇刚 蕉力全开",
+}
+
+TW_HINTS = ("碧血", "快打", "黑帝斯", "惡靈", "瑪利歐", "魔物", "戰神", "薩爾達", "潛龍", "太空戰士")
+
+
+def steam_cn(name):
+    """Steam 国区简中名（发行商做了本地化才有），顺手拿 appid。"""
+    r = jget("https://store.steampowered.com/api/storesearch/?term=" + urllib.parse.quote(name) + "&l=english&cc=us")
+    items = (r or {}).get("items") or []
+    hit = next((it for it in items[:8] if norm(it.get("name")) == norm(name)), None)
+    if not hit:
+        return None, None
+    time.sleep(0.8)
+    d = jget(f"https://store.steampowered.com/api/appdetails?appids={hit['id']}&l=schinese&cc=cn")
+    data = ((d or {}).get(str(hit["id"])) or {}).get("data") or {}
+    nm = data.get("name") or ""
+    return (nm if nm and re.search(r"[\u4e00-\u9fff]", nm) and nm != name else None), hit["id"]
+
+
+def guess_cover(name, appid=None):
+    """封面：先 Steam header，再维基英文页原图。"""
+    if not appid:
+        r = jget("https://store.steampowered.com/api/storesearch/?term=" + urllib.parse.quote(name) + "&l=english&cc=us")
+        items = (r or {}).get("items") or []
+        hit = next((it for it in items[:8] if norm(it.get("name")) == norm(name)), None)
+        appid = hit["id"] if hit else None
+    if appid:
+        return f"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/{appid}/header.jpg"
+    d = jget("https://en.wikipedia.org/api/rest_v1/page/summary/" + urllib.parse.quote(name.replace(" ", "_")))
+    src = ((d or {}).get("originalimage") or {}).get("source") or ""
+    return (src.split("?")[0] or None) if src else None
+
+
 def norm(s):
     s = str(s or "").lower()
     s = re.sub(r"[\u2122\u00ae\u2120]", "", s)
@@ -141,6 +191,7 @@ def main():
     ap.add_argument("--sleep", type=float, default=1.0)
     ap.add_argument("--no-mc", action="store_true", help="不查 Metacritic（快，但没分数）")
     ap.add_argument("--allow-unknown", action="store_true", help="没查到发售日的也留着（默认剔掉）")
+    ap.add_argument("--no-cover", action="store_true", help="不补封面（省时间，前端显示色块）")
     args = ap.parse_args()
     SLEEP = args.sleep
 
@@ -188,12 +239,18 @@ def main():
         key = norm(name)
         if not key or owned_already(name):
             return
-        cn = ""
-        mv = media.get(name)
-        if isinstance(mv, dict):
-            cn = mv.get("cn") or ""
+        cn = MANUAL_CN.get(name, "")
+        if not cn:
+            mv = media.get(name)
+            if isinstance(mv, dict):
+                cn = mv.get("cn") or ""
         if not cn and isinstance(alias.get(name), str):
             cn = alias[name]
+        # 台译看着别扭的，再问一次 Steam 国区
+        if cn and any(t in cn for t in TW_HINTS) and name not in MANUAL_CN:
+            got, _ = steam_cn(name)
+            if got:
+                cn = got
         # 中文名质量兜底：维基偶尔给「XX系列」「XX列表」，宁可不显示
         if cn and (len(cn) > 18 or re.search(r"系列|列表|游戏界|年電子|公司|股份有限公司", cn)):
             cn = ""
@@ -266,7 +323,11 @@ def main():
             why.append("你常玩的：" + "、".join(hit[:3]))
         if c.get("release"):
             why.append(f"{c['release'][:4]} 年发售")
-        out.append({**c, "score": round(score, 1), "why": why, "tier": round(tier, 2)})
+        cover = None
+        if not args.no_cover:
+            cover = c.get("cover") or guess_cover(c["name"], c.get("appid"))
+            time.sleep(SLEEP * 0.6)
+        out.append({**c, "score": round(score, 1), "why": why, "tier": round(tier, 2), "cover": cover})
 
     out.sort(key=lambda x: -x["score"])
     out = out[:args.limit]
