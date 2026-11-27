@@ -3,6 +3,37 @@
 五个平台（Steam / PSN / Switch / Xbox / Epic）的游戏记录，一键同步成一份能看的档案：
 画廊式浏览、状态机、10 分制评分、短评、TGA 奖项徽章、年度回顾、以及「该接着玩」的排单。
 
+## 快速开始
+
+要求：**DeepSeek Harness**（DSH）本体 + **Python 3.8+**（只在同步/补数据时用）+ **Chrome**（同步时借你的登录态）。
+插件本身零依赖——不 `npm install`、不 `pip install`，所有 Python 脚本只用标准库。
+
+```bash
+git clone https://github.com/Ricardozhuyuyu/dsh-game-archive.git
+cd dsh-game-archive
+```
+
+然后在 DSH 里把**这个目录的绝对路径**装成插件（`plugin_manager` 的 `install_bundle`，需要 danger-full-access
+权限，会弹一次审批）：
+
+```
+plugin_manager install_bundle  /你的路径/dsh-game-archive
+```
+
+装完**完全退出 DSH 再开**（客户端 bundle 是启动时构建的），左栏会多一个「游戏档案」图标。
+第一次打开是空的——因为仓库里的 `data/records.json` 只是空模板，不含任何人的数据。
+
+接着三步把数据接上：
+
+1. **填账号**：复制 `data/accounts.json` 的字段，填成你自己的
+   （`steam_id` 自定义网址、`psn_id`、`switch_player_id`、`xbox_xuid`、`epic` 走网页登录、`heybox_user_id` 小黑盒）。
+2. **起一个带调试端口的 Chrome**（一次就好，之后常开）：
+   `google-chrome --remote-debugging-port=9333 --user-data-dir=/tmp/dsh-chrome`
+   Windows 用 `启动Chrome调试.bat`。在这个窗口里把 Steam / 小黑盒 / Epic 登好。
+3. **点「同步五平台」**，或命令行 `python3 tools/sync.py --port 9333 --out "<你的数据目录>"`。
+
+补字段（发售日 / M 站分 / 类型 / 价格 / 封面）都是可选的独立工具，见文末「结构」。
+
 ## 它长什么样
 
 左栏多一个图标，点开是一整页：
