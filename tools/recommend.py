@@ -234,6 +234,17 @@ def main():
     prof, top = genre_profile(games)
     print("[库] %d 款，投入最多的类型：%s" % (len(games), "、".join(f"{k} {v*100:.0f}%" for k, v in top)))
 
+    # ---- 0) 上一版榜单：封面兜底（--no-cover 时不至于把图全清掉）----
+    prev_covers = {}
+    old_p = os.path.join(D, "recommend.json")
+    if os.path.exists(old_p):
+        try:
+            for it in (json.load(open(old_p)) or {}).get("items", []):
+                if it.get("cover"):
+                    prev_covers[norm(it.get("name"))] = it["cover"]
+        except Exception:  # noqa: BLE001
+            prev_covers = {}
+
     # ---- 1) 从 TGA 汇总候选 ----
     def variants(name):
         """候选名的各种写法：英文原名、别名表里的中文、陈列室抓到的中文名。"""
@@ -358,10 +369,12 @@ def main():
             why.append("你常玩的：" + "、".join(hit[:3]))
         if c.get("release"):
             why.append(f"{c['release'][:4]} 年发售")
-        cover = None
-        if not args.no_cover:
-            cover = c.get("cover") or guess_cover(c["name"], c.get("appid"))
+        cover = c.get("cover") or None
+        if not cover and not args.no_cover:
+            cover = guess_cover(c["name"], c.get("appid"))
             time.sleep(SLEEP * 0.6)
+        if not cover:
+            cover = prev_covers.get(norm(c["name"]))
         out.append({**c, "score": round(score, 1), "why": why, "tier": round(tier, 2), "cover": cover})
 
     out.sort(key=lambda x: -x["score"])
