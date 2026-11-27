@@ -218,6 +218,7 @@ const VIEWS = [
 .ga-select{padding:8px 10px;border-radius:9px;border:1px solid rgba(255,255,255,.1);
   background:rgba(255,255,255,.04);color:inherit;font-size:12px;outline:none}
 .ga-select option{background:#14161f;color:#e8eaf1}
+.ga-pill.ga-dir{min-width:82px;font-variant-numeric:tabular-nums}
 .ga-pill{padding:7px 11px;border-radius:99px;border:1px solid rgba(255,255,255,.09);background:transparent;
   color:var(--dsh-text-3,#8b90a0);font-size:11.5px;cursor:pointer;white-space:nowrap}
 .ga-pill:hover{color:#fff;border-color:rgba(255,255,255,.2)}
@@ -1004,10 +1005,12 @@ const VIEWS = [
           price: (a, b) => (b.price?.initial || -1) - (a.price?.initial || -1),
           name: (a, b) => a.name.localeCompare(b.name, 'zh-Hans-CN'),
         };
-        return out.sort(sorters[state.sort] || sorters.release);
-      }, [data, state.platform, state.status, state.q, state.sort, state.awarded]);
+        const cmp = sorters[state.sort] || sorters.release;
+        out.sort(state.desc === false ? (a, b) => cmp(b, a) : cmp);
+        return out;
+      }, [data, state.platform, state.status, state.q, state.sort, state.awarded, state.desc]);
 
-      const listKey = [state.platform, state.status, state.q, state.awarded, state.sort].join('|');
+      const listKey = [state.platform, state.status, state.q, state.awarded, state.sort, state.desc].join('|');
 
       return h('div', null,
         h('div', { className: 'ga-tools' },
@@ -1030,6 +1033,11 @@ const VIEWS = [
             h('option', { value: 'price' }, '按原价'),
             h('option', { value: 'rating' }, '按我的评分'),
             h('option', { value: 'name' }, '按名称')),
+          h('button', {
+            className: 'ga-pill ga-dir',
+            title: state.desc === false ? '当前正序，点击切换为倒序' : '当前倒序，点击切换为正序',
+            onClick: () => setState({ desc: state.desc === false }),
+          }, state.desc === false ? '↑ 正序' : '↓ 倒序'),
           h('button', {
             className: 'ga-pill' + (state.awarded ? ' on' : ''),
             style: state.awarded ? { background: 'linear-gradient(135deg,#ffe08a,#f5b942)' } : null,
@@ -1436,7 +1444,7 @@ const VIEWS = [
       const [sel, setSel] = useState(null);
       const [syncing, setSyncing] = useState(false);
       const [syncMsg, setSyncMsg] = useState('');
-      const [state, setStateRaw] = useState({ q: '', platform: '', status: '', sort: 'release', mode: 'grid', awarded: false });
+      const [state, setStateRaw] = useState({ q: '', platform: '', status: '', sort: 'release', mode: 'grid', awarded: false, desc: true });
       const setState = useCallback((patch) => setStateRaw((s) => ({ ...s, ...patch })), []);
 
       const load = useCallback(async () => {
