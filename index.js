@@ -131,9 +131,11 @@ async function seed() {
   // 不算游戏的东西（壁纸工具这类，Steam 自己标成 game 的）也随插件走
   await copyFile(join(SEED_DIR, 'exclude.json'), f.exclude).catch(() => {});
   await copyFile(join(SEED_DIR, 'name-cn.json'), f.nameCn).catch(() => {});
-  for (const seed of ['tga-alias.json', 'tga-media.json']) {
-    const has = await stat(join(DIR, seed)).then(() => true).catch(() => false);
-    if (!has) await copyFile(join(SEED_DIR, seed), join(DIR, seed)).catch(() => {});
+  // 陈列室的封面/中文名也是策展数据：每次启动覆盖，更新插件即生效
+  await copyFile(join(SEED_DIR, 'tga-media.json'), join(DIR, 'tga-media.json')).catch(() => {});
+  {
+    const has = await stat(join(DIR, 'tga-alias.json')).then(() => true).catch(() => false);
+    if (!has) await copyFile(join(SEED_DIR, 'tga-alias.json'), join(DIR, 'tga-alias.json')).catch(() => {});
   }
   // enrichment.json 是抓来的（也算你的数据）：只铺一次
   const en = await stat(f.enrichment).then(() => true).catch(() => false);
