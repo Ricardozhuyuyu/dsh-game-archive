@@ -149,7 +149,7 @@ python3 tools/enrich.py --out ... --only "艾尔登法环,Dota 2"
 
 ## 数据放哪
 
-默认 `~/Documents/deepseek-harness/work/游戏档案/`，可用插件 config 的 `dataDir` 或环境变量
+默认 `~/Documents/游戏档案/`，可用插件 config 的 `dataDir` 或环境变量
 `DSH_GAME_ARCHIVE_DIR` 改。里面三件套，职责严格分开：
 
 | 文件 | 谁写 | 内容 |
