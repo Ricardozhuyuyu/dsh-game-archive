@@ -162,19 +162,35 @@ def library_index(games):
     return seen
 
 
+# 类型归族：M 站/Steam 的标签太细（「欧美角色扮演」「平台动作」），
+# 直接按字符串比对会跟你的口味画像（「角色扮演」「动作」）永远对不上。
+# 顺序即优先级：越具体的写在前面，先命中先算（「平台动作」不并进「动作」——
+# 你玩平台跳跃和玩动作游戏是两回事，混在一起会让《宇宙机器人》这类虚高）
+FAMILIES = ["平台动作", "开放世界动作", "动作角色扮演", "日式角色扮演", "大型多人在线",
+            "足球模拟", "音乐", "恐怖", "解谜", "派对", "生存", "沙盒", "放置",
+            "角色扮演", "策略", "模拟", "动作", "冒险", "体育", "竞速", "社交"]
+
+
+def family(genre: str) -> str:
+    g = str(genre or "").strip()
+    for f in FAMILIES:
+        if f in g:
+            return f
+    return g
+
+
 def genre_profile(games):
-    """按种类统计「投入小时数」，返回 {类型: 占比}。"""
+    """按「类型家族」统计投入小时数占比，返回 ({族: 占比}, 前 6 名)。"""
     hours, total = {}, 0.0
     for g in games:
         h = float(g.get("hours") or 0)
         if h <= 0:
             continue
         total += h
-        for part in str(g.get("genre") or "").split("/"):
-            k = part.strip()
-            if not k:
-                continue
-            hours[k] = hours.get(k, 0) + h
+        fams = {family(x) for x in str(g.get("genre") or "").split("/") if x.strip()}
+        for k in fams:
+            if k:
+                hours[k] = hours.get(k, 0) + h
     if not total:
         return {}, []
     prof = {k: v / total for k, v in hours.items()}
@@ -192,6 +208,7 @@ def main():
     ap.add_argument("--no-mc", action="store_true", help="不查 Metacritic（快，但没分数）")
     ap.add_argument("--allow-unknown", action="store_true", help="没查到发售日的也留着（默认剔掉）")
     ap.add_argument("--no-cover", action="store_true", help="不补封面（省时间，前端显示色块）")
+    ap.add_argument("--refresh-mc", action="store_true", help="忽略 mc-cache.json，重新查 Metacritic")
     args = ap.parse_args()
     SLEEP = args.sleep
 
@@ -272,12 +289,27 @@ def main():
                 add(n, yr, cat, False)
     print("[候选] TGA %d 年起、剔掉库里的，剩 %d 个名字" % (args.min_year, len(cand)))
 
-    # ---- 2) 补 M 站 ----
+    # ---- 2) 补 M 站（结果缓存，重打分不用再联网）----
+    cache_p = os.path.join(D, "mc-cache.json")
+    cache = json.load(open(cache_p)) if os.path.exists(cache_p) else {}
+    mc_hits = 0
+
+    def mc_cached(name):
+        nonlocal mc_hits
+        key = norm(name)
+        if key in cache and not args.refresh_mc:
+            return cache[key]
+        info = mc_lookup(name)
+        if info:
+            cache[key] = info
+            mc_hits += 1
+        return info
+
     rows = []
     for i, (k, c) in enumerate(sorted(cand.items(), key=lambda kv: -kv[1]["year"]), 1):
         info = None
         if not args.no_mc:
-            info = mc_lookup(c["name"])
+            info = mc_cached(c["name"])
             time.sleep(SLEEP)
         if not args.allow_unknown and not (info or {}).get("release"):
             continue          # 查不到发售日 → 没法确认是不是 2017 年后，直接不推
@@ -299,6 +331,7 @@ def main():
     for c in rows:
         won_cats = {x["cat"] for x in c["won"]}
         nom_cats = {x["cat"] for x in c["nom"]}
+        c["won"] = [dict(t) for t in {(x["year"], x["cat"]): x for x in c["won"]}.values()]
         if "年度游戏" in won_cats:
             tier, tier_txt = 1.0, "TGA 年度游戏"
         elif won_cats:
@@ -311,8 +344,10 @@ def main():
         mc = c.get("metacritic") or 0
         s_mc = max(0.0, min(1.0, (mc - 70) / 25)) if mc else 0.35
 
-        hit = [g for g in c.get("genres", []) if prof.get(g)]
-        s_genre = min(1.0, sum(prof[g] for g in hit) * 2.2) if hit else 0.15
+        fams = {family(g) for g in c.get("genres", []) if g}
+        hit = sorted((f for f in fams if prof.get(f)), key=lambda f: -prof[f])
+        # 取最贴合的那一类，不求和：多挂几个标签不该比单挂多得分
+        s_genre = min(1.0, prof[hit[0]] * 2.2) if hit else 0.0
 
         score = tier * 40 + s_mc * 35 + s_genre * 25
 
@@ -342,6 +377,10 @@ def main():
         },
         "items": out,
     }
+    if mc_hits:
+        with open(cache_p + ".tmp", "w") as fp:
+            json.dump(cache, fp, ensure_ascii=False)
+        os.replace(cache_p + ".tmp", cache_p)
     path = os.path.join(D, "recommend.json")
     json.dump(doc, open(path + ".tmp", "w"), ensure_ascii=False, indent=1)
     os.replace(path + ".tmp", path)
