@@ -1,0 +1,23 @@
+{
+  "_note": "不算「游戏」的条目。分两类：tools = 工具/补丁/编辑器/SDK 这类被平台标成 game 的东西；lowfree = 时长短又免费的（领了没玩）。键是平台，值是要忽略的名字。",
+  "tools": {
+    "Steam": [
+      "Wallpaper Engine",
+      "Wallpaper Engine - Editor Extras",
+      "Skyrim Script Extender (SKSE)"
+    ],
+    "Epic": [
+      "DCL The Game - Track Editor",
+      "Squad 44 Mod SDK",
+      "Squad Editor"
+    ]
+  },
+  "lowfree": {
+    "enabled": true,
+    "maxHours": 2
+  },
+  "Steam": [
+    "Wallpaper Engine",
+    "Wallpaper Engine - Editor Extras"
+  ]
+}

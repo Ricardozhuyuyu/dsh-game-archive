@@ -1,0 +1,4272 @@
+{
+ "Dragon Age: Inquisition": {
+  "cn": "龙之纪元：审判",
+  "src": "alias",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/c/ce/Dragon_Age_Inquisition_BoxArt.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "fit": "contain"
+ },
+ "Bayonetta 2": {
+  "cn": "魔兵惊天录2",
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/b/b1/Bayonetta_2_box_artwork.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "fit": "contain"
+ },
+ "Dark Souls II": {
+  "cn": "黑暗灵魂II",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/236430/header.jpg",
+  "appid": 236430
+ },
+ "Hearthstone": {
+  "cn": "炉石传说",
+  "src": "alias",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/f/f2/Hearthstone_2016_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "fit": "contain"
+ },
+ "Middle-earth: Shadow of Mordor": {
+  "cn": "中土大陸",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/241930/header.jpg",
+  "appid": 241930
+ },
+ "Nintendo": {
+  "cn": "任天堂",
+  "src": "alias",
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Headquarters_of_Nintendo_Co.%2C_Ltd.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "fit": "contain"
+ },
+ "Blizzard Entertainment": {
+  "cn": "暴雪娛樂",
+  "src": "alias",
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/2/23/Blizzard_Entertainment_Logo_2015.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+  "fit": "contain"
+ },
+ "Monolith Productions": {
+  "cn": "",
+  "src": "alias",
+  "skip": true
+ },
+ "Telltale Games": {
+  "cn": "",
+  "src": "alias",
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/9/90/Telltale_Games_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+  "fit": "contain"
+ },
+ "Ubisoft Montreal": {
+  "cn": "育碧蒙特利尔",
+  "src": "alias",
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Ubisoft_Montreal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+  "fit": "contain"
+ },
+ "Shovel Knight": {
+  "cn": "铲子骑士",
+  "src": "steam",
+  "appid": 1416050,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1416050/header.jpg"
+ },
+ "Broken Age Act I": {
+  "skip": true
+ },
+ "Monument Valley": {
+  "cn": "紀念碑谷",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1927720/header.jpg",
+  "appid": 1927720
+ },
+ "Transistor": {
+  "cn": "晶体管",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/237930/header.jpg"
+ },
+ "The Vanishing of Ethan Carter": {
+  "cn": "伊森卡特的消失之谜",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/258520/header.jpg",
+  "appid": 258520
+ },
+ "Bravely Default": {
+  "cn": "勇氣默示錄",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1446650/header.jpg",
+  "appid": 1446650
+ },
+ "Super Smash Bros. for Nintendo 3DS": {
+  "skip": true
+ },
+ "Threes": {
+  "cn": "",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1818570/header.jpg",
+  "appid": 1818570
+ },
+ "Valiant Hearts: The Great War": {
+  "cn": "英勇之心：偉大戰爭",
+  "src": "alias",
+  "skip": true
+ },
+ "South Park: The Stick of Truth": {
+  "cn": "南方公园",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/213670/header.jpg",
+  "appid": 213670
+ },
+ "The Walking Dead: Season Two": {
+  "cn": "行屍：第二季",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/261030/header.jpg",
+  "appid": 261030
+ },
+ "The Wolf Among Us": {
+  "cn": "我们身边的狼",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/250320/header.jpg",
+  "appid": 250320
+ },
+ "Wolfenstein: The New Order": {
+  "cn": "德軍總部：新秩序",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/201810/header.jpg",
+  "appid": 201810
+ },
+ "Destiny": {
+  "cn": "命運",
+  "src": "alias",
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Alphonse_Mucha_-_Fate.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+  "fit": "contain"
+ },
+ "Alien: Isolation": {
+  "cn": "異形：孤立",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/214490/header.jpg",
+  "appid": 214490
+ },
+ "Child of Light": {
+  "cn": "光明之子",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/294510/header.jpg",
+  "appid": 294510
+ },
+ "Sunset Overdrive": {
+  "cn": "日落过载",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/847370/header.jpg",
+  "appid": 847370
+ },
+ "Trey Parker as Various Voices": {
+  "skip": true
+ },
+ "Adam Harrington as Bigby Wolf": {
+  "skip": true
+ },
+ "Kevin Spacey as Jonathan Irons": {
+  "skip": true
+ },
+ "Melissa Hutchison as Clementine": {
+  "skip": true
+ },
+ "Troy Baker as Talion": {
+  "skip": true
+ },
+ "Mountain": {
+  "cn": "东方风神录 〜 Mountain of Faith.",
+  "src": "steam",
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+  "fit": "contain"
+ },
+ "Never Alone": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2154420/header.jpg",
+  "src": "steam",
+  "appid": 2154420
+ },
+ "The Last of Us: Left Behind": {
+  "cn": "最后生还者：遗落",
+  "src": "alias",
+  "skip": true
+ },
+ "This War of Mine": {
+  "cn": "这是我的战争",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/282070/header.jpg",
+  "appid": 282070
+ },
+ "Far Cry 4": {
+  "cn": "孤岛惊魂4",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/298110/header.jpg",
+  "appid": 298110
+ },
+ "Call of Duty: Advanced Warfare": {
+  "cn": "决胜时刻系列",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/318791/header.jpg",
+  "appid": 318791
+ },
+ "Titanfall": {
+  "cn": "泰坦天降系列",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1237970/header.jpg",
+  "appid": 1237970
+ },
+ "Assassin's Creed Unity": {
+  "cn": "刺客教條：大革命",
+  "src": "steam",
+  "appid": 289650,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/289650/header.jpg"
+ },
+ "Divinity: Original Sin": {
+  "cn": "神諭：原罪",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/230230/header.jpg",
+  "appid": 230230
+ },
+ "Super Smash Bros. for Wii U": {
+  "cn": "任天堂明星大亂鬥 for 3DS/Wii U",
+  "src": "alias",
+  "skip": true
+ },
+ "Killer Instinct: Season Two": {
+  "skip": true
+ },
+ "Persona 4 Arena Ultimax": {
+  "appid": 1602010,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1602010/header.jpg",
+  "src": "steam"
+ },
+ "Ultra Street Fighter IV": {
+  "cn": "街頭霸王IV",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/45760/header.jpg",
+  "appid": 45760
+ },
+ "Mario Kart 8": {
+  "cn": "玛利欧赛车8",
+  "src": "wiki",
+  "skip": true
+ },
+ "Disney Infinity: Marvel Super Heroes": {
+  "cn": "迪士尼無限世界2.0",
+  "src": "alias",
+  "skip": true
+ },
+ "Fantasia: Music Evolved": {
+  "cn": "幻想",
+  "src": "wiki",
+  "skip": true
+ },
+ "Skylanders: Trap Team": {
+  "cn": "宝贝龙世界系列",
+  "src": "wiki",
+  "skip": true
+ },
+ "Tomodachi Life": {
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/5/50/Tomodachi_Life_series_logo_2026.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+  "fit": "contain",
+  "src": "wiki"
+ },
+ "FIFA 15": {
+  "skip": true
+ },
+ "Forza Horizon 2": {
+  "cn": "极限竞速 地平线2",
+  "src": "alias",
+  "skip": true
+ },
+ "NBA 2K15": {
+  "skip": true
+ },
+ "Trials Fusion": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/245490/header.jpg",
+  "src": "steam",
+  "appid": 245490
+ },
+ "Grand Theft Auto V": {
+  "cn": "俠盜獵車手V",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3240220/header.jpg",
+  "appid": 3240220
+ },
+ "Halo: The Master Chief Collection": {
+  "cn": "光环：士官长合集",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/976730/header.jpg",
+  "appid": 976730
+ },
+ "Pokémon Omega Ruby and Alpha Sapphire": {
+  "cn": "宝可梦 欧米加红宝石／阿尔法蓝宝石",
+  "src": "wiki",
+  "skip": true
+ },
+ "The Last of Us Remastered": {
+  "cn": "最後生還者",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2531310/header.jpg",
+  "appid": 2531310
+ },
+ "Tomb Raider: Definitive Edition": {
+  "cn": "古墓丽影 (2013年游戏)",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/750920/header.jpg",
+  "appid": 750920
+ },
+ "The Witcher 3: Wild Hunt": {
+  "cn": "The Witcher 3: Wild Hunt — Remastered",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg"
+ },
+ "Bloodborne": {
+  "cn": "血源诅咒",
+  "src": "wiki",
+  "skip": true,
+  "cover": "https://heyboxbj.max-c.com/gameimg/psn_game_image/8c0eb6e33126b50231208aa1bc3510da.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Fallout 4": {
+  "cn": "辐射4",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/377160/header.jpg",
+  "appid": 377160
+ },
+ "Metal Gear Solid V: The Phantom Pain": {
+  "cn": "潛龍諜影V 幻痛",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/287700/header.jpg",
+  "appid": 287700
+ },
+ "Super Mario Maker": {
+  "cn": "超级玛利欧创作家",
+  "src": "wiki",
+  "skip": true
+ },
+ "CD Projekt Red": {
+  "cn": "",
+  "src": "alias",
+  "skip": true
+ },
+ "Bethesda Game Studios": {
+  "cn": "贝塞斯达游戏工作室",
+  "src": "alias",
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/2/22/Bethesda_Game_Studios_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+  "fit": "contain"
+ },
+ "FromSoftware": {
+  "cn": "",
+  "src": "alias",
+  "skip": true
+ },
+ "Kojima Productions": {
+  "cn": "小岛工作室",
+  "src": "alias",
+  "skip": true
+ },
+ "Rocket League": {
+  "cn": "火箭联盟",
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Rocket_League_coverart.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+  "fit": "contain"
+ },
+ "Axiom Verge": {
+  "cn": "公理邊緣",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/332200/header.jpg",
+  "appid": 332200
+ },
+ "Her Story": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/368370/header.jpg",
+  "src": "steam",
+  "appid": 368370
+ },
+ "Ori and the Blind Forest": {
+  "cn": "奥里与迷失森林",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/261570/header.jpg",
+  "appid": 261570
+ },
+ "Undertale": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/391540/header.jpg",
+  "src": "steam",
+  "appid": 391540
+ },
+ "Lara Croft Go": {
+  "cn": "劳拉Go",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/540840/header.jpg",
+  "appid": 540840
+ },
+ "Downwell": {
+  "cn": "下沉流",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/360740/header.jpg",
+  "appid": 360740
+ },
+ "Fallout Shelter": {
+  "cn": "異塵餘生：庇護所",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/588430/header.jpg",
+  "appid": 588430
+ },
+ "Monster Hunter 4 Ultimate": {
+  "cn": "怪物猎人4",
+  "src": "alias",
+  "skip": true
+ },
+ "Pac-Man 256": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/455400/header.jpg",
+  "src": "steam",
+  "appid": 455400
+ },
+ "Life Is Strange": {
+  "cn": "奇异人生系列",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/532210/header.jpg",
+  "appid": 532210
+ },
+ "Tales from the Borderlands": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/330830/header.jpg",
+  "src": "steam",
+  "appid": 330830
+ },
+ "Until Dawn": {
+  "cn": "直到黎明",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2172010/header.jpg",
+  "appid": 2172010
+ },
+ "Batman: Arkham Knight": {
+  "cn": "蝙蝠侠",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/208650/header.jpg",
+  "appid": 208650
+ },
+ "Halo 5: Guardians": {
+  "cn": "最後一戰5：守護者",
+  "src": "alias",
+  "skip": true
+ },
+ "Viva Seifert as Hannah Smith": {
+  "skip": true
+ },
+ "Ashly Burch as Chloe Price": {
+  "skip": true
+ },
+ "Camilla Luddington as Lara Croft": {
+  "skip": true
+ },
+ "Doug Cockle as Geralt of Rivia": {
+  "skip": true
+ },
+ "Mark Hamill as the Joker": {
+  "skip": true
+ },
+ "Cibele": {
+  "cn": "库柏勒",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/408120/header.jpg",
+  "appid": 408120
+ },
+ "Sunset": {
+  "cn": "日落",
+  "src": "alias",
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Full_cycle_of_a_Sunset_on_the_high_plains_of_the_Mojave_Desert.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+  "fit": "contain"
+ },
+ "Splatoon": {
+  "cn": "斯普拉遁系列",
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Splatoon_monochrome_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+  "fit": "contain"
+ },
+ "Call of Duty: Black Ops III": {
+  "cn": "使命召唤：黑色行动III",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/311210/header.jpg",
+  "appid": 311210
+ },
+ "Destiny: The Taken King": {
+  "cn": "命运",
+  "src": "wiki",
+  "skip": true
+ },
+ "Star Wars Battlefront": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1058020/header.jpg",
+  "src": "steam",
+  "appid": 1058020
+ },
+ "Assassin's Creed Syndicate": {
+  "cn": "刺客教條：梟雄",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/371020/header.jpg",
+  "appid": 371020
+ },
+ "Rise of the Tomb Raider": {
+  "cn": "盗墓者罗拉：崛起",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/391220/header.jpg",
+  "appid": 391220
+ },
+ "Pillars of Eternity": {
+  "cn": "永恒之柱",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/291650/header.jpg",
+  "appid": 291650
+ },
+ "Mortal Kombat X": {
+  "cn": "真人快打X",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/307780/header.jpg",
+  "appid": 307780
+ },
+ "Guilty Gear Xrd –SIGN–": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/376300/header.jpg",
+  "src": "steam",
+  "appid": 376300
+ },
+ "Rise of Incarnates": {
+  "skip": true
+ },
+ "Rising Thunder": {
+  "skip": true
+ },
+ "Disney Infinity 3.0": {
+  "cn": "迪士尼无限世界3.0",
+  "src": "steam",
+  "skip": true,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/541670/header.jpg"
+ },
+ "Lego Dimensions": {
+  "skip": true
+ },
+ "Skylanders: SuperChargers": {
+  "cn": "宝贝龙世界系列",
+  "src": "wiki",
+  "skip": true
+ },
+ "FIFA 16": {
+  "skip": true
+ },
+ "Forza Motorsport 6": {
+  "skip": true
+ },
+ "NBA 2K16": {
+  "skip": true
+ },
+ "Pro Evolution Soccer 2016": {
+  "cn": "胜利十一人2016",
+  "src": "wiki",
+  "skip": true
+ },
+ "Overwatch": {
+  "cn": "守望先锋",
+  "src": "alias",
+  "cover": "https://heyboxbj.max-c.com/gameimg/psn_game_image/900024399/8f3a8965d1544f6c70998b1c30a7731d.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Doom": {
+  "cn": "",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/379720/header.jpg",
+  "appid": 379720
+ },
+ "Inside": {
+  "cn": "",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/304430/header.jpg",
+  "appid": 304430
+ },
+ "Titanfall 2": {
+  "cn": "泰坦降临2",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1237970/header.jpg",
+  "appid": 1237970
+ },
+ "Uncharted 4: A Thief's End": {
+  "cn": "神秘海域4：盗贼末路",
+  "src": "alias",
+  "skip": true
+ },
+ "Battlefield 1": {
+  "cn": "战地1",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1238840/header.jpg",
+  "appid": 1238840
+ },
+ "Firewatch": {
+  "cn": "看火人",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/383870/header.jpg",
+  "appid": 383870
+ },
+ "Mafia III": {
+  "cn": "黑手党III",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/600160/header.jpg",
+  "appid": 600160
+ },
+ "Oxenfree": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/388880/header.jpg",
+  "src": "steam",
+  "appid": 388880
+ },
+ "Abzû": {
+  "cn": "智慧之海",
+  "src": "steam",
+  "appid": 384190,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/384190/header.jpg"
+ },
+ "Rez Infinite": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/636450/header.jpg",
+  "src": "steam",
+  "appid": 636450
+ },
+ "Thumper": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/356400/header.jpg",
+  "src": "steam",
+  "appid": 356400
+ },
+ "Nolan North as Nathan Drake": {
+  "skip": true
+ },
+ "Alex Hernandez as Lincoln Clay": {
+  "skip": true
+ },
+ "Cissy Jones as Delilah": {
+  "skip": true
+ },
+ "Emily Rose as Elena Fisher": {
+  "skip": true
+ },
+ "Rich Sommer as Henry": {
+  "skip": true
+ },
+ "Troy Baker as Sam Drake": {
+  "skip": true
+ },
+ "That Dragon, Cancer": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/419460/header.jpg",
+  "src": "steam",
+  "appid": 419460
+ },
+ "Block'hood": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/416210/header.jpg",
+  "src": "steam",
+  "appid": 416210
+ },
+ "Orwell": {
+  "cn": "乔治·奥威尔",
+  "src": "alias",
+  "skip": true
+ },
+ "Sea Hero Quest": {
+  "skip": true
+ },
+ "1979 Revolution: Black Friday": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/388320/header.jpg",
+  "src": "steam",
+  "appid": 388320
+ },
+ "Hyper Light Drifter": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/257850/header.jpg",
+  "src": "steam",
+  "appid": 257850
+ },
+ "Stardew Valley": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg",
+  "src": "library",
+  "cn": "星露谷物语"
+ },
+ "The Witness": {
+  "cn": "",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/210970/header.jpg",
+  "appid": 210970
+ },
+ "Pokémon Go": {
+  "skip": true
+ },
+ "Clash Royale": {
+  "cn": "部落衝突：皇室戰爭",
+  "src": "alias",
+  "skip": true
+ },
+ "Fire Emblem Fates": {
+  "cn": "火焰之纹章if",
+  "src": "wiki",
+  "skip": true
+ },
+ "Monster Hunter Generations": {
+  "cn": "怪物猎人X",
+  "src": "wiki",
+  "skip": true
+ },
+ "Severed": {
+  "appid": 4269720,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/4269720/header.jpg",
+  "src": "steam"
+ },
+ "Batman: Arkham VR": {
+  "cn": "蝙蝠侠",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/502820/header.jpg",
+  "appid": 502820
+ },
+ "Eve: Valkyrie": {
+  "cn": "夏娃",
+  "src": "wiki",
+  "skip": true
+ },
+ "Job Simulator": {
+  "cn": "工作模拟器",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/448280/header.jpg",
+  "appid": 448280
+ },
+ "Gears of War 4": {
+  "cn": "戰爭機器4",
+  "src": "alias",
+  "skip": true
+ },
+ "Dishonored 2": {
+  "cn": "冤罪杀机2",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/403640/header.jpg",
+  "appid": 403640
+ },
+ "Hitman": {
+  "cn": "買兇殺人",
+  "src": "alias",
+  "skip": true
+ },
+ "Ratchet & Clank": {
+  "cn": "拉捷特与克拉克系列",
+  "src": "wiki",
+  "skip": true
+ },
+ "Dark Souls III": {
+  "cn": "黑暗之魂III",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/374320/header.jpg",
+  "appid": 374320
+ },
+ "Deus Ex: Mankind Divided": {
+  "cn": "駭客入侵：人類岐裂",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/337000/header.jpg",
+  "appid": 337000
+ },
+ "World of Warcraft: Legion": {
+  "cn": "魔兽世界",
+  "src": "wiki",
+  "skip": true
+ },
+ "Xenoblade Chronicles X": {
+  "cn": "异度神剑X",
+  "src": "alias",
+  "skip": true
+ },
+ "Street Fighter V": {
+  "cn": "街头霸王V",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1364780/header.jpg",
+  "appid": 1364780
+ },
+ "Killer Instinct Season Three": {
+  "skip": true
+ },
+ "The King of Fighters XIV": {
+  "cn": "拳皇XIV",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/571260/header.jpg",
+  "appid": 571260
+ },
+ "Pokkén Tournament": {
+  "cn": "宝可拳",
+  "src": "wiki",
+  "skip": true
+ },
+ "Civilization VI": {
+  "cn": "文明帝国VI",
+  "src": "steam",
+  "skip": true,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/289070/header.jpg"
+ },
+ "The Banner Saga 2": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/281640/header.jpg",
+  "src": "steam",
+  "appid": 281640
+ },
+ "Total War: Warhammer": {
+  "cn": "全面战争：战锤",
+  "src": "steam",
+  "appid": 364360,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/364360/header.jpg"
+ },
+ "XCOM 2": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/268500/header.jpg",
+  "src": "steam",
+  "appid": 268500
+ },
+ "Dragon Quest Builders": {
+  "cn": "勇者斗恶龙 创世小玩家 阿雷夫加尔德复兴记",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1168460/header.jpg",
+  "appid": 1168460
+ },
+ "Lego Star Wars: The Force Awakens": {
+  "cn": "樂高星際大戰：原力覺醒",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/438640/header.jpg",
+  "appid": 438640
+ },
+ "Skylanders: Imaginators": {
+  "cn": "宝贝龙世界系列",
+  "src": "wiki",
+  "skip": true
+ },
+ "Forza Horizon 3": {
+  "cn": "极限竞速 地平线3",
+  "src": "wiki",
+  "skip": true
+ },
+ "FIFA 17": {
+  "skip": true
+ },
+ "MLB The Show 16": {
+  "skip": true
+ },
+ "NBA 2K17": {
+  "skip": true
+ },
+ "Pro Evolution Soccer 2017": {
+  "cn": "胜利十一人2017",
+  "src": "wiki",
+  "skip": true
+ },
+ "Overcooked": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/448510/header.jpg",
+  "src": "library",
+  "cn": "胡闹厨房"
+ },
+ "Tom Clancy's Rainbow Six Siege": {
+  "cn": "虹彩六号：围攻行动",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1182510/header.jpg",
+  "appid": 1182510
+ },
+ "The Legend of Zelda: Breath of the Wild": {
+  "cn": "塞尔达传说 旷野之息",
+  "src": "alias",
+  "skip": true
+ },
+ "Horizon Zero Dawn": {
+  "cn": "地平線 黎明時分",
+  "src": "alias",
+  "skip": true,
+  "cover": "https://heyboxbj.max-c.com/gameimg/psn_game_image/7bc82a96c9e78cce4c7c658a949b50ac.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Persona 5": {
+  "cn": "女神异闻录5",
+  "src": "alias",
+  "cover": "https://imgheybox.max-c.com/bbs/2021/11/06/e1e45dd6877a3d338a8ebce88358f50d.jpeg?imageMogr2/thumbnail/!50p"
+ },
+ "PlayerUnknown's Battlegrounds": {
+  "cn": "PUBG: BATTLEGROUNDS",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/578080/header.jpg"
+ },
+ "Super Mario Odyssey": {
+  "cn": "超级马力欧 奥德赛",
+  "src": "wiki",
+  "skip": true
+ },
+ "Resident Evil 7: Biohazard": {
+  "cn": "生化危机7 恶灵古堡",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/418370/header.jpg",
+  "appid": 418370
+ },
+ "Wolfenstein II: The New Colossus": {
+  "cn": "德军总部II：新巨像",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/612880/header.jpg",
+  "appid": 612880
+ },
+ "What Remains of Edith Finch": {
+  "cn": "伊迪·芬奇的秘密",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/501300/header.jpg",
+  "appid": 501300
+ },
+ "Hellblade: Senua's Sacrifice": {
+  "cn": "地狱之刃：塞娜的献祭",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/414340/header.jpg",
+  "appid": 414340
+ },
+ "Nier: Automata": {
+  "cn": "尼尔：自动人形",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/524220/header.jpg",
+  "appid": 524220
+ },
+ "Cuphead": {
+  "cn": "茶杯頭",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/268910/header.jpg",
+  "appid": 268910
+ },
+ "Destiny 2": {
+  "cn": "命运2",
+  "src": "steam",
+  "appid": 1085660,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1085660/header.jpg"
+ },
+ "Melina Juergens as Senua": {
+  "skip": true
+ },
+ "Ashly Burch as Aloy": {
+  "skip": true
+ },
+ "Brian Bloom as B.J. Blazkowicz": {
+  "skip": true
+ },
+ "Claudia Black as Chloe Frazer": {
+  "skip": true
+ },
+ "Laura Bailey as Nadine Ross": {
+  "skip": true
+ },
+ "Bury Me, My Love": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/808090/header.jpg",
+  "src": "steam",
+  "appid": 808090
+ },
+ "Life Is Strange: Before the Storm": {
+  "cn": "奇异人生：暴风前夕",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/554620/header.jpg",
+  "appid": 554620
+ },
+ "Night in the Woods": {
+  "cn": "林中之夜",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/481510/header.jpg",
+  "appid": 481510
+ },
+ "Please Knock on My Door": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/613450/header.jpg",
+  "src": "steam",
+  "appid": 613450
+ },
+ "Grand Theft Auto Online": {
+  "cn": "侠盗猎车手Online",
+  "src": "wiki",
+  "skip": true
+ },
+ "Warframe": {
+  "cn": "戰甲神兵",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/230410/header.jpg"
+ },
+ "Pyre": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/462770/header.jpg",
+  "src": "steam",
+  "appid": 462770
+ },
+ "Monument Valley 2": {
+  "cn": "纪念碑谷2",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1927740/header.jpg",
+  "appid": 1927740
+ },
+ "Fire Emblem Heroes": {
+  "cn": "火焰之纹章 英雄",
+  "src": "wiki",
+  "skip": true
+ },
+ "Hidden Folks": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/435400/header.jpg",
+  "src": "steam",
+  "appid": 435400
+ },
+ "Old Man's Journey": {
+  "appid": 581270,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/581270/header.jpg",
+  "src": "steam"
+ },
+ "Super Mario Run": {
+  "cn": "超级马力欧酷跑",
+  "src": "wiki",
+  "skip": true
+ },
+ "Metroid: Samus Returns": {
+  "cn": "密特罗德系列",
+  "src": "wiki",
+  "skip": true
+ },
+ "Ever Oasis": {
+  "skip": true
+ },
+ "Fire Emblem Echoes: Shadows of Valentia": {
+  "cn": "火焰之纹章 回声 另一位英雄王",
+  "src": "wiki",
+  "skip": true
+ },
+ "Monster Hunter Stories": {
+  "cn": "魔物猎人物语",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2356560/header.jpg",
+  "appid": 2356560
+ },
+ "Poochy and Yoshi's Woolly World": {
+  "skip": true
+ },
+ "Farpoint": {
+  "skip": true
+ },
+ "Lone Echo": {
+  "skip": true
+ },
+ "Star Trek: Bridge Crew": {
+  "cn": "星舰奇航记",
+  "src": "wiki",
+  "skip": true
+ },
+ "Superhot VR": {
+  "cn": "",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/617830/header.jpg",
+  "appid": 617830
+ },
+ "Nioh": {
+  "cn": "仁王",
+  "src": "steam",
+  "appid": 3681010,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3681010/header.jpg"
+ },
+ "Prey": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/480490/header.jpg",
+  "src": "steam",
+  "appid": 480490
+ },
+ "Assassin's Creed: Origins": {
+  "cn": "刺客信条：起源",
+  "src": "alias",
+  "cover": "https://heyboxbj.max-c.com/gameimg/psn_game_image/ff0a5e9bfe519c8195f1cebdc9b4ba85.png?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Uncharted: The Lost Legacy": {
+  "cn": "神秘海域系列",
+  "src": "wiki",
+  "skip": true
+ },
+ "Divinity: Original Sin II": {
+  "cn": "神性",
+  "src": "steam",
+  "skip": true,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/715950/header.jpg"
+ },
+ "Final Fantasy XV": {
+  "cn": "最終幻想XV",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2515020/header.jpg",
+  "appid": 2515020
+ },
+ "South Park: The Fractured but Whole": {
+  "cn": "南方公园：完整破碎",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/488790/header.jpg",
+  "appid": 488790
+ },
+ "Injustice 2": {
+  "cn": "超级英雄：武力对决2",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/627270/header.jpg",
+  "appid": 627270
+ },
+ "ARMS": {
+  "skip": true
+ },
+ "Marvel vs. Capcom: Infinite": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/493840/header.jpg",
+  "src": "steam",
+  "appid": 493840
+ },
+ "Nidhogg 2": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/535520/header.jpg",
+  "src": "steam",
+  "appid": 535520
+ },
+ "Tekken 7": {
+  "cn": "铁拳7",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/389730/header.jpg",
+  "appid": 389730
+ },
+ "Mario Kart 8 Deluxe": {
+  "cn": "瑪利歐賽車8",
+  "src": "alias",
+  "skip": true
+ },
+ "Mario + Rabbids Kingdom Battle": {
+  "cn": "马力欧+疯狂兔子 王国之战",
+  "src": "alias",
+  "skip": true
+ },
+ "Sonic Mania": {
+  "cn": "索尼克狂欢",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/584400/header.jpg",
+  "appid": 584400
+ },
+ "Splatoon 2": {
+  "cn": "斯普拉遁2",
+  "src": "wiki",
+  "skip": true,
+  "cover": "https://heyboxbj.max-c.com/gameimg/switch_game_image/2470d522aac8c275cff86f325bea2520.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Halo Wars 2": {
+  "cn": "星环战役2",
+  "src": "wiki",
+  "skip": true
+ },
+ "Total War: Warhammer II": {
+  "cn": "全面战争：战锤2",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/593930/header.jpg",
+  "appid": 593930
+ },
+ "Tooth and Tail": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/286000/header.jpg",
+  "src": "steam",
+  "appid": 286000
+ },
+ "XCOM 2: War of the Chosen": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/593380/header.jpg",
+  "src": "steam",
+  "appid": 593380
+ },
+ "Forza Motorsport 7": {
+  "cn": "极限竞速7",
+  "src": "wiki",
+  "skip": true
+ },
+ "FIFA 18": {
+  "skip": true
+ },
+ "Gran Turismo Sport": {
+  "cn": "跑车浪漫旅 竞速",
+  "src": "wiki",
+  "skip": true
+ },
+ "NBA 2K18": {
+  "skip": true
+ },
+ "Pro Evolution Soccer 2018": {
+  "cn": "实况足球2018",
+  "src": "wiki",
+  "skip": true
+ },
+ "Project Cars 2": {
+  "skip": true
+ },
+ "Call of Duty: WWII": {
+  "cn": "使命召唤：二战",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/476600/header.jpg",
+  "appid": 476600
+ },
+ "Fortnite": {
+  "cn": "堡垒之夜",
+  "src": "wiki",
+  "skip": true
+ },
+ "Level Squared": {
+  "skip": true
+ },
+ "Falling Sky": {
+  "skip": true
+ },
+ "From Light": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2551840/header.jpg",
+  "src": "steam",
+  "appid": 2551840
+ },
+ "Hollowed": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/669630/header.jpg",
+  "src": "steam",
+  "appid": 669630
+ },
+ "Impulsion": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/811270/header.jpg",
+  "src": "steam",
+  "appid": 811270
+ },
+ "Meaning": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2000480/header.jpg",
+  "src": "steam",
+  "appid": 2000480
+ },
+ "Golf Story": {
+  "skip": true
+ },
+ "Hollow Knight": {
+  "cn": "Hollow Knight: 虚空之心版",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/367520/header.jpg"
+ },
+ "Mr. Shifty": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/489140/header.jpg",
+  "src": "steam",
+  "appid": 489140
+ },
+ "Slime Rancher": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/433340/header.jpg",
+  "src": "steam",
+  "appid": 433340
+ },
+ "God of War": {
+  "cn": "战神",
+  "src": "alias",
+  "cover": "https://heyboxbj.max-c.com/gameimg/psn_game_image/9f5a162fbf1ed84fbd785cb4c7011bca.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Assassin's Creed Odyssey": {
+  "cn": "刺客信条：奥德赛",
+  "src": "alias",
+  "cover": "https://heyboxbj.max-c.com/gameimg/psn_game_image/f70e96ddcc099dd7313afae95bda34b6.png?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Celeste": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/504230/header.jpg",
+  "src": "steam",
+  "appid": 504230
+ },
+ "Marvel's Spider-Man": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2651280/header.jpg",
+  "src": "steam",
+  "appid": 2651280,
+  "cn": "漫威蜘蛛侠年度版"
+ },
+ "Monster Hunter: World": {
+  "cn": "魔物猎人系列",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/582010/header.jpg",
+  "appid": 582010
+ },
+ "Red Dead Redemption 2": {
+  "cn": "碧血狂杀2",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg",
+  "appid": 1174180
+ },
+ "A Way Out": {
+  "cn": "逃出生天 (遊戲)",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1222700/header.jpg",
+  "appid": 1222700
+ },
+ "Detroit: Become Human": {
+  "cn": "底特律",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1224230/header.jpg",
+  "appid": 1224230
+ },
+ "Life Is Strange 2: Episode 1": {
+  "cn": "奇异人生2",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/895490/header.jpg",
+  "appid": 895490
+ },
+ "Return of the Obra Dinn": {
+  "cn": "奥伯拉丁的回归",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/653530/header.jpg",
+  "appid": 653530
+ },
+ "Octopath Traveler": {
+  "cn": "歧路旅人0 OCTOPATH TRAVELER 0",
+  "src": "steam",
+  "appid": 3014320,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3014320/header.jpg"
+ },
+ "Ni no Kuni II: Revenant Kingdom": {
+  "cn": "第二国度II 王国再临",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/589360/header.jpg",
+  "appid": 589360
+ },
+ "Call of Duty: Black Ops 4": {
+  "cn": "使命召唤：黑色行动4",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/311210/header.jpg",
+  "appid": 311210
+ },
+ "Forza Horizon 4": {
+  "cn": "极限竞速 地平线4",
+  "src": "wiki",
+  "skip": true
+ },
+ "Roger Clark as Arthur Morgan": {
+  "skip": true
+ },
+ "Bryan Dechart as Connor": {
+  "skip": true
+ },
+ "Christopher Judge as Kratos": {
+  "skip": true
+ },
+ "Yuri Lowenthal as Spider-Man": {
+  "skip": true
+ },
+ "Melissanthi Mahut as Kassandra": {
+  "skip": true
+ },
+ "11-11: Memories Retold": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/735580/header.jpg",
+  "src": "steam",
+  "appid": 735580
+ },
+ "Florence": {
+  "cn": "佛罗伦萨",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1102130/header.jpg",
+  "appid": 1102130
+ },
+ "The Missing: J.J. Macfield and the Island of Memories": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/842910/header.jpg",
+  "src": "steam",
+  "appid": 842910
+ },
+ "Destiny 2: Forsaken": {
+  "cn": "命运2",
+  "src": "wiki",
+  "skip": true
+ },
+ "No Man's Sky": {
+  "cn": "无人深空",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/275850/header.jpg",
+  "appid": 275850
+ },
+ "Dead Cells": {
+  "cn": "死亡细胞",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/588650/header.jpg",
+  "appid": 588650
+ },
+ "Into the Breach": {
+  "cn": "陷阵之志",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/590380/header.jpg",
+  "appid": 590380
+ },
+ "The Messenger": {
+  "cn": "",
+  "src": "steam",
+  "appid": 764790,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/764790/header.jpg"
+ },
+ "Donut County": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/702670/header.jpg",
+  "src": "steam",
+  "appid": 702670
+ },
+ "PUBG Mobile": {
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/2/27/PUBG_Mobile_simple_logo_black.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+  "fit": "contain",
+  "src": "wiki"
+ },
+ "Reigns: Game of Thrones": {
+  "appid": 897820,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/897820/header.jpg",
+  "src": "steam"
+ },
+ "Astro Bot Rescue Mission": {
+  "skip": true
+ },
+ "Beat Saber": {
+  "cn": "节奏光剑",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/620980/header.jpg",
+  "appid": 620980
+ },
+ "Firewall: Zero Hour": {
+  "skip": true
+ },
+ "Moss": {
+  "cn": "藓類植物門",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/846470/header.jpg",
+  "appid": 846470
+ },
+ "Tetris Effect": {
+  "skip": true
+ },
+ "Far Cry 5": {
+  "cn": "孤岛惊魂5",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/552520/header.jpg",
+  "appid": 552520
+ },
+ "Mega Man 11": {
+  "cn": "洛克人11 命運的齒輪！！",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/742300/header.jpg",
+  "appid": 742300
+ },
+ "Shadow of the Tomb Raider": {
+  "cn": "古墓丽影：暗影",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/974630/header.jpg",
+  "appid": 974630
+ },
+ "Dragon Quest XI": {
+  "cn": "勇者斗恶龙XI S 寻觅逝去的时光 决定版",
+  "src": "steam",
+  "skip": true,
+  "cover": "https://heyboxbj.max-c.com/gameimg/psn_game_image/bebabc2848d18f3efbe74619ccb5e2bc.png?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Pillars of Eternity II: Deadfire": {
+  "cn": "永恒之柱2：死亡之火",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/560130/header.jpg",
+  "appid": 560130
+ },
+ "Dragon Ball FighterZ": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/678950/header.jpg",
+  "src": "steam",
+  "appid": 678950
+ },
+ "BlazBlue: Cross Tag Battle": {
+  "cn": "苍翼默示录系列",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/702890/header.jpg",
+  "appid": 702890
+ },
+ "Soulcalibur VI": {
+  "cn": "剑魂VI",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/544750/header.jpg",
+  "appid": 544750
+ },
+ "Street Fighter V: Arcade Edition": {
+  "cn": "街头霸王V",
+  "src": "wiki",
+  "skip": true
+ },
+ "Overcooked 2": {
+  "cn": "胡闹厨房2",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/728880/header.jpg",
+  "appid": 728880
+ },
+ "Mario Tennis Aces": {
+  "cn": "瑪利歐網球 王牌高手",
+  "src": "alias",
+  "skip": true
+ },
+ "Nintendo Labo": {
+  "cn": "任天堂Labo",
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/4/43/Labo-logo-make-play.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+  "fit": "contain"
+ },
+ "Starlink: Battle for Atlas": {
+  "cn": "星链",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/950050/header.jpg",
+  "appid": 950050
+ },
+ "Super Mario Party": {
+  "cn": "超级马力欧派对",
+  "src": "wiki",
+  "skip": true,
+  "cover": "https://heyboxbj.max-c.com/gameimg/switch_game_image/85068c14741ed53860746e206769d0a5.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "The Banner Saga 3": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/485460/header.jpg",
+  "src": "steam",
+  "appid": 485460
+ },
+ "BattleTech": {
+  "cn": "",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/637090/header.jpg",
+  "appid": 637090
+ },
+ "Frostpunk": {
+  "cn": "冰汽时代",
+  "src": "steam",
+  "appid": 323190,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/323190/header.jpg"
+ },
+ "Valkyria Chronicles 4": {
+  "cn": "战场女武神4",
+  "src": "wiki",
+  "skip": true
+ },
+ "FIFA 19": {
+  "skip": true
+ },
+ "NBA 2K19": {
+  "skip": true
+ },
+ "Pro Evolution Soccer 2019": {
+  "cn": "实况足球2019",
+  "src": "wiki",
+  "skip": true
+ },
+ "Sea of Thieves": {
+  "cn": "盗贼之海",
+  "src": "wiki",
+  "skip": true
+ },
+ "Combat 2018": {
+  "skip": true
+ },
+ "Dash Quasar": {
+  "skip": true
+ },
+ "JERA": {
+  "cn": "捷热",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1132860/header.jpg",
+  "appid": 1132860
+ },
+ "LIFF": {
+  "skip": true
+ },
+ "RE: Charge": {
+  "skip": true
+ },
+ "Yoku's Island Express": {
+  "cn": "尤库的小岛速递",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/334940/header.jpg",
+  "appid": 334940
+ },
+ "Sekiro: Shadows Die Twice": {
+  "cn": "Sekiro™: Shadows Die Twice",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/header.jpg"
+ },
+ "Control": {
+  "cn": "控制",
+  "src": "steam",
+  "appid": 5364070,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/5364070/header.jpg"
+ },
+ "Death Stranding": {
+  "cn": "死亡搁浅",
+  "src": "alias",
+  "skip": true,
+  "cover": "https://heyboxbj.max-c.com/gameimg/pc_item_assets/7451748fdc6ff177c378330e9548c20a.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "The Outer Worlds": {
+  "cn": "天外世界",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1449110/header.jpg",
+  "appid": 1449110
+ },
+ "Resident Evil 2": {
+  "cn": "生化危机2",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/883710/header.jpg",
+  "appid": 883710
+ },
+ "Super Smash Bros. Ultimate": {
+  "cn": "任天堂明星大乱斗",
+  "src": "alias",
+  "skip": true,
+  "cover": "https://heyboxbj.max-c.com/gameimg/switch_game_image/a521c1d1d69a74465e9928ba5f49e18f.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Outer Wilds": {
+  "cn": "星际拓荒",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/753640/header.jpg",
+  "appid": 753640
+ },
+ "Disco Elysium": {
+  "cn": "Disco Elysium - The Final Cut",
+  "src": "alias",
+  "skip": true
+ },
+ "A Plague Tale: Innocence": {
+  "cn": "瘟疫傳說：無罪",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/752590/header.jpg",
+  "appid": 752590
+ },
+ "Gris": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/683320/header.jpg",
+  "src": "steam",
+  "appid": 683320
+ },
+ "The Legend of Zelda: Link's Awakening": {
+  "cn": "薩爾達傳說 織夢島",
+  "src": "alias",
+  "skip": true
+ },
+ "Sayonara Wild Hearts": {
+  "cn": "再见狂野之心",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1122720/header.jpg",
+  "appid": 1122720
+ },
+ "Cadence of Hyrule": {
+  "cn": "凯登丝勇闯海拉鲁",
+  "src": "wiki",
+  "skip": true
+ },
+ "Devil May Cry 5": {
+  "cn": "惡魔獵人5",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/601150/header.jpg",
+  "appid": 601150
+ },
+ "Kingdom Hearts III": {
+  "cn": "王國之心III",
+  "src": "alias",
+  "skip": true
+ },
+ "Call of Duty: Modern Warfare": {
+  "cn": "決勝時刻系列",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2000950/header.jpg",
+  "appid": 2000950
+ },
+ "Gears 5": {
+  "cn": "战争机器5",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1097840/header.jpg",
+  "appid": 1097840
+ },
+ "Mads Mikkelsen as Cliff": {
+  "skip": true
+ },
+ "Laura Bailey as Kait Diaz": {
+  "skip": true
+ },
+ "Ashly Burch as Parvati Holcomb": {
+  "skip": true
+ },
+ "Courtney Hope as Jesse Faden": {
+  "skip": true
+ },
+ "Matthew Porretta as Dr. Casper Darling": {
+  "skip": true
+ },
+ "Norman Reedus as Sam Porter Bridges": {
+  "skip": true
+ },
+ "Concrete Genie": {
+  "skip": true
+ },
+ "Kind Words": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2777710/header.jpg",
+  "src": "steam",
+  "appid": 2777710
+ },
+ "Life Is Strange 2": {
+  "cn": "奇异人生2",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/532210/header.jpg",
+  "appid": 532210
+ },
+ "Sea of Solitude": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1225590/header.jpg",
+  "src": "steam",
+  "appid": 1225590
+ },
+ "Apex Legends": {
+  "cn": "Apex英雄",
+  "src": "alias",
+  "cover": "https://heyboxbj.max-c.com/gameimg/switch_game_image/900199039/d81379a0156ebad4f1669f8372bad547.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Final Fantasy XIV": {
+  "cn": "最终幻想XIV",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/39210/header.jpg",
+  "appid": 39210
+ },
+ "Baba Is You": {
+  "cn": "巴巴是你",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/736260/header.jpg",
+  "appid": 736260
+ },
+ "Katana Zero": {
+  "appid": 460950,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/460950/header.jpg",
+  "src": "steam"
+ },
+ "Untitled Goose Game": {
+  "cn": "鹅作剧",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/837470/header.jpg",
+  "appid": 837470
+ },
+ "Call of Duty: Mobile": {
+  "cn": "决胜时刻：Mobile",
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/3/37/Call_of_Duty_Mobile_2023_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+  "fit": "contain"
+ },
+ "Grindstone": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1818690/header.jpg",
+  "src": "steam",
+  "appid": 1818690
+ },
+ "Sky: Children of the Light": {
+  "cn": "天空",
+  "src": "steam",
+  "appid": 2325290,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2325290/header.jpg"
+ },
+ "What the Golf?": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/785790/header.jpg",
+  "src": "steam",
+  "appid": 785790
+ },
+ "Asgard's Wrath": {
+  "skip": true
+ },
+ "Blood & Truth": {
+  "cn": "鲜血与真相",
+  "src": "wiki",
+  "skip": true
+ },
+ "Trover Saves the Universe": {
+  "skip": true
+ },
+ "Astral Chain": {
+  "cn": "异界锁链",
+  "src": "wiki",
+  "skip": true
+ },
+ "Metro Exodus": {
+  "cn": "战栗深隧：流亡",
+  "src": "steam",
+  "appid": 412020,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/412020/header.jpg"
+ },
+ "Borderlands 3": {
+  "cn": "无主之地3",
+  "src": "steam",
+  "appid": 397540,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/397540/header.jpg"
+ },
+ "Monster Hunter World: Iceborne": {
+  "cn": "魔物猎人 世界：冰原",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1118010/header.jpg",
+  "appid": 1118010
+ },
+ "Dead or Alive 6": {
+  "cn": "生死格斗6",
+  "src": "steam",
+  "skip": true,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/4144680/header.jpg"
+ },
+ "Jump Force": {
+  "skip": true
+ },
+ "Mortal Kombat 11": {
+  "cn": "真人快打11",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/976310/header.jpg",
+  "appid": 976310
+ },
+ "Samurai Shodown": {
+  "cn": "侍魂系列",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1342260/header.jpg",
+  "appid": 1342260
+ },
+ "Luigi's Mansion 3": {
+  "cn": "路易吉洋楼3",
+  "src": "wiki",
+  "skip": true
+ },
+ "Ring Fit Adventure": {
+  "cn": "健身环大冒险",
+  "src": "wiki",
+  "skip": true,
+  "cover": "https://heyboxbj.max-c.com/gameimg/switch_game_image/900211505/7b45ce8e59a62f99d34ec05b0aabc6ea.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Super Mario Maker 2": {
+  "cn": "超级玛利欧创作家2",
+  "src": "wiki",
+  "skip": true
+ },
+ "Yoshi's Crafted World": {
+  "cn": "耀西的手工世界",
+  "src": "wiki",
+  "skip": true
+ },
+ "Fire Emblem: Three Houses": {
+  "cn": "Fire Emblem 风花雪月",
+  "src": "alias",
+  "skip": true
+ },
+ "Age of Wonders: Planetfall": {
+  "cn": "奇迹时代",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/718850/header.jpg",
+  "appid": 718850
+ },
+ "Anno 1800": {
+  "cn": "美麗新世界 1800",
+  "src": "steam",
+  "appid": 916440,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/916440/header.jpg"
+ },
+ "Total War: Three Kingdoms": {
+  "cn": "全面战争：三国",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1299590/header.jpg",
+  "appid": 1299590
+ },
+ "Tropico 6": {
+  "cn": "海岛大亨6",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/492720/header.jpg",
+  "appid": 492720
+ },
+ "Wargroove": {
+  "cn": "战律",
+  "src": "steam",
+  "appid": 607050,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/607050/header.jpg"
+ },
+ "Crash Team Racing Nitro-Fueled": {
+  "cn": "古惑狼赛车：氮气爆冲",
+  "src": "wiki",
+  "skip": true
+ },
+ "Dirt Rally 2.0": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/690790/header.jpg",
+  "src": "steam",
+  "appid": 690790
+ },
+ "eFootball Pro Evolution Soccer 2020": {
+  "skip": true
+ },
+ "F1 2019": {
+  "skip": true
+ },
+ "FIFA 20": {
+  "skip": true
+ },
+ "Tetris 99": {
+  "cn": "俄罗斯方块99",
+  "src": "wiki",
+  "skip": true
+ },
+ "Tom Clancy's The Division 2": {
+  "cn": "汤姆克兰西：全境封锁2",
+  "src": "steam",
+  "appid": 3834150,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3834150/header.jpg"
+ },
+ "My Friend Pedro": {
+  "cn": "我的朋友佩德罗",
+  "src": "steam",
+  "appid": 557340,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/557340/header.jpg"
+ },
+ "Slay the Spire": {
+  "cn": "杀戮尖塔",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/646570/header.jpg",
+  "appid": 646570
+ },
+ "Star Wars Jedi: Fallen Order": {
+  "cn": "星球大战 绝地：组织殒落",
+  "src": "steam",
+  "appid": 401587,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/401587/header.jpg"
+ },
+ "The Last of Us Part II": {
+  "cn": "最后生还者 第二部",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2531310/header.jpg",
+  "appid": 2531310
+ },
+ "Animal Crossing: New Horizons": {
+  "cn": "集合啦！动物森友会",
+  "src": "alias",
+  "cover": "https://heyboxbj.max-c.com/gameimg/switch_game_image/61b4e79bd5578b31b94546ddf5c753ac.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Doom Eternal": {
+  "cn": "毁灭战士：永恒",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/782330/header.jpg",
+  "appid": 782330
+ },
+ "Final Fantasy VII Remake": {
+  "cn": "最终幻想7 重制版",
+  "src": "alias",
+  "cover": "https://heyboxbj.max-c.com/gameimg/psn_game_image/619bf7a3033d2c3c18491ae4a1081ea0.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Ghost of Tsushima": {
+  "cn": "对马岛之魂",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2215430/header.jpg",
+  "appid": 2215430
+ },
+ "Hades": {
+  "cn": "哈得斯",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/header.jpg",
+  "appid": 1145360
+ },
+ "Half-Life: Alyx": {
+  "cn": "半衰期：爱莉克斯",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/546560/header.jpg",
+  "appid": 546560
+ },
+ "13 Sentinels: Aegis Rim": {
+  "cn": "十三机兵防卫圈",
+  "src": "alias",
+  "cover": "https://imgheybox.max-c.com/bbs/2021/11/05/2e1ec8a3d42f5a3cf688dee96e3fbb9b.png?imageMogr2/thumbnail/!50p"
+ },
+ "Ori and the Will of the Wisps": {
+  "cn": "精灵与萤火意志",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1057090/header.jpg",
+  "appid": 1057090
+ },
+ "Resident Evil 3": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/952060/header.jpg",
+  "src": "steam",
+  "appid": 952060
+ },
+ "Laura Bailey as Abby": {
+  "skip": true
+ },
+ "Logan Cunningham as Hades": {
+  "skip": true
+ },
+ "Nadji Jeter as Miles Morales": {
+  "skip": true
+ },
+ "Ashley Johnson as Ellie": {
+  "skip": true
+ },
+ "Daisuke Tsuji as Jin Sakai": {
+  "skip": true
+ },
+ "Tell Me Why": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1180660/header.jpg",
+  "src": "steam",
+  "appid": 1180660
+ },
+ "If Found...": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1041920/header.jpg",
+  "src": "steam",
+  "appid": 1041920
+ },
+ "Kentucky Route Zero": {
+  "cn": "肯塔基州零號公路",
+  "src": "alias",
+  "skip": true
+ },
+ "Spiritfarer": {
+  "cn": "灵魂远去",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1202910/header.jpg",
+  "appid": 1202910
+ },
+ "Through the Darkest of Times": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1003090/header.jpg",
+  "src": "steam",
+  "appid": 1003090
+ },
+ "Call of Duty: Warzone": {
+  "cn": "决胜时刻系列",
+  "src": "steam",
+  "appid": 1962663,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1962663/header.jpg"
+ },
+ "Carrion": {
+  "cn": "腐肉",
+  "src": "alias",
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/4/49/WedgetailEagleCarrion.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+  "fit": "contain"
+ },
+ "Fall Guys": {
+  "cn": "糖豆人",
+  "src": "wiki",
+  "skip": true,
+  "cover": "https://heyboxbj.max-c.com/gameimg/psn_game_image/cfee6de9c4a96cbe4232d685650664da.png?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Spelunky 2": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/418530/header.jpg",
+  "src": "steam",
+  "appid": 418530
+ },
+ "Among Us": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/945360/header.jpg",
+  "src": "steam",
+  "appid": 945360
+ },
+ "Genshin Impact": {
+  "cn": "原神",
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/5/5d/Genshin_Impact_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+  "fit": "contain"
+ },
+ "Legends of Runeterra": {
+  "cn": "符文之地传奇",
+  "src": "wiki",
+  "skip": true
+ },
+ "Pokémon Café Mix": {
+  "skip": true
+ },
+ "Valorant": {
+  "cn": "无畏契约",
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Valorant_logo_-_pink_color_version.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+  "fit": "contain"
+ },
+ "Dreams": {
+  "cn": "夢",
+  "src": "alias",
+  "skip": true
+ },
+ "Iron Man VR": {
+  "skip": true
+ },
+ "Star Wars Squadrons": {
+  "appid": 1222730,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1222730/header.jpg",
+  "src": "steam"
+ },
+ "The Walking Dead: Saints & Sinners": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/916840/header.jpg",
+  "src": "steam",
+  "appid": 916840
+ },
+ "Assassin's Creed Valhalla": {
+  "cn": "刺客信条：英灵殿",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2210740/header.jpg",
+  "appid": 2210740
+ },
+ "Grounded": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/962130/header.jpg",
+  "src": "steam",
+  "appid": 962130
+ },
+ "HyperDot": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/876500/header.jpg",
+  "src": "steam",
+  "appid": 876500
+ },
+ "Watch Dogs Legion": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2239550/header.jpg",
+  "src": "steam",
+  "appid": 2239550
+ },
+ "Nioh 2": {
+  "cn": "仁王２ Complete Edition",
+  "src": "steam",
+  "skip": true,
+  "cover": "https://heyboxbj.max-c.com/gameimg/psn_game_image/9bf672cfdfed55137bc055ae8e36550b.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Streets of Rage 4": {
+  "appid": 985890,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/985890/header.jpg",
+  "src": "steam"
+ },
+ "Spider-Man: Miles Morales": {
+  "cn": "蜘蛛人",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1817190/header.jpg",
+  "appid": 1817190
+ },
+ "Persona 5 Royal": {
+  "cn": "女神異聞錄5",
+  "src": "alias",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/b/b0/Persona_5_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "fit": "contain"
+ },
+ "Wasteland 3": {
+  "cn": "废土3",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/719040/header.jpg",
+  "appid": 719040
+ },
+ "Yakuza: Like a Dragon": {
+  "cn": "人中之龙８外传 Pirates in Hawaii",
+  "src": "steam",
+  "appid": 1235140,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1235140/header.jpg"
+ },
+ "Mortal Kombat 11: Ultimate Edition": {
+  "cn": "真人快打11",
+  "src": "steam",
+  "appid": 518699,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/518699/header.jpg"
+ },
+ "Granblue Fantasy Versus": {
+  "cn": "碧蓝幻想Versus",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1090630/header.jpg",
+  "appid": 1090630
+ },
+ "One-Punch Man: A Hero Nobody Knows": {
+  "cn": "一拳超人",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/991560/header.jpg",
+  "appid": 991560
+ },
+ "Street Fighter V Champion Edition": {
+  "cn": "街頭霸王V",
+  "src": "alias",
+  "skip": true
+ },
+ "Under Night In-Birth Exe:Late[cl-r]": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/801630/header.jpg",
+  "src": "steam",
+  "appid": 801630
+ },
+ "Crash Bandicoot 4: It's About Time": {
+  "cn": "古惑狼4：时空之旅",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1378990/header.jpg",
+  "appid": 1378990
+ },
+ "Mario Kart Live: Home Circuit": {
+  "cn": "玛利欧赛车实况：家庭赛车场",
+  "src": "wiki",
+  "skip": true
+ },
+ "Minecraft Dungeons": {
+  "cn": "我的世界：地下城",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1672970/header.jpg",
+  "appid": 1672970
+ },
+ "Paper Mario: The Origami King": {
+  "cn": "纸片马力欧：折纸国王",
+  "src": "wiki",
+  "skip": true
+ },
+ "Microsoft Flight Simulator": {
+  "cn": "微軟模擬飛行系列",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2537590/header.jpg",
+  "appid": 2537590
+ },
+ "Crusader Kings III": {
+  "cn": "十字军之王III",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1158310/header.jpg",
+  "appid": 1158310
+ },
+ "Desperados III": {
+  "cn": "赏金奇兵III",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/610370/header.jpg",
+  "appid": 610370
+ },
+ "Gears Tactics": {
+  "cn": "战争机器：战术小队",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1184050/header.jpg",
+  "appid": 1184050
+ },
+ "XCOM: Chimera Squad": {
+  "cn": "XCOM系列",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/882100/header.jpg",
+  "appid": 882100
+ },
+ "Tony Hawk's Pro Skater 1 + 2": {
+  "skip": true
+ },
+ "Dirt 5": {
+  "cn": "尘埃5",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1038250/header.jpg",
+  "appid": 1038250
+ },
+ "F1 2020": {
+  "skip": true
+ },
+ "FIFA 21": {
+  "skip": true
+ },
+ "NBA 2K21": {
+  "skip": true
+ },
+ "Phasmophobia": {
+  "cn": "Phasmophobia 恐鬼症",
+  "src": "steam",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/739630/header.jpg",
+  "appid": 739630
+ },
+ "Mortal Shell": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1110910/header.jpg",
+  "src": "steam",
+  "appid": 1110910
+ },
+ "Raji: An Ancient Epic": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/730540/header.jpg",
+  "src": "steam",
+  "appid": 730540
+ },
+ "Röki": {
+  "appid": 1067540,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1067540/header.jpg",
+  "src": "steam"
+ },
+ "Elden Ring": {
+  "cn": "艾尔登法环",
+  "src": "alias",
+  "cover": "https://heyboxbj.max-c.com/gameimg/psn_game_image/199f80a42f8a390374627b2a3dd35609.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "God of War sequel": {
+  "skip": true
+ },
+ "Halo Infinite": {
+  "cn": "最后一战：无限",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1240440/header.jpg",
+  "appid": 1240440
+ },
+ "Horizon Forbidden West": {
+  "cn": "地平线 西域禁地",
+  "src": "wiki",
+  "skip": true
+ },
+ "The Legend of Zelda: Breath of the Wild sequel": {
+  "cn": "萨尔达传说系列",
+  "src": "wiki",
+  "skip": true
+ },
+ "Resident Evil Village": {
+  "cn": "恶灵古堡 村庄",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1196590/header.jpg",
+  "appid": 1196590
+ },
+ "It Takes Two": {
+  "cn": "双人成行",
+  "src": "steam",
+  "appid": 1426210,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1426210/header.jpg"
+ },
+ "Deathloop": {
+  "cn": "死亡循环",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1252330/header.jpg",
+  "appid": 1252330
+ },
+ "Metroid Dread": {
+  "cn": "密特罗德 生存恐惧",
+  "src": "alias",
+  "skip": true
+ },
+ "Psychonauts 2": {
+  "cn": "脑航员2",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/607080/header.jpg",
+  "appid": 607080
+ },
+ "Ratchet & Clank: Rift Apart": {
+  "cn": "拉捷特与克拉克系列",
+  "src": "steam",
+  "appid": 1895880,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1895880/header.jpg"
+ },
+ "Returnal": {
+  "cn": "死亡回归",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1649240/header.jpg",
+  "appid": 1649240
+ },
+ "Marvel's Guardians of the Galaxy": {
+  "cn": "漫威星際異攻隊",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1088850/header.jpg",
+  "appid": 1088850
+ },
+ "Life Is Strange: True Colors": {
+  "cn": "奇异人生：本色",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/936790/header.jpg",
+  "appid": 936790
+ },
+ "Kena: Bridge of Spirits": {
+  "cn": "奇纳：灵魂之桥",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1954200/header.jpg",
+  "appid": 1954200
+ },
+ "The Artful Escape": {
+  "cn": "奇妙逃亡",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1122680/header.jpg",
+  "appid": 1122680
+ },
+ "Nier Replicant ver 1.22474487139": {
+  "cn": "尼爾 (遊戲)",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1113560/header.jpg",
+  "appid": 1113560
+ },
+ "Cyberpunk 2077": {
+  "cn": "赛博朋克2077",
+  "src": "alias",
+  "cover": "https://heyboxbj.max-c.com/gameimg/psn_game_image/59617561ded69859240a855e93e2c499.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Forza Horizon 5": {
+  "cn": "极限竞速：地平线 5",
+  "src": "alias",
+  "cover": "https://heyboxbj.max-c.com/gameimg/xbox_game_image/a55415b65d106d54ff7827e0f23bf528.25ba4c68-e931-48ca-b376-4a72cf8858d6?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Maggie Robertson as Lady Dimitrescu": {
+  "skip": true
+ },
+ "Erika Mori as Alex Chen": {
+  "skip": true
+ },
+ "Giancarlo Esposito as Antón Castillo": {
+  "skip": true
+ },
+ "Jason E. Kelley as Colt Vahn": {
+  "skip": true
+ },
+ "Ozioma Akagha as Juliana Blake": {
+  "skip": true
+ },
+ "Before Your Eyes": {
+  "appid": 1082430,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1082430/header.jpg",
+  "src": "steam"
+ },
+ "Boyfriend Dungeon": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/674930/header.jpg",
+  "src": "steam",
+  "appid": 674930
+ },
+ "Chicory: A Colorful Tale": {
+  "cn": "菊苣",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1123450/header.jpg",
+  "appid": 1123450
+ },
+ "No Longer Home": {
+  "appid": 651490,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/651490/header.jpg",
+  "src": "steam"
+ },
+ "12 Minutes": {
+  "skip": true
+ },
+ "Death's Door": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3163470/header.jpg",
+  "src": "steam",
+  "appid": 3163470
+ },
+ "Inscryption": {
+  "cn": "邪恶冥刻",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1753260/header.jpg",
+  "appid": 1753260
+ },
+ "Loop Hero": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1519390/header.jpg",
+  "src": "steam",
+  "appid": 1519390
+ },
+ "Fantasian": {
+  "skip": true
+ },
+ "League of Legends: Wild Rift": {
+  "cn": "英雄联盟",
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/6/64/League_of_Legends_Wild_Rift_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+  "fit": "contain"
+ },
+ "Marvel Future Revolution": {
+  "cn": "MARVEL未来革命",
+  "src": "wiki",
+  "skip": true
+ },
+ "Pokémon Unite": {
+  "cn": "宝可梦大集结",
+  "src": "wiki",
+  "skip": true,
+  "cover": "https://heyboxbj.max-c.com/gameimg/switch_game_image/53274c5d5b0cc5a05cdadbba43fd2c43.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Destiny 2: Beyond Light": {
+  "cn": "命运2：Bungie30周年纪念组合包",
+  "src": "steam",
+  "skip": true
+ },
+ "Resident Evil 4": {
+  "cn": "生化危机4",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg",
+  "appid": 2050650
+ },
+ "Hitman 3": {
+  "cn": "刺客任务3",
+  "src": "wiki",
+  "skip": true
+ },
+ "I Expect You to Die 2: The Spy and the Liar": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1499120/header.jpg",
+  "src": "steam",
+  "appid": 1499120
+ },
+ "Lone Echo II": {
+  "skip": true
+ },
+ "Sniper Elite VR": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/752480/header.jpg",
+  "src": "steam",
+  "appid": 752480
+ },
+ "Far Cry 6": {
+  "cn": "孤岛惊魂6",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2369390/header.jpg",
+  "appid": 2369390
+ },
+ "The Vale: Shadow of the Crown": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/989790/header.jpg",
+  "src": "steam",
+  "appid": 989790
+ },
+ "Back 4 Blood": {
+  "cn": "喋血复仇",
+  "src": "steam",
+  "appid": 924970,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/924970/header.jpg"
+ },
+ "Chivalry II": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1824220/header.jpg",
+  "src": "steam",
+  "appid": 1824220
+ },
+ "Tales of Arise": {
+  "cn": "破晓传奇",
+  "src": "steam",
+  "appid": 740130,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/740130/header.jpg"
+ },
+ "Monster Hunter Rise": {
+  "cn": "魔物猎人 崛起",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1446780/header.jpg",
+  "appid": 1446780
+ },
+ "Scarlet Nexus": {
+  "cn": "绯红结系",
+  "src": "steam",
+  "appid": 775500,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/775500/header.jpg"
+ },
+ "Shin Megami Tensei V": {
+  "cn": "真·女神转生Ⅴ Vengeance",
+  "src": "steam",
+  "skip": true
+ },
+ "Guilty Gear Strive": {
+  "cn": "圣骑士之战 -奋战-",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1384160/header.jpg",
+  "appid": 1384160
+ },
+ "Demon Slayer: Kimetsu no Yaiba": {
+  "cn": "鬼灭之刃",
+  "src": "wiki",
+  "skip": true
+ },
+ "Melty Blood: Type Lumina": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1372280/header.jpg",
+  "src": "steam",
+  "appid": 1372280
+ },
+ "Nickelodeon All-Star Brawl": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1414850/header.jpg",
+  "src": "steam",
+  "appid": 1414850
+ },
+ "Virtua Fighter 5: Ultimate Showdown": {
+  "cn": "VR快打5",
+  "src": "wiki",
+  "skip": true
+ },
+ "Mario Party Superstars": {
+  "cn": "玛利欧派对 超级巨星",
+  "src": "wiki",
+  "skip": true
+ },
+ "New Pokémon Snap": {
+  "cn": "New 宝可梦随乐拍",
+  "src": "wiki",
+  "skip": true
+ },
+ "Super Mario 3D World + Bowser's Fury": {
+  "cn": "超級瑪利歐3D世界",
+  "src": "alias",
+  "skip": true
+ },
+ "WarioWare: Get It Together!": {
+  "cn": "瓦力欧制造系列",
+  "src": "wiki",
+  "skip": true
+ },
+ "F1 2021": {
+  "skip": true
+ },
+ "FIFA 22": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1506830/header.jpg",
+  "src": "steam",
+  "appid": 1506830
+ },
+ "Hot Wheels Unleashed": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1271700/header.jpg",
+  "src": "steam",
+  "appid": 1271700,
+  "cn": "风火轮：爆发"
+ },
+ "Riders Republic": {
+  "cn": "极限共和国",
+  "src": "steam",
+  "appid": 2290180,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2290180/header.jpg"
+ },
+ "Age of Empires IV": {
+  "cn": "帝国时代 IV：周年纪念版",
+  "src": "alias",
+  "skip": true,
+  "cover": "https://heyboxbj.max-c.com/gameimg/xbox_game_image/90b202c06bb961bd7dc9eafeeb72c8ab.75b0f9af-f0ea-4630-8f8e-a6815a419897?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Evil Genius 2: World Domination": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/700600/header.jpg",
+  "src": "steam",
+  "appid": 700600
+ },
+ "Humankind": {
+  "cn": "人",
+  "src": "steam",
+  "appid": 2581850,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2581850/header.jpg"
+ },
+ "Knockout City": {
+  "skip": true
+ },
+ "New World": {
+  "cn": "新大陸",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2150660/header.jpg",
+  "appid": 2150660
+ },
+ "Valheim": {
+  "cn": "Valheim: 英灵神殿",
+  "src": "steam",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/892970/header.jpg",
+  "appid": 892970
+ },
+ "Sable": {
+  "cn": "紫貂",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/757310/header.jpg",
+  "appid": 757310
+ },
+ "The Forgotten City": {
+  "cn": "遗忘之城",
+  "src": "steam",
+  "appid": 874260,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/874260/header.jpg"
+ },
+ "God of War Ragnarök": {
+  "cn": "战神：诸神黄昏",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2322010/header.jpg",
+  "appid": 2322010
+ },
+ "Starfield": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1716740/header.jpg",
+  "src": "steam",
+  "appid": 1716740
+ },
+ "A Plague Tale: Requiem": {
+  "cn": "瘟疫传说：安魂曲",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1182900/header.jpg",
+  "appid": 1182900
+ },
+ "Stray": {
+  "cn": "迷失",
+  "src": "alias",
+  "cover": "https://heyboxbj.max-c.com/gameimg/psn_game_image/e4fcbcd0ee60089c1a7baebd4a25faad.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Xenoblade Chronicles 3": {
+  "cn": "异度神剑3",
+  "src": "wiki",
+  "skip": true
+ },
+ "Immortality": {
+  "cn": "长生不老",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1350200/header.jpg",
+  "appid": 1350200
+ },
+ "Scorn": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/698670/header.jpg",
+  "src": "steam",
+  "appid": 698670
+ },
+ "Metal: Hellsinger": {
+  "cn": "金属",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1061910/header.jpg",
+  "appid": 1061910
+ },
+ "Call of Duty: Modern Warfare II": {
+  "appid": 4435490,
+  "cn": "决胜时刻系列",
+  "src": "steam",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/4435490/header.jpg"
+ },
+ "Gran Turismo 7": {
+  "cn": "GT赛车7",
+  "src": "wiki",
+  "skip": true
+ },
+ "Manon Gage as Marissa Marcel": {
+  "skip": true
+ },
+ "Charlotte McBurney as Amicia de Rune": {
+  "skip": true
+ },
+ "Sunny Suljic as Atreus": {
+  "skip": true
+ },
+ "As Dusk Falls": {
+  "cn": "日落黄昏时",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1341820/header.jpg",
+  "appid": 1341820
+ },
+ "A Memoir Blue": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1497450/header.jpg",
+  "src": "steam",
+  "appid": 1497450
+ },
+ "Citizen Sleeper": {
+  "cn": "深空梦里人",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1958420/header.jpg",
+  "appid": 1958420
+ },
+ "Endling: Extinction is Forever": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/898890/header.jpg",
+  "src": "steam",
+  "appid": 898890
+ },
+ "Hindsight": {
+  "cn": "后见之明偏误",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1122700/header.jpg",
+  "appid": 1122700
+ },
+ "I Was a Teenage Exocolonist": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1148760/header.jpg",
+  "src": "steam",
+  "appid": 1148760
+ },
+ "Destiny 2: The Witch Queen": {
+  "cn": "命运2",
+  "src": "steam",
+  "appid": 1656330,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1656330/header.jpg"
+ },
+ "Cult of the Lamb": {
+  "cn": "进击羔羊传说",
+  "src": "steam",
+  "appid": 1313140,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1313140/header.jpg"
+ },
+ "Neon White": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1533420/header.jpg",
+  "src": "steam",
+  "appid": 1533420
+ },
+ "Sifu": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2138710/header.jpg",
+  "src": "steam",
+  "appid": 2138710
+ },
+ "Tunic": {
+  "cn": "丘尼卡",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/553420/header.jpg",
+  "appid": 553420
+ },
+ "Marvel Snap": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1997040/header.jpg",
+  "src": "steam",
+  "appid": 1997040
+ },
+ "Apex Legends Mobile": {
+  "cn": "Apex 英雄",
+  "src": "alias",
+  "skip": true,
+  "cover": "https://heyboxbj.max-c.com/gameimg/switch_game_image/900199039/d81379a0156ebad4f1669f8372bad547.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Diablo Immortal": {
+  "cn": "暗黑破坏神：不朽",
+  "src": "wiki",
+  "skip": true
+ },
+ "Tower of Fantasy": {
+  "cn": "幻塔",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2064650/header.jpg",
+  "appid": 2064650
+ },
+ "Moss: Book II": {
+  "cn": "藓类植物门",
+  "src": "wiki",
+  "skip": true
+ },
+ "After the Fall": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/751630/header.jpg",
+  "src": "steam",
+  "appid": 751630
+ },
+ "Among Us VR": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1849900/header.jpg",
+  "src": "steam",
+  "appid": 1849900
+ },
+ "Bonelab": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1592190/header.jpg",
+  "src": "steam",
+  "appid": 1592190
+ },
+ "Red Matter 2": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2081470/header.jpg",
+  "src": "steam",
+  "appid": 2081470
+ },
+ "Return to Monkey Island": {
+  "cn": "重返猴岛",
+  "src": "steam",
+  "appid": 2060130,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2060130/header.jpg"
+ },
+ "The Last of Us Part I": {
+  "cn": "最后生还者 第I章",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1888930/header.jpg",
+  "appid": 1888930
+ },
+ "The Quarry": {
+  "appid": 1577120,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1577120/header.jpg",
+  "src": "steam"
+ },
+ "Bayonetta 3": {
+  "cn": "魔兵惊天录3",
+  "src": "wiki",
+  "skip": true
+ },
+ "Teenage Mutant Ninja Turtles: Shredder's Revenge": {
+  "cn": "忍者龟",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2925190/header.jpg",
+  "appid": 2925190
+ },
+ "Live a Live": {
+  "cn": "狂飆騎士",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2014380/header.jpg",
+  "appid": 2014380
+ },
+ "Pokémon Legends: Arceus": {
+  "cn": "宝可梦传说 阿尔宙斯",
+  "src": "wiki",
+  "skip": true,
+  "cover": "https://heyboxbj.max-c.com/gameimg/switch_game_image/08d6f0116d30ced5d0b3fd025b346d49.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Triangle Strategy": {
+  "cn": "三角战略",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1850510/header.jpg",
+  "appid": 1850510
+ },
+ "MultiVersus": {
+  "skip": true
+ },
+ "DNF Duel": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1216060/header.jpg",
+  "src": "steam",
+  "appid": 1216060
+ },
+ "JoJo's Bizarre Adventure: All Star Battle R": {
+  "cn": "JOJO的奇妙冒险 群星之战 重制版",
+  "src": "steam",
+  "appid": 1372110,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1372110/header.jpg"
+ },
+ "The King of Fighters XV": {
+  "cn": "拳皇XV",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1498570/header.jpg",
+  "appid": 1498570
+ },
+ "Kirby and the Forgotten Land": {
+  "cn": "星之卡比 探索发现",
+  "src": "alias",
+  "cover": "https://heyboxbj.max-c.com/gameimg/switch_game_image/82f862e65c9333a3e2c92202d8d43818.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Lego Star Wars: The Skywalker Saga": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/920210/header.jpg",
+  "src": "steam",
+  "appid": 920210
+ },
+ "Mario + Rabbids Sparks of Hope": {
+  "skip": true
+ },
+ "Nintendo Switch Sports": {
+  "cn": "Nintendo Switch 运动",
+  "src": "wiki",
+  "skip": true
+ },
+ "Splatoon 3": {
+  "cn": "喷射战士3",
+  "src": "alias",
+  "cover": "https://heyboxbj.max-c.com/gameimg/switch_game_image/e2301f0cb65f2ebbdf5bfb8795fc04e8.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "F1 22": {
+  "skip": true
+ },
+ "FIFA 23": {
+  "skip": true
+ },
+ "NBA 2K23": {
+  "skip": true
+ },
+ "OlliOlli World": {
+  "cn": "欧利欧利世界",
+  "src": "steam",
+  "appid": 1190170,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1190170/header.jpg"
+ },
+ "Dune: Spice Wars": {
+  "cn": "沙丘",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1605220/header.jpg",
+  "appid": 1605220
+ },
+ "Total War: Warhammer III": {
+  "cn": "全面战争：战锤3",
+  "src": "steam",
+  "appid": 1142710,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1142710/header.jpg"
+ },
+ "Two Point Campus": {
+  "cn": "双点校园",
+  "src": "steam",
+  "appid": 1649080,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1649080/header.jpg"
+ },
+ "Victoria 3": {
+  "cn": "维多利亚3",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/529340/header.jpg",
+  "appid": 529340
+ },
+ "Overwatch 2": {
+  "skip": true
+ },
+ "Norco": {
+  "appid": 1221250,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1221250/header.jpg",
+  "src": "steam"
+ },
+ "Vampire Survivors": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1794680/header.jpg",
+  "src": "library",
+  "cn": "吸血鬼幸存者"
+ },
+ "The Legend of Zelda: Tears of the Kingdom": {
+  "cn": "塞尔达传说 王国之泪",
+  "src": "alias",
+  "skip": true,
+  "cover": "https://heyboxbj.max-c.com/gameimg/switch_game_image/031b0598497073c927899ed16e1b42d5.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Final Fantasy XVI": {
+  "cn": "最终幻想16",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2515020/header.jpg",
+  "appid": 2515020
+ },
+ "Hogwarts Legacy": {
+  "cn": "霍格华兹的传承",
+  "src": "steam",
+  "appid": 990080,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/990080/header.jpg"
+ },
+ "Arcane (animated series)": {
+  "skip": true
+ },
+ "Cyberpunk: Edgerunners (anime series)": {
+  "cn": "赛博朋克",
+  "src": "wiki",
+  "skip": true
+ },
+ "The Cuphead Show! (animated series)": {
+  "skip": true
+ },
+ "Sonic the Hedgehog 2 (film)": {
+  "cn": "音速小子2",
+  "src": "wiki",
+  "skip": true
+ },
+ "Uncharted (film)": {
+  "cn": "秘境探险",
+  "src": "wiki",
+  "skip": true
+ },
+ "Sonic Frontiers": {
+  "cn": "Sonic Adventure 2的鞋子",
+  "src": "steam",
+  "appid": 1237320,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1237320/header.jpg"
+ },
+ "Baldur's Gate 3": {
+  "cn": "博德之门3",
+  "src": "steam",
+  "appid": 1086940,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/header.jpg"
+ },
+ "Alan Wake 2": {
+  "cn": "心灵杀手2",
+  "src": "wiki",
+  "skip": true
+ },
+ "Marvel's Spider-Man 2": {
+  "cn": "蜘蛛人2",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2651280/header.jpg",
+  "appid": 2651280
+ },
+ "Super Mario Bros. Wonder": {
+  "cn": "超级马力欧兄弟 惊奇",
+  "src": "alias",
+  "skip": true,
+  "cover": "https://heyboxbj.max-c.com/gameimg/switch_game_image/2b36eb390a99994f0cf580c0dfc54748.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Cyberpunk 2077: Phantom Liberty": {
+  "cn": "赛博朋克2077",
+  "src": "steam",
+  "appid": 2138330,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2138330/header.jpg"
+ },
+ "Hi-Fi Rush": {
+  "cn": "Hi-Fi RUSH 完美音浪",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1817230/header.jpg",
+  "appid": 1817230
+ },
+ "Lies of P": {
+  "cn": "P的谎言",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1627720/header.jpg",
+  "appid": 1627720
+ },
+ "Dead Space": {
+  "cn": "死亡空间系列",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1238060/header.jpg",
+  "appid": 1238060
+ },
+ "Neil Newbon as Astarion": {
+  "skip": true
+ },
+ "Idris Elba as Solomon Reed": {
+  "skip": true
+ },
+ "Melanie Liburd as Saga Anderson": {
+  "skip": true
+ },
+ "Yuri Lowenthal as Peter Parker / Spider-Man": {
+  "skip": true
+ },
+ "Cameron Monaghan as Cal Kestis": {
+  "skip": true
+ },
+ "Ben Starr as Clive Rosfield": {
+  "skip": true
+ },
+ "Tchia": {
+  "cn": "奇娅",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1496590/header.jpg",
+  "appid": 1496590
+ },
+ "A Space for the Unbound": {
+  "cn": "无垠之心",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1268090/header.jpg",
+  "appid": 1268090
+ },
+ "Chants of Sennaar": {
+  "cn": "巴别塔圣歌",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2283300/header.jpg",
+  "appid": 2283300
+ },
+ "Goodbye Volcano High": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1310330/header.jpg",
+  "src": "steam",
+  "appid": 1310330
+ },
+ "Terra Nil": {
+  "cn": "伊始之地",
+  "src": "steam",
+  "appid": 1593030,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593030/header.jpg"
+ },
+ "Venba": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1491670/header.jpg",
+  "src": "steam",
+  "appid": 1491670
+ },
+ "Sea of Stars": {
+  "cn": "星之海",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1244090/header.jpg",
+  "appid": 1244090
+ },
+ "Cocoon": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1497440/header.jpg",
+  "src": "steam",
+  "appid": 1497440
+ },
+ "Dave the Diver": {
+  "cn": "潜水员戴夫",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1868140/header.jpg",
+  "appid": 1868140
+ },
+ "Dredge": {
+  "cn": "疏浚",
+  "src": "steam",
+  "appid": 1562430,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1562430/header.jpg"
+ },
+ "Viewfinder": {
+  "cn": "取景器",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1382070/header.jpg",
+  "appid": 1382070
+ },
+ "Pizza Tower": {
+  "cn": "披萨塔",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2231450/header.jpg",
+  "appid": 2231450
+ },
+ "Honkai: Star Rail": {
+  "cn": "崩坏系列",
+  "src": "wiki",
+  "skip": true
+ },
+ "Final Fantasy VII: Ever Crisis": {
+  "cn": "最终幻想VII",
+  "src": "wiki",
+  "skip": true
+ },
+ "Hello Kitty Island Adventure": {
+  "cn": "",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2495100/header.jpg",
+  "appid": 2495100
+ },
+ "Monster Hunter Now": {
+  "skip": true
+ },
+ "Humanity": {
+  "cn": "人類 (消歧義)",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2357950/header.jpg",
+  "appid": 2357950
+ },
+ "Horizon Call of the Mountain": {
+  "cn": "地平线 山之呼唤",
+  "src": "wiki",
+  "skip": true
+ },
+ "Synapse": {
+  "cn": "突触",
+  "src": "alias",
+  "appid": 4652830,
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/5/50/Synapse_figure.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+  "fit": "contain"
+ },
+ "Armored Core VI: Fires of Rubicon": {
+  "cn": "机战佣兵™VI 境界天火™",
+  "src": "steam",
+  "appid": 1888160,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1888160/header.jpg"
+ },
+ "Dead Island 2": {
+  "cn": "死亡之島2",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/934700/header.jpg",
+  "appid": 934700
+ },
+ "Ghostrunner 2": {
+  "cn": "幽灵行者2",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2144740/header.jpg",
+  "appid": 2144740
+ },
+ "Remnant 2": {
+  "cn": "遗迹2",
+  "src": "wiki",
+  "skip": true
+ },
+ "Star Wars Jedi: Survivor": {
+  "cn": "星际大战 绝地：幸存者",
+  "src": "steam",
+  "appid": 1774580,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1774580/header.jpg"
+ },
+ "Street Fighter 6": {
+  "cn": "快打旋风6",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1364780/header.jpg",
+  "appid": 1364780
+ },
+ "God of Rock": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1851030/header.jpg",
+  "src": "steam",
+  "appid": 1851030
+ },
+ "Mortal Kombat 1": {
+  "cn": "真人快打1",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/976310/header.jpg",
+  "appid": 976310
+ },
+ "Nickelodeon All-Star Brawl 2": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2017080/header.jpg",
+  "src": "steam",
+  "appid": 2017080
+ },
+ "Pocket Bravery": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1555150/header.jpg",
+  "src": "steam",
+  "appid": 1555150
+ },
+ "Disney Illusion Island": {
+  "skip": true
+ },
+ "Party Animals": {
+  "appid": 1260320,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1260320/header.jpg",
+  "src": "steam"
+ },
+ "Pikmin 4": {
+  "cn": "皮克敏4",
+  "src": "wiki",
+  "skip": true
+ },
+ "Sonic Superstars": {
+  "cn": "索尼克 超级巨星",
+  "src": "steam",
+  "appid": 2022670,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2022670/header.jpg"
+ },
+ "Advance Wars 1+2: Re-Boot Camp": {
+  "skip": true
+ },
+ "Cities: Skylines II": {
+  "cn": "都市：天际线II",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/255710/header.jpg",
+  "appid": 255710
+ },
+ "Company of Heroes 3": {
+  "cn": "英雄连队3",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1677280/header.jpg",
+  "appid": 1677280
+ },
+ "Fire Emblem Engage": {
+  "cn": "火焰之纹章 Engage",
+  "src": "wiki",
+  "skip": true
+ },
+ "Forza Motorsport": {
+  "cn": "極限競速系列",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2557400/header.jpg",
+  "appid": 2557400
+ },
+ "EA Sports FC 24": {
+  "skip": true
+ },
+ "F1 23": {
+  "skip": true
+ },
+ "Hot Wheels Unleashed 2: Turbocharged": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2051120/header.jpg",
+  "src": "steam",
+  "appid": 2051120
+ },
+ "The Crew Motorfest": {
+  "appid": 2698940,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2698940/header.jpg",
+  "src": "steam"
+ },
+ "Diablo IV": {
+  "cn": "暗黑破坏神IV",
+  "src": "steam",
+  "appid": 2344520,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2344520/header.jpg"
+ },
+ "The Last of Us (television series)": {
+  "skip": true
+ },
+ "Castlevania: Nocturne (animated series)": {
+  "cn": "恶魔城系列",
+  "src": "wiki",
+  "skip": true
+ },
+ "Gran Turismo (film)": {
+  "cn": "",
+  "src": "steam",
+  "skip": true
+ },
+ "The Super Mario Bros. Movie (animated film)": {
+  "skip": true
+ },
+ "Twisted Metal (television series)": {
+  "skip": true
+ },
+ "Final Fantasy VII Rebirth": {
+  "cn": "最终幻想7 重生",
+  "src": "alias",
+  "cover": "https://heyboxbj.max-c.com/gameimg/psn_game_image/1582f23f89ec1ae71deb8aaa3dd4301b.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Hades II": {
+  "cn": "黑帝斯II",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145350/header.jpg",
+  "appid": 1145350
+ },
+ "Like a Dragon: Infinite Wealth": {
+  "cn": "人中之龙８外传 Pirates in Hawaii",
+  "src": "steam",
+  "appid": 2072450,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2072450/header.jpg"
+ },
+ "Star Wars Outlaws": {
+  "cn": "星球大战：亡命之徒",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2842040/header.jpg",
+  "appid": 2842040
+ },
+ "Tekken 8": {
+  "cn": "铁拳8",
+  "src": "steam",
+  "appid": 1778820,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1778820/header.jpg"
+ },
+ "Astro Bot": {
+  "cn": "",
+  "src": "steam",
+  "skip": true
+ },
+ "Balatro": {
+  "cn": "小丑牌",
+  "src": "alias",
+  "cover": "https://heyboxbj.max-c.com/gameimg/xbox_game_image/393e7273eab115ecab1afbe1e4598787.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Black Myth: Wukong": {
+  "cn": "黑神话：悟空",
+  "src": "alias",
+  "cover": "https://heyboxbj.max-c.com/gameimg/psn_game_image/7776c7d2a069f8f84b535702efaa0a38.jpeg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Elden Ring Shadow of the Erdtree": {
+  "appid": 2778580,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2778580/header.jpg",
+  "src": "steam"
+ },
+ "Metaphor: ReFantazio": {
+  "cn": "暗喻幻想：ReFantazio",
+  "src": "steam",
+  "appid": 2679460,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2679460/header.jpg"
+ },
+ "Senua's Saga: Hellblade II": {
+  "cn": "地狱之刃2：赛奴雅的传奇",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2461850/header.jpg",
+  "appid": 2461850
+ },
+ "Silent Hill 2": {
+  "cn": "沉默之丘2",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2124490/header.jpg",
+  "appid": 2124490
+ },
+ "Neva": {
+  "cn": "涅瓦河",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2420660/header.jpg",
+  "appid": 2420660
+ },
+ "Stellar Blade": {
+  "cn": "剑星",
+  "src": "steam",
+  "appid": 3489700,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3489700/header.jpg"
+ },
+ "Call of Duty: Black Ops 6": {
+  "cn": "决胜时刻：黑色行动6",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/311210/header.jpg",
+  "appid": 311210
+ },
+ "Briana White as Aerith Gainsborough": {
+  "skip": true
+ },
+ "Hannah Telle as Max Caulfield": {
+  "skip": true
+ },
+ "Humberly González as Kay Vess": {
+  "skip": true
+ },
+ "Luke Roberts as James Sunderland": {
+  "skip": true
+ },
+ "Closer the Distance": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1991300/header.jpg",
+  "src": "steam",
+  "appid": 1991300
+ },
+ "Indika": {
+  "appid": 1373960,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1373960/header.jpg",
+  "src": "steam"
+ },
+ "Life Is Strange: Double Exposure": {
+  "cn": "奇异人生系列",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1874000/header.jpg",
+  "appid": 1874000
+ },
+ "Tales of Kenzera: Zau": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2739950/header.jpg",
+  "src": "steam",
+  "appid": 2739950
+ },
+ "Animal Well": {
+  "cn": "动物井",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/813230/header.jpg",
+  "appid": 813230
+ },
+ "Lorelei and the Laser Eyes": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2008920/header.jpg",
+  "src": "steam",
+  "appid": 2008920
+ },
+ "UFO 50": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1147860/header.jpg",
+  "src": "steam",
+  "appid": 1147860
+ },
+ "Manor Lords": {
+  "cn": "庄园领主",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1363080/header.jpg",
+  "appid": 1363080
+ },
+ "Pacific Drive": {
+  "cn": "超自然车旅 Pacific Drive",
+  "src": "steam",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1458140/header.jpg",
+  "appid": 1458140
+ },
+ "The Plucky Squire": {
+  "appid": 1627570,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1627570/header.jpg",
+  "src": "steam"
+ },
+ "Helldivers II": {
+  "cn": "HELLDIVERS™ 绝地潜兵2",
+  "src": "steam",
+  "skip": true,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/header.jpg"
+ },
+ "Destiny 2: The Final Shape": {
+  "cn": "命运2",
+  "src": "steam",
+  "appid": 2336880,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2336880/header.jpg"
+ },
+ "Diablo IV: Vessel of Hatred": {
+  "cn": "暗黑破坏神IV：憎恨之躯",
+  "src": "steam",
+  "appid": 3043530,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3043530/header.jpg"
+ },
+ "Final Fantasy XIV: Dawntrail": {
+  "cn": "最终幻想XIV",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2649240/header.jpg",
+  "appid": 2649240
+ },
+ "AFK Journey": {
+  "cn": "剑与远征：启程",
+  "src": "steam",
+  "appid": 4195600,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/4195600/header.jpg"
+ },
+ "Pokémon Trading Card Game Pocket": {
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Pokemon_TCG_Pocket_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+  "fit": "contain",
+  "src": "wiki"
+ },
+ "Wuthering Waves": {
+  "cn": "鸣潮",
+  "src": "wiki",
+  "appid": 3513350,
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Wuthering_Waves_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+  "fit": "contain"
+ },
+ "Zenless Zone Zero": {
+  "cn": "绝区零",
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/d/d2/Zenless_Zone_Zero_curved_box_logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+  "fit": "contain"
+ },
+ "Batman: Arkham Shadow": {
+  "cn": "蝙蝠侠",
+  "src": "wiki",
+  "skip": true,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/208650/header.jpg"
+ },
+ "Arizona Sunshine Remake": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2897700/header.jpg",
+  "src": "steam",
+  "appid": 2897700
+ },
+ "Asgard's Wrath 2": {
+  "skip": true
+ },
+ "Metal: Hellsinger VR": {
+  "cn": "金属",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2878270/header.jpg",
+  "appid": 2878270
+ },
+ "Metro Awakening": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2669410/header.jpg",
+  "src": "steam",
+  "appid": 2669410
+ },
+ "Warhammer 40,000: Space Marine 2": {
+  "cn": "战锤40000",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2792280/header.jpg",
+  "appid": 2792280
+ },
+ "The Legend of Zelda: Echoes of Wisdom": {
+  "cn": "萨尔达传说 智慧的再现",
+  "src": "wiki",
+  "skip": true
+ },
+ "Prince of Persia: The Lost Crown": {
+  "cn": "波斯王子系列",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3102580/header.jpg",
+  "appid": 3102580
+ },
+ "Dragon's Dogma 2": {
+  "cn": "龙之信条2",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2054970/header.jpg",
+  "appid": 2054970
+ },
+ "Elden Ring: Shadow of the Erdtree": {
+  "cn": "艾尔登法环",
+  "src": "steam",
+  "appid": 2778580,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2778580/header.jpg"
+ },
+ "Dragon Ball: Sparking! Zero": {
+  "cn": "七龙珠",
+  "src": "steam",
+  "appid": 1790600,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1790600/header.jpg"
+ },
+ "Granblue Fantasy Versus: Rising": {
+  "cn": "碧蓝幻想 Versus -RISING-",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2157560/header.jpg",
+  "appid": 2157560
+ },
+ "Marvel vs. Capcom Fighting Collection: Arcade Classics": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2634890/header.jpg",
+  "src": "steam",
+  "appid": 2634890
+ },
+ "Princess Peach: Showtime!": {
+  "cn": "碧姬公主",
+  "src": "wiki",
+  "skip": true
+ },
+ "Super Mario Party Jamboree": {
+  "cn": "超级玛利欧派对 空前盛会",
+  "src": "wiki",
+  "skip": true
+ },
+ "Frostpunk 2": {
+  "cn": "冰汽时代2",
+  "src": "steam",
+  "appid": 1601580,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1601580/header.jpg"
+ },
+ "Age of Mythology: Retold": {
+  "cn": "神话世纪",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1934680/header.jpg",
+  "appid": 1934680
+ },
+ "Kunitsu-Gami: Path of the Goddess": {
+  "cn": "国津神：女神之道",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2510710/header.jpg",
+  "appid": 2510710
+ },
+ "Unicorn Overlord": {
+  "cn": "圣兽之王",
+  "src": "wiki",
+  "skip": true
+ },
+ "EA Sports FC 25": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2669320/header.jpg",
+  "src": "steam",
+  "appid": 2669320
+ },
+ "F1 24": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2488620/header.jpg",
+  "src": "steam",
+  "appid": 2488620
+ },
+ "NBA 2K25": {
+  "skip": true
+ },
+ "TopSpin 2K25": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1785650/header.jpg",
+  "src": "steam",
+  "appid": 1785650
+ },
+ "WWE 2K24": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2315690/header.jpg",
+  "src": "steam",
+  "appid": 2315690
+ },
+ "Dragon Age: The Veilguard": {
+  "cn": "龙之纪元系列",
+  "src": "steam",
+  "appid": 1845910,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1845910/header.jpg"
+ },
+ "Fallout (television series)": {
+  "skip": true
+ },
+ "Knuckles (television series)": {
+  "skip": true
+ },
+ "Like a Dragon: Yakuza (television series)": {
+  "cn": "人中之龙８外传 Pirates in Hawaii",
+  "src": "steam",
+  "skip": true
+ },
+ "Tomb Raider: The Legend of Lara Croft (animated series)": {
+  "cn": "古墓丽影系列",
+  "src": "wiki",
+  "skip": true,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/203160/header.jpg"
+ },
+ "Grand Theft Auto VI": {
+  "cn": "侠盗猎车手6",
+  "src": "alias",
+  "cover": "https://heyboxbj.max-c.com/gameimg/psn_game_image/900216546/c28472eac49a1e2313f0613f6ac92ad4.avif?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Death Stranding 2: On the Beach": {
+  "cn": "死亡搁浅2：冥滩之上",
+  "src": "steam",
+  "appid": 3280350,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3280350/header.jpg"
+ },
+ "Ghost of Yōtei": {
+  "cn": "羊蹄山之魂",
+  "src": "wiki",
+  "skip": true,
+  "cover": "https://heyboxbj.max-c.com/gameimg/psn_game_image/900178467/6450f371e98cb161b9338400bacb7340.avif?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Metroid Prime 4: Beyond": {
+  "cn": "密特罗德 究极4 穿越未知",
+  "src": "wiki",
+  "skip": true
+ },
+ "Monster Hunter Wilds": {
+  "cn": "魔物猎人 荒野",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2246340/header.jpg",
+  "appid": 2246340
+ },
+ "Clair Obscur: Expedition 33": {
+  "cn": "光与影：33号远征队",
+  "src": "alias",
+  "cover": "https://heyboxbj.max-c.com/gameimg/xbox_game_image/09fd2fbc8546cf3b3727a4fb985dcab8.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Donkey Kong Bananza": {
+  "cn": "咚奇刚 蕉力全开",
+  "src": "wiki",
+  "skip": true
+ },
+ "Hollow Knight: Silksong": {
+  "cn": "空洞骑士",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1030300/header.jpg",
+  "appid": 1030300
+ },
+ "Kingdom Come: Deliverance II": {
+  "cn": "天国：拯救2",
+  "src": "alias",
+  "cover": "https://heyboxbj.max-c.com/gameimg/psn_game_image/003308a4d9204c22bf35d41e92dbec36.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Split Fiction": {
+  "cn": "双影奇境",
+  "src": "steam",
+  "appid": 2001120,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2001120/header.jpg"
+ },
+ "Silent Hill f": {
+  "cn": "鬼魅山房f",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2947440/header.jpg",
+  "appid": 2947440
+ },
+ "Battlefield 6": {
+  "cn": "战地风云6",
+  "src": "steam",
+  "appid": 2807960,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2807960/header.jpg"
+ },
+ "Jennifer English as Maelle": {
+  "skip": true
+ },
+ "Troy Baker as Indiana Jones": {
+  "skip": true
+ },
+ "Charlie Cox as Gustave": {
+  "skip": true
+ },
+ "Erika Ishii as Atsu": {
+  "skip": true
+ },
+ "Konatsu Kato as Hinako Shimizu": {
+  "skip": true
+ },
+ "Ben Starr as Verso": {
+  "skip": true
+ },
+ "South of Midnight": {
+  "cn": "午夜以南",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1934570/header.jpg",
+  "appid": 1934570
+ },
+ "Consume Me": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2359120/header.jpg",
+  "src": "steam",
+  "appid": 2359120
+ },
+ "Despelote": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2367820/header.jpg",
+  "src": "steam",
+  "appid": 2367820
+ },
+ "Lost Records: Bloom & Rage": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3500970/header.jpg",
+  "src": "steam",
+  "appid": 3500970
+ },
+ "Wanderstop": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1299460/header.jpg",
+  "src": "steam",
+  "appid": 1299460
+ },
+ "Absolum": {
+  "cn": "绝对魔权",
+  "src": "steam",
+  "appid": 1904480,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1904480/header.jpg"
+ },
+ "Ball x Pit": {
+  "appid": 3651790,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3651790/header.jpg",
+  "src": "steam"
+ },
+ "Blue Prince": {
+  "cn": "蓝途王子",
+  "src": "steam",
+  "appid": 1569580,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1569580/header.jpg"
+ },
+ "Dispatch": {
+  "cn": "",
+  "src": "steam",
+  "appid": 3674060,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3674060/header.jpg"
+ },
+ "Megabonk": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3405340/header.jpg",
+  "src": "steam",
+  "appid": 3405340
+ },
+ "Marvel Rivals": {
+  "cn": "漫威争锋",
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Logo_Marvel_Rivals.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original",
+  "fit": "contain"
+ },
+ "Umamusume: Pretty Derby": {
+  "cn": "赛马娘 Pretty Derby",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3224770/header.jpg",
+  "appid": 3224770
+ },
+ "Destiny: Rising": {
+  "cn": "命运",
+  "src": "wiki",
+  "skip": true
+ },
+ "Persona 5: The Phantom X": {
+  "cn": "女神异闻录5",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3061570/header.jpg",
+  "appid": 3061570
+ },
+ "Sonic Rumble": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2951690/header.jpg",
+  "src": "steam",
+  "appid": 2951690
+ },
+ "The Midnight Walk": {
+  "cn": "午夜漫步",
+  "src": "steam",
+  "appid": 2863640,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2863640/header.jpg"
+ },
+ "Alien: Rogue Incursion": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1850050/header.jpg",
+  "src": "steam",
+  "appid": 1850050
+ },
+ "Arken Age": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2274200/header.jpg",
+  "src": "steam",
+  "appid": 2274200
+ },
+ "Ghost Town": {
+  "cn": "鬼鎮 (消歧義)",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2496180/header.jpg",
+  "appid": 2496180
+ },
+ "Marvel's Deadpool VR": {
+  "skip": true
+ },
+ "Doom: The Dark Ages": {
+  "cn": "毁灭战士：黑暗时代",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3017860/header.jpg",
+  "appid": 3017860
+ },
+ "Ninja Gaiden 4": {
+  "cn": "忍者龙剑传4",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2627260/header.jpg",
+  "appid": 2627260
+ },
+ "Shinobi: Art of Vengeance": {
+  "cn": "超级忍 反攻的斩击",
+  "src": "steam",
+  "appid": 2361770,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2361770/header.jpg"
+ },
+ "Indiana Jones and the Great Circle": {
+  "cn": "夺宝奇兵：古老之圈",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2832900/header.jpg",
+  "appid": 2832900
+ },
+ "Avowed": {
+  "cn": "宣誓",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2457220/header.jpg",
+  "appid": 2457220
+ },
+ "The Outer Worlds 2": {
+  "cn": "天外世界2",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1449110/header.jpg",
+  "appid": 1449110
+ },
+ "Fatal Fury: City of the Wolves": {
+  "cn": "饿狼传说系列",
+  "src": "steam",
+  "appid": 3519160,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3519160/header.jpg"
+ },
+ "2XKO": {
+  "skip": true
+ },
+ "Capcom Fighting Collection 2": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2400430/header.jpg",
+  "src": "steam",
+  "appid": 2400430
+ },
+ "Mortal Kombat: Legacy Kollection": {
+  "cn": "真人快打系列",
+  "src": "steam",
+  "appid": 3454980,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3454980/header.jpg"
+ },
+ "Virtua Fighter 5 R.E.V.O. World Stage": {
+  "cn": "VR快打5",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3112260/header.jpg",
+  "appid": 3112260
+ },
+ "Lego Party": {
+  "appid": 1969370,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1969370/header.jpg",
+  "src": "steam"
+ },
+ "Lego Voyagers": {
+  "appid": 1538550,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1538550/header.jpg",
+  "src": "steam"
+ },
+ "Mario Kart World": {
+  "cn": "玛利欧赛车世界",
+  "src": "wiki",
+  "skip": true
+ },
+ "Sonic Racing: CrossWorlds": {
+  "cn": "索尼克赛车 交叉世界",
+  "src": "steam",
+  "appid": 2486820,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2486820/header.jpg"
+ },
+ "Final Fantasy Tactics: The Ivalice Chronicles": {
+  "cn": "最终幻想战略版",
+  "src": "steam",
+  "appid": 1004640,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1004640/header.jpg"
+ },
+ "The Alters": {
+  "cn": "多重人生",
+  "src": "steam",
+  "appid": 1601570,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1601570/header.jpg"
+ },
+ "Civilization VII": {
+  "cn": "席德·梅尔的文明VII",
+  "src": "steam",
+  "skip": true
+ },
+ "Jurassic World Evolution 3": {
+  "cn": "侏罗纪世界：进化3",
+  "src": "steam",
+  "appid": 4131660,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/4131660/header.jpg"
+ },
+ "Tempest Rising": {
+  "cn": "风暴崛起",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1486920/header.jpg",
+  "appid": 1486920
+ },
+ "Two Point Museum": {
+  "cn": "双点博物馆",
+  "src": "steam",
+  "appid": 2185060,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2185060/header.jpg"
+ },
+ "EA Sports FC 26": {
+  "appid": 3405690,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3405690/header.jpg",
+  "src": "steam"
+ },
+ "F1 25": {
+  "appid": 3059520,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3059520/header.jpg",
+  "src": "steam"
+ },
+ "Rematch": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2067680/header.jpg",
+  "src": "steam",
+  "appid": 2067680
+ },
+ "ARC Raiders": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1808500/header.jpg",
+  "src": "steam",
+  "appid": 1808500
+ },
+ "Elden Ring Nightreign": {
+  "cn": "艾尔登法环 黑夜君临",
+  "src": "steam",
+  "appid": 2622380,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2622380/header.jpg"
+ },
+ "Peak": {
+  "cn": "",
+  "src": "steam",
+  "appid": 3527290,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3527290/header.jpg"
+ },
+ "Assassin's Creed Shadows": {
+  "cn": "刺客信条：影",
+  "src": "steam",
+  "appid": 3159330,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3159330/header.jpg"
+ },
+ "Atomfall": {
+  "appid": 801800,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/801800/header.jpg",
+  "src": "steam"
+ },
+ "The Last of Us season 2 (television series)": {
+  "skip": true
+ },
+ "A Minecraft Movie (feature film)": {
+  "skip": true
+ },
+ "Devil May Cry (animated series)": {
+  "skip": true
+ },
+ "Splinter Cell: Deathwatch (animated series)": {
+  "skip": true
+ },
+ "Until Dawn (feature film)": {
+  "skip": true
+ },
+ "007 First Light": {
+  "cn": "007初露锋芒",
+  "src": "steam",
+  "appid": 3768760,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3768760/header.jpg"
+ },
+ "Marvel's Wolverine": {
+  "cn": "漫威金钢狼",
+  "src": "wiki",
+  "skip": true
+ },
+ "Resident Evil Requiem": {
+  "cn": "恶灵古堡 安魂曲",
+  "src": "steam",
+  "appid": 3764200,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3764200/header.jpg"
+ },
+ "The Witcher IV": {
+  "cn": "巫师4",
+  "src": "wiki",
+  "skip": true
+ },
+ "Control Resonant": {
+  "cn": "控制：共振",
+  "src": "wiki"
+ },
+ "The Legend of Zelda: Ocarina of Time": {
+  "cn": "萨尔达传说系列",
+  "src": "wiki"
+ },
+ "Phantom Blade Zero": {
+  "cn": "影之刃零",
+  "src": "alias",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/4115450/header.jpg"
+ },
+ "Pragmata": {
+  "cn": "人机迷网",
+  "src": "wiki",
+  "appid": 3357650
+ },
+ "The Blood of Dawnwalker": {
+  "cn": "黎明行者之血",
+  "src": "steam",
+  "appid": 3751260
+ },
+ "Mouse: P.I. for Hire": {
+  "cn": "老鼠",
+  "src": "wiki",
+  "appid": 3912890
+ },
+ "Ace Combat 8: Wings of Theve": {
+  "cn": "空战奇兵8 希孚之翼",
+  "src": "steam",
+  "appid": 2288340,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2288340/header.jpg"
+ },
+ "Mixtape": {
+  "cn": "混音带",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2582320/header.jpg",
+  "appid": 2582320
+ },
+ "Star Wars: Galactic Racer": {
+  "cn": "星际大战",
+  "src": "wiki"
+ },
+ "Angela Sant'Albano as Grace Ashcroft": {},
+ "Liam McIntyre as Wolverine": {},
+ "Manni L. Perez as Lucia Caminos": {},
+ "Patrick Gibson as James Bond": {},
+ "Rahul Kohli as Arjun Devraj": {},
+ "Big Walk": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1478500/header.jpg",
+  "src": "steam",
+  "appid": 1478500
+ },
+ "Cairn": {
+  "cn": "石堆",
+  "src": "wiki"
+ },
+ "Forever Ago": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1215940/header.jpg",
+  "src": "steam",
+  "appid": 1215940
+ },
+ "Life Is Strange: Reunion": {
+  "cn": "奇异人生系列",
+  "src": "wiki",
+  "appid": 2624870
+ },
+ "lily's world XD": {
+  "cn": "莉莉的世界 XD",
+  "src": "steam"
+ },
+ "Denshattack!": {
+  "cn": "电车炫客",
+  "src": "wiki"
+ },
+ "Mewgenics": {
+  "cn": "喵喵的结合",
+  "src": "wiki"
+ },
+ "Mina the Hollower": {
+  "cn": "挖掘者米娜",
+  "src": "wiki"
+ },
+ "Dressmaker": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1487080/header.jpg",
+  "src": "steam",
+  "appid": 1487080
+ },
+ "Esoteric Ebb": {
+  "cn": "奥秘消退",
+  "src": "wiki"
+ },
+ "Orbitals": {},
+ "Replaced": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1663850/header.jpg",
+  "src": "steam",
+  "appid": 1663850
+ },
+ "Silver Pines": {},
+ "Crimson Desert": {
+  "cn": "赤血沙漠",
+  "src": "wiki"
+ },
+ "Arknights: Endfield": {
+  "cn": "明日方舟",
+  "src": "wiki"
+ },
+ "Monster Hunter Outlanders": {},
+ "Neverness to Everness": {
+  "cn": "异环",
+  "src": "wiki"
+ },
+ "Pokémon Champions": {},
+ "Where Winds Meet": {
+  "cn": "燕云十六声",
+  "src": "wiki"
+ },
+ "Forefront": {
+  "appid": 2981220,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2981220/header.jpg",
+  "src": "steam",
+  "cn": ""
+ },
+ "Into the Radius 2": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2307350/header.jpg",
+  "src": "steam",
+  "appid": 2307350
+ },
+ "Little Nightmares VR: Altered Echoes": {
+  "cn": "小小梦魇VR: 异境回响",
+  "src": "steam"
+ },
+ "Teenage Mutant Ninja Turtles: Empire City": {
+  "cn": "忍者龟",
+  "src": "wiki",
+  "appid": 3713650
+ },
+ "Thief VR: Legacy of Shadow": {
+  "appid": 2800080
+ },
+ "Gears of War: E-Day": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3010850/header.jpg",
+  "src": "steam",
+  "appid": 3010850
+ },
+ "Onimusha: Way of the Sword": {
+  "cn": "鬼武者系列",
+  "src": "wiki"
+ },
+ "Saros": {},
+ "Final Fantasy Resonance": {
+  "appid": 3259780,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3259780/header.jpg",
+  "src": "steam",
+  "cn": ""
+ },
+ "Fire Emblem: Fortune's Weave": {
+  "cn": "火焰之纹章系列",
+  "src": "wiki"
+ },
+ "Monster Hunter Stories 3: Twisted Reflection": {
+  "cn": "魔物猎人物语3 ～命运双龙～",
+  "src": "wiki",
+  "appid": 4600340
+ },
+ "Trails in the Sky 2nd Chapter": {
+  "cn": "空之轨迹 the 2nd",
+  "src": "steam"
+ },
+ "Avatar Legends: The Fighting Game": {
+  "appid": 2424420,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2424420/header.jpg",
+  "src": "steam",
+  "cn": ""
+ },
+ "Invincible VS": {
+  "appid": 2353060,
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2353060/header.jpg",
+  "src": "steam",
+  "cn": ""
+ },
+ "Marvel Tōkon: Fighting Souls": {
+  "cn": "漫威斗魂",
+  "src": "wiki"
+ },
+ "My Hero Academia: All's Justice": {
+  "cn": "我的英雄学院",
+  "src": "wiki"
+ },
+ "Lego Batman: Legacy of the Dark Knight": {
+  "cn": "LEGO蝙蝠侠：黑暗骑士传奇",
+  "src": "wiki"
+ },
+ "Nintendo Switch Sports Resort": {},
+ "Pokémon Pokopia": {},
+ "Yoshi and the Mysterious Book": {
+  "cn": "耀西与不可思议的图鉴",
+  "src": "wiki"
+ },
+ "Planet Zoo 2": {},
+ "Slay the Spire II": {
+  "cn": "杀戮尖塔2",
+  "src": "wiki",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2868840/header.jpg",
+  "appid": 2868840
+ },
+ "Star Wars Zero Company": {
+  "cn": "星球大战 零号连队",
+  "src": "wiki"
+ },
+ "EA Sports FC 27": {
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/4080220/header.jpg",
+  "src": "steam",
+  "cn": ""
+ },
+ "Forza Horizon 6": {
+  "cn": "极限竞速 地平线6",
+  "src": "wiki",
+  "cover": "https://heyboxbj.max-c.com/gameimg/xbox_game_image/900201721/396ab0cad932795a9c154a68b22d7a3d.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
+ },
+ "Screamer": {
+  "cn": "叫鸭科",
+  "src": "wiki"
+ },
+ "Call of Duty: Modern Warfare 4": {
+  "cn": "决胜时刻系列",
+  "src": "steam",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/4435490/header.jpg"
+ },
+ "Marathon": {
+  "cn": "马拉松",
+  "src": "wiki"
+ },
+ "Meccha Chameleon": {
+  "cn": "超级变色龙",
+  "src": "wiki"
+ },
+ "Assassin's Creed Black Flag Resynced": {
+  "cn": "刺客信条：黑旗 记忆重置",
+  "src": "wiki"
+ },
+ "Rhythm Heaven Groove": {
+  "cn": "节奏天国 奇迹之星",
+  "src": "wiki"
+ },
+ "Fable": {
+  "cn": "寓言",
+  "src": "wiki"
+ },
+ "Final Fantasy VII Revelation": {
+  "cn": "Final Fantasy VII 启示录",
+  "src": "steam",
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/4354570/header.jpg"
+ },
+ "God of War Laufey": {
+  "cn": "战神：劳菲",
+  "src": "wiki"
+ },
+ "Resident Evil Veronica": {
+  "cn": "恶灵古堡 圣女密码 重制版",
+  "src": "wiki"
+ },
+ "A Dream of Silence ReVamped": {},
+ "Create Aeronautics": {},
+ "nopixel V": {},
+ "Star Wars Droid Tycoon": {},
+ "TTK": {},
+ "Cyberpunk: Edgerunners 2 (anime series)": {
+  "cn": "赛博朋克",
+  "src": "wiki"
+ },
+ "Fallout season 2 (television series)": {},
+ "Mortal Kombat II (feature film)": {},
+ "Resident Evil (feature film)": {},
+ "The Super Mario Galaxy Movie (animated film)": {}
+}

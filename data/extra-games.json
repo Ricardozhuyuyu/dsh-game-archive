@@ -1,0 +1,45 @@
+{
+  "_note": "手动补进来的游戏（平台没给记录、或太老不显示）。sync 不会动它；id 自己定，别改。months 是「大概玩了哪段时间」，用于年度统计摊时长。",
+  "games": [
+    {
+      "id": "extra-switch-odyssey",
+      "platform": "Switch",
+      "name": "Super Mario Odyssey",
+      "cn": "超级马力欧 奥德赛",
+      "hours": 120,
+      "months": { "from": "2018-10", "to": "2019-05" },
+      "status": "finished",
+      "note": "任天堂没记到，手动补"
+    },
+    {
+      "id": "extra-switch-letsgo",
+      "platform": "Switch",
+      "name": "Pokémon: Let's Go, Pikachu! / Eevee!",
+      "cn": "宝可梦 Let's Go！皮卡丘／伊布",
+      "hours": 40,
+      "months": { "from": "2018-10", "to": "2018-12" },
+      "status": "finished",
+      "note": "任天堂没记到，手动补"
+    },
+    {
+      "id": "extra-switch-luigi3",
+      "platform": "Switch",
+      "name": "Luigi's Mansion 3",
+      "cn": "路易吉洋馆 3",
+      "hours": 10,
+      "months": { "from": "2026-01", "to": "2026-02" },
+      "status": "shelved",
+      "note": "任天堂没记到，手动补"
+    },
+    {
+      "id": "extra-switch-tennis",
+      "platform": "Switch",
+      "name": "Mario Tennis Aces",
+      "cn": "马力欧网球 王牌高手",
+      "hours": 15,
+      "months": { "from": "2019-01", "to": "2019-12" },
+      "status": "shelved",
+      "note": "任天堂没记到，手动补"
+    }
+  ]
+}

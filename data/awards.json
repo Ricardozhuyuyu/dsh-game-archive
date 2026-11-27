@@ -1,0 +1,610 @@
+{
+ "awards": [
+  {
+   "names": [
+    "Clair Obscur: Expedition 33",
+    "光与影：33号远征队",
+    "光与影 33号远征队",
+    "光与影：33 号远征队"
+   ],
+   "year": 2025,
+   "exclude": [],
+   "honors": [
+    "年度游戏",
+    "最佳游戏指导",
+    "最佳叙事",
+    "最佳美术指导",
+    "最佳配乐",
+    "最佳演出",
+    "最佳独立游戏",
+    "最佳新晋独立游戏",
+    "最佳角色扮演游戏"
+   ]
+  },
+  {
+   "names": [
+    "Grand Theft Auto VI",
+    "侠盗猎车手6",
+    "侠盗猎车手VI",
+    "GTA VI",
+    "GTA6"
+   ],
+   "year": 2025,
+   "exclude": [],
+   "honors": [
+    "最受期待游戏"
+   ]
+  },
+  {
+   "names": [
+    "Astro Bot",
+    "宇宙机器人"
+   ],
+   "year": 2024,
+   "exclude": [
+    "无线控制器",
+    "Playroom",
+    "使用指南"
+   ],
+   "honors": [
+    "年度游戏",
+    "最佳动作冒险游戏",
+    "最佳家庭游戏"
+   ]
+  },
+  {
+   "names": [
+    "Balatro",
+    "小丑牌"
+   ],
+   "year": 2024,
+   "exclude": [],
+   "honors": [
+    "最佳独立游戏",
+    "最佳新晋独立游戏",
+    "最佳移动游戏"
+   ]
+  },
+  {
+   "names": [
+    "Final Fantasy VII Rebirth",
+    "最终幻想7 重生",
+    "最终幻想7：重生",
+    "FINAL FANTASY VII REBIRTH"
+   ],
+   "year": 2024,
+   "exclude": [],
+   "honors": [
+    "最佳配乐"
+   ]
+  },
+  {
+   "names": [
+    "Black Myth: Wukong",
+    "黑神话：悟空",
+    "黑神话悟空"
+   ],
+   "year": 2024,
+   "exclude": [],
+   "honors": [
+    "最佳动作游戏",
+    "玩家之声"
+   ]
+  },
+  {
+   "names": [
+    "The Legend of Zelda: Tears of the Kingdom",
+    "塞尔达传说 王国之泪",
+    "塞尔达传说：王国之泪",
+    "王国之泪"
+   ],
+   "year": 2023,
+   "exclude": [],
+   "honors": [
+    "最佳动作冒险游戏"
+   ]
+  },
+  {
+   "names": [
+    "Super Mario Bros. Wonder",
+    "超级马力欧兄弟 惊奇",
+    "超级马力欧兄弟：惊奇",
+    "超级马里奥兄弟 惊奇",
+    "马力欧惊奇"
+   ],
+   "year": 2023,
+   "exclude": [],
+   "honors": [
+    "最佳家庭游戏"
+   ]
+  },
+  {
+   "names": [
+    "Hi-Fi Rush",
+    "Hi-Fi RUSH 完美音浪"
+   ],
+   "year": 2023,
+   "exclude": [],
+   "honors": [
+    "最佳音效设计"
+   ]
+  },
+  {
+   "names": [
+    "Cyberpunk 2077",
+    "赛博朋克2077",
+    "赛博朋克 2077"
+   ],
+   "year": 2023,
+   "exclude": [],
+   "honors": [
+    "最佳持续运营游戏"
+   ]
+  },
+  {
+   "names": [
+    "Elden Ring",
+    "艾尔登法环"
+   ],
+   "year": 2022,
+   "exclude": [],
+   "honors": [
+    "年度游戏",
+    "最佳游戏指导",
+    "最佳美术指导",
+    "最佳角色扮演游戏"
+   ]
+  },
+  {
+   "names": [
+    "God of War Ragnarök",
+    "God of War Ragnarok",
+    "战神：诸神黄昏",
+    "战神 诸神黄昏",
+    "诸神黄昏"
+   ],
+   "year": 2022,
+   "exclude": [],
+   "honors": [
+    "最佳叙事",
+    "最佳配乐",
+    "最佳音效设计",
+    "最佳演出",
+    "无障碍创新奖",
+    "最佳动作冒险游戏"
+   ]
+  },
+  {
+   "names": [
+    "Stray",
+    "迷失"
+   ],
+   "year": 2022,
+   "exclude": [],
+   "honors": [
+    "最佳独立游戏",
+    "最佳新晋独立游戏"
+   ]
+  },
+  {
+   "names": [
+    "Splatoon 3",
+    "喷射战士3",
+    "喷射战士 3",
+    "斯普拉遁3",
+    "斯普拉遁 3"
+   ],
+   "year": 2022,
+   "exclude": [],
+   "honors": [
+    "最佳多人游戏"
+   ]
+  },
+  {
+   "names": [
+    "Kirby and the Forgotten Land",
+    "星之卡比 探索发现",
+    "星之卡比：探索发现"
+   ],
+   "year": 2022,
+   "exclude": [],
+   "honors": [
+    "最佳家庭游戏"
+   ]
+  },
+  {
+   "names": [
+    "It Takes Two",
+    "双人成行"
+   ],
+   "year": 2021,
+   "exclude": [
+    "Friend's Pass",
+    "Friends Pass"
+   ],
+   "honors": [
+    "年度游戏",
+    "最佳家庭游戏",
+    "最佳多人游戏"
+   ]
+  },
+  {
+   "names": [
+    "Forza Horizon 5",
+    "极限竞速：地平线 5",
+    "极限竞速 地平线5",
+    "极限竞速：地平线5"
+   ],
+   "year": 2021,
+   "exclude": [],
+   "honors": [
+    "最佳音效设计",
+    "无障碍创新奖",
+    "最佳体育竞速游戏"
+   ]
+  },
+  {
+   "names": [
+    "Age of Empires IV",
+    "帝国时代 IV：周年纪念版",
+    "帝国时代4",
+    "《帝国时代 IV：周年纪念版》"
+   ],
+   "year": 2021,
+   "exclude": [],
+   "honors": [
+    "最佳模拟策略游戏"
+   ]
+  },
+  {
+   "names": [
+    "Animal Crossing: New Horizons",
+    "集合啦！动物森友会",
+    "动物森友会",
+    "动物之森"
+   ],
+   "year": 2020,
+   "exclude": [],
+   "honors": [
+    "最佳家庭游戏"
+   ]
+  },
+  {
+   "names": [
+    "Ghost of Tsushima",
+    "对马岛之魂",
+    "对马岛之魂：导演剪辑版"
+   ],
+   "year": 2020,
+   "exclude": [],
+   "honors": [
+    "最佳美术指导",
+    "玩家之声"
+   ]
+  },
+  {
+   "names": [
+    "Final Fantasy VII Remake",
+    "最终幻想7 重制版",
+    "最终幻想7：重制版",
+    "FINAL FANTASY VII REMAKE"
+   ],
+   "year": 2020,
+   "exclude": [],
+   "honors": [
+    "最佳配乐",
+    "最佳角色扮演游戏"
+   ]
+  },
+  {
+   "names": [
+    "The Last of Us Part II",
+    "最后生还者 第二部",
+    "最后生还者2",
+    "最后生还者2 重制版"
+   ],
+   "year": 2020,
+   "exclude": [],
+   "honors": [
+    "年度游戏",
+    "最佳游戏指导",
+    "最佳叙事",
+    "最佳音效设计",
+    "无障碍创新奖",
+    "最佳动作冒险游戏"
+   ]
+  },
+  {
+   "names": [
+    "Sekiro: Shadows Die Twice",
+    "Sekiro™: Shadows Die Twice",
+    "只狼",
+    "只狼：影逝二度"
+   ],
+   "year": 2019,
+   "exclude": [],
+   "honors": [
+    "年度游戏",
+    "最佳游戏指导",
+    "最佳动作冒险游戏"
+   ]
+  },
+  {
+   "names": [
+    "Disco Elysium",
+    "Disco Elysium - The Final Cut",
+    "极乐迪斯科",
+    "极乐迪斯科：最终剪辑版"
+   ],
+   "year": 2019,
+   "exclude": [],
+   "honors": [
+    "最佳叙事",
+    "最佳角色扮演游戏",
+    "最佳独立游戏",
+    "最佳新晋独立游戏"
+   ]
+  },
+  {
+   "names": [
+    "Fire Emblem: Three Houses",
+    "Fire Emblem 风花雪月",
+    "火焰纹章 风花雪月",
+    "风花雪月"
+   ],
+   "year": 2019,
+   "exclude": [],
+   "honors": [
+    "最佳策略游戏",
+    "玩家之声"
+   ]
+  },
+  {
+   "names": [
+    "Death Stranding",
+    "死亡搁浅",
+    "死亡搁浅 导演剪辑版"
+   ],
+   "year": 2019,
+   "exclude": [],
+   "honors": [
+    "最佳游戏指导",
+    "最佳配乐",
+    "最佳演出"
+   ]
+  },
+  {
+   "names": [
+    "Apex Legends",
+    "Apex英雄",
+    "Apex 英雄"
+   ],
+   "year": 2019,
+   "exclude": [],
+   "honors": [
+    "最佳多人游戏"
+   ]
+  },
+  {
+   "names": [
+    "God of War",
+    "战神"
+   ],
+   "year": 2018,
+   "exclude": [
+    "诸神黄昏",
+    "Ragnarok"
+   ],
+   "honors": [
+    "年度游戏",
+    "最佳游戏指导",
+    "最佳动作冒险游戏"
+   ]
+  },
+  {
+   "names": [
+    "The Legend of Zelda: Breath of the Wild",
+    "塞尔达传说 旷野之息",
+    "塞尔达传说：旷野之息",
+    "旷野之息"
+   ],
+   "year": 2017,
+   "exclude": [],
+   "honors": [
+    "年度游戏",
+    "最佳游戏指导",
+    "最佳动作冒险游戏"
+   ]
+  },
+  {
+   "names": [
+    "Persona 5",
+    "女神异闻录5",
+    "女神异闻录５",
+    "女神异闻录5 皇家版",
+    "女神异闻录５ 皇家版"
+   ],
+   "year": 2017,
+   "exclude": [],
+   "honors": [
+    "最佳角色扮演游戏"
+   ]
+  },
+  {
+   "names": [
+    "Overwatch",
+    "守望先锋",
+    "Overwatch 2"
+   ],
+   "year": 2016,
+   "exclude": [],
+   "honors": [
+    "年度游戏",
+    "最佳游戏指导",
+    "最佳多人游戏",
+    "最佳电竞游戏"
+   ]
+  },
+  {
+   "names": [
+    "The Witcher 3: Wild Hunt",
+    "The Witcher 3: Wild Hunt — Remastered",
+    "巫师3",
+    "巫师 3"
+   ],
+   "year": 2015,
+   "exclude": [],
+   "honors": [
+    "年度游戏",
+    "最佳角色扮演游戏"
+   ]
+  }
+ ],
+ "gotyNominees": [
+  {
+   "year": 2017,
+   "names": [
+    "Persona 5",
+    "女神异闻录5",
+    "女神异闻录 5"
+   ]
+  },
+  {
+   "year": 2017,
+   "names": [
+    "PlayerUnknown's Battlegrounds",
+    "PUBG: BATTLEGROUNDS",
+    "PUBG",
+    "绝地求生"
+   ]
+  },
+  {
+   "year": 2018,
+   "names": [
+    "Assassin's Creed Odyssey",
+    "刺客信条：奥德赛",
+    "刺客信条 奥德赛"
+   ]
+  },
+  {
+   "year": 2019,
+   "names": [
+    "Death Stranding",
+    "死亡搁浅"
+   ]
+  },
+  {
+   "year": 2019,
+   "names": [
+    "Super Smash Bros. Ultimate",
+    "任天堂明星大乱斗",
+    "大乱斗"
+   ]
+  },
+  {
+   "year": 2020,
+   "names": [
+    "Animal Crossing: New Horizons",
+    "集合啦！动物森友会",
+    "动物森友会",
+    "动物之森"
+   ]
+  },
+  {
+   "year": 2020,
+   "names": [
+    "Final Fantasy VII Remake",
+    "最终幻想7 重制版",
+    "最终幻想7：重制版"
+   ]
+  },
+  {
+   "year": 2020,
+   "names": [
+    "Ghost of Tsushima",
+    "对马岛之魂"
+   ]
+  },
+  {
+   "year": 2022,
+   "names": [
+    "God of War Ragnarök",
+    "God of War Ragnarok",
+    "战神：诸神黄昏",
+    "战神 诸神黄昏"
+   ]
+  },
+  {
+   "year": 2022,
+   "names": [
+    "Stray",
+    "迷失"
+   ]
+  },
+  {
+   "year": 2023,
+   "names": [
+    "The Legend of Zelda: Tears of the Kingdom",
+    "塞尔达传说 王国之泪",
+    "王国之泪"
+   ]
+  },
+  {
+   "year": 2023,
+   "names": [
+    "Super Mario Bros. Wonder",
+    "超级马力欧兄弟 惊奇",
+    "超级马力欧兄弟：惊奇",
+    "马力欧惊奇"
+   ]
+  },
+  {
+   "year": 2024,
+   "names": [
+    "Balatro",
+    "小丑牌"
+   ]
+  },
+  {
+   "year": 2024,
+   "names": [
+    "Black Myth: Wukong",
+    "黑神话：悟空",
+    "黑神话 悟空"
+   ]
+  },
+  {
+   "year": 2024,
+   "names": [
+    "Final Fantasy VII Rebirth",
+    "最终幻想7 重生",
+    "最终幻想7：重生"
+   ]
+  },
+  {
+   "year": 2025,
+   "names": [
+    "Kingdom Come: Deliverance II",
+    "天国：拯救2",
+    "天国 拯救2"
+   ]
+  },
+  {
+   "year": 2026,
+   "names": [
+    "Grand Theft Auto VI",
+    "侠盗猎车手6",
+    "侠盗猎车手VI",
+    "GTA6",
+    "GTA VI"
+   ]
+  },
+  {
+   "year": 2026,
+   "names": [
+    "Phantom Blade Zero",
+    "影之刃零"
+   ]
+  }
+ ]
+}

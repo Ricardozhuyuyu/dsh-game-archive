@@ -1,0 +1,13 @@
+# 个人数据（同步出来的，不该进仓库）
+data/records.json
+data/userdata.json
+data/manual.json
+data/enrichment.json
+data/accounts.json
+data/switch-override.json
+data/recommend.json
+data/covers/
+*.bak-*
+__pycache__/
+*.pyc
+.DS_Store

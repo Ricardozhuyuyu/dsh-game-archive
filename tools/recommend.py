@@ -1,0 +1,293 @@
+#!/usr/bin/env python3
+"""按你的库推荐「没玩过的好游戏」，只留 2017 年及以后发售的。
+
+思路（不联网猜、只认能查到的数）：
+  1. 候选池 = 2017–2025 的 TGA 获奖 + 年度游戏提名（data/tga-history.json 里有 1395 条）
+     —— 拿过奖 = 有公认质量，避免推一堆没人评过的；
+  2. 用 Metacritic 前端接口补：M 站分 / 发售日 / 类型；
+  3. 剔掉库里已有的（按原名、中文名、别名、Steam 名四种写法归一比对）；
+  4. 打分：TGA 档次(40) + M 站口碑(35) + 类型契合度(25)
+     类型契合度 = 你玩得最多的几个类型有没有交集，看的是「投入小时数占比」而不是款数；
+  5. 输出 data/recommend.json，前端「推荐」tab 直接读，不会自动更新。
+
+    python3 tools/recommend.py                      # 全量跑（约 5–10 分钟）
+    python3 tools/recommend.py --min-year 2019      # 只看 2019 后的
+    python3 tools/recommend.py --limit 80           # 只要前 80 条
+    python3 tools/recommend.py --no-mc              # 不查 M 站，纯 TGA 排名（几秒钟）
+"""
+import argparse, json, os, re, sys, time, urllib.parse, urllib.request
+from datetime import date
+
+UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0 Safari/537.36"}
+MC_KEY = "1MOZgmNFxvmljaQR1X9KAij9Mo4xAY3u"
+SLEEP = 1.0
+
+# 只认这 21 个奖（和插件里 HONOR_ACCEPT 一致）
+KEEP = {"年度游戏", "最佳游戏指导", "最佳叙事", "最佳艺术指导", "最佳配乐与音乐", "最佳配乐",
+        "最佳音效设计", "最佳动作游戏", "最佳动作/冒险游戏", "最佳角色扮演游戏", "玩家之声",
+        "最佳持续运营", "最佳社区支持", "最佳格斗游戏", "最佳家庭游戏", "最佳模拟/策略游戏",
+        "最佳体育/竞速游戏", "最佳VR/AR游戏", "最佳多人游戏", "最佳独立游戏",
+        "最佳独立游戏处女作", "最具影响力游戏"}
+
+
+try:  # 跟 meta_score.py 共用一份「英文类型 → 中文」的映射
+    from meta_score import GENRE_CN
+except Exception:  # 单独拷出去跑时退化
+    GENRE_CN = {}
+
+
+def genre_cn(name):
+    return GENRE_CN.get(str(name).strip().lower(), name)
+
+
+def norm(s):
+    s = str(s or "").lower()
+    s = re.sub(r"[\u2122\u00ae\u2120]", "", s)
+    s = re.sub(r"[^0-9a-z\u4e00-\u9fff]", "", s)
+    return s
+
+
+def jget(url, tries=3, timeout=20):
+    for i in range(tries):
+        try:
+            return json.loads(urllib.request.urlopen(
+                urllib.request.Request(url, headers=UA), timeout=timeout).read().decode("utf-8", "replace"))
+        except Exception:
+            if i == tries - 1:
+                return None
+            time.sleep(1.5 * (i + 1))
+    return None
+
+
+def mc_lookup(name):
+    """Metacritic 前端接口：一次搜索给 score / releaseDate / genres。"""
+    url = ("https://backend.metacritic.com/finder/metacritic/search/"
+           + urllib.parse.quote(name) + f"/web?apiKey={MC_KEY}")
+    d = jget(url)
+    items = (((d or {}).get("data") or {}).get("items")) or []
+    # 返回的是扁平对象：{title, criticScoreSummary:{score}, releaseDate, genres:[{name}], platforms:[{name}]}
+    hit = None
+    for it in items:
+        if it.get("type") not in (None, "game-title", "game"):
+            continue
+        if norm(it.get("title")) != norm(name):
+            continue
+        if (it.get("criticScoreSummary") or {}).get("score") is None:
+            continue
+        hit = it
+        break
+    if not hit:
+        return None
+    return {
+        "score": int((hit.get("criticScoreSummary") or {}).get("score") or 0) or None,
+        "release": str(hit.get("releaseDate") or "")[:10] or None,
+        "genres": [g.get("name") for g in (hit.get("genres") or []) if isinstance(g, dict) and g.get("name")],
+        "platforms": [x.get("name") for x in (hit.get("platforms") or []) if isinstance(x, dict) and x.get("name")],
+    }
+
+
+def cand_names_hint(alias, media):
+    """别名表里的所有写法（中英都算），用来判「这个我是不是已经有了」。"""
+    out = set()
+    for k, v in (alias or {}).items():
+        out.add(k)
+        if isinstance(v, str):
+            out.add(v)
+    for k, v in (media or {}).items():
+        out.add(k)
+        if isinstance(v, dict) and v.get("cn"):
+            out.add(v["cn"])
+    return out
+
+
+def library_index(games):
+    """库里已有的所有写法 → 一套归一集合。"""
+    seen = set()
+    for g in games:
+        for k in ("name", "cn", "en"):
+            v = g.get(k)
+            if v:
+                seen.add(norm(v))
+    return seen
+
+
+def genre_profile(games):
+    """按种类统计「投入小时数」，返回 {类型: 占比}。"""
+    hours, total = {}, 0.0
+    for g in games:
+        h = float(g.get("hours") or 0)
+        if h <= 0:
+            continue
+        total += h
+        for part in str(g.get("genre") or "").split("/"):
+            k = part.strip()
+            if not k:
+                continue
+            hours[k] = hours.get(k, 0) + h
+    if not total:
+        return {}, []
+    prof = {k: v / total for k, v in hours.items()}
+    top = sorted(prof.items(), key=lambda kv: -kv[1])[:6]
+    return prof, top
+
+
+def main():
+    global SLEEP
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--dir", default=os.path.expanduser("~/Documents/deepseek-harness/work/游戏档案"))
+    ap.add_argument("--min-year", type=int, default=2017)
+    ap.add_argument("--limit", type=int, default=120)
+    ap.add_argument("--sleep", type=float, default=1.0)
+    ap.add_argument("--no-mc", action="store_true", help="不查 Metacritic（快，但没分数）")
+    ap.add_argument("--allow-unknown", action="store_true", help="没查到发售日的也留着（默认剔掉）")
+    args = ap.parse_args()
+    SLEEP = args.sleep
+
+    D = args.dir
+    games = json.load(open(os.path.join(D, "records.json"))).get("games", [])
+    enrich = json.load(open(os.path.join(D, "enrichment.json"))) if os.path.exists(os.path.join(D, "enrichment.json")) else {}
+    manual = json.load(open(os.path.join(D, "manual.json"))) if os.path.exists(os.path.join(D, "manual.json")) else {}
+    # 类型 / M 站分不在 records 里，在 enrichment（按 id）和 manual 里 —— 补进来才好算契合度
+    for g in games:
+        en = enrich.get(g.get("id")) or {}
+        man = manual.get(g.get("id")) or {}
+        g["genre"] = man.get("genre") or en.get("genre") or g.get("genre")
+        g["metacritic"] = man.get("metacritic") or en.get("metacritic")
+        g["cn"] = man.get("cn") or g.get("cn")
+        g["en"] = man.get("en") or en.get("en") or g.get("en")
+    extra = (json.load(open(os.path.join(D, "extra-games.json"))).get("games", [])
+             if os.path.exists(os.path.join(D, "extra-games.json")) else [])
+    tga = json.load(open(os.path.join(D, "tga-history.json")))
+    media = json.load(open(os.path.join(D, "tga-media.json"))) if os.path.exists(os.path.join(D, "tga-media.json")) else {}
+    alias = json.load(open(os.path.join(D, "tga-alias.json"))) if os.path.exists(os.path.join(D, "tga-alias.json")) else {}
+
+    owned = library_index(games + extra)
+    prof, top = genre_profile(games)
+    print("[库] %d 款，投入最多的类型：%s" % (len(games), "、".join(f"{k} {v*100:.0f}%" for k, v in top)))
+
+    # ---- 1) 从 TGA 汇总候选 ----
+    def variants(name):
+        """候选名的各种写法：英文原名、别名表里的中文、陈列室抓到的中文名。"""
+        out = {name}
+        v = alias.get(name)
+        if isinstance(v, str):
+            out.add(v)
+        m = media.get(name)
+        if isinstance(m, dict) and m.get("cn"):
+            out.add(m["cn"])
+        return out
+
+    def owned_already(name):
+        return any(norm(v) in owned for v in variants(name) if v)
+
+    cand = {}
+    def add(name, year, cat, won):
+        if not name or name == "TBD":
+            return
+        key = norm(name)
+        if not key or owned_already(name):
+            return
+        cn = ""
+        mv = media.get(name)
+        if isinstance(mv, dict):
+            cn = mv.get("cn") or ""
+        if not cn and isinstance(alias.get(name), str):
+            cn = alias[name]
+        # 中文名质量兜底：维基偶尔给「XX系列」「XX列表」，宁可不显示
+        if cn and (len(cn) > 18 or re.search(r"系列|列表|游戏界|年電子|公司|股份有限公司", cn)):
+            cn = ""
+        c = cand.setdefault(key, {"name": name, "cn": cn, "year": year, "won": [], "nom": []})
+        (c["won"] if won else c["nom"]).append({"year": year, "cat": cat})
+        c["year"] = max(c["year"], year)
+
+    for y in tga.get("years", []):
+        yr = int(y.get("year") or 0)
+        if yr < args.min_year:
+            continue
+        for c in y.get("categories", []):
+            cat = c.get("category")
+            if cat not in KEEP:
+                continue
+            if c.get("winner"):
+                add(c["winner"], yr, cat, True)
+            for n in (c.get("nominees") or []):
+                add(n, yr, cat, False)
+    print("[候选] TGA %d 年起、剔掉库里的，剩 %d 个名字" % (args.min_year, len(cand)))
+
+    # ---- 2) 补 M 站 ----
+    rows = []
+    for i, (k, c) in enumerate(sorted(cand.items(), key=lambda kv: -kv[1]["year"]), 1):
+        info = None
+        if not args.no_mc:
+            info = mc_lookup(c["name"])
+            time.sleep(SLEEP)
+        if not args.allow_unknown and not (info or {}).get("release"):
+            continue          # 查不到发售日 → 没法确认是不是 2017 年后，直接不推
+        if info and info.get("release"):
+            ry = int(info["release"][:4])
+            if ry < args.min_year:
+                continue
+            c["release"] = info["release"]
+        c["metacritic"] = (info or {}).get("score")
+        c["genres"] = [genre_cn(g) for g in ((info or {}).get("genres") or [])]
+        c["platforms"] = (info or {}).get("platforms") or []
+        rows.append(c)
+        if args.no_mc is False and i % 20 == 0:
+            print(f"  ...M 站 {i}/{len(cand)}")
+
+    # ---- 3) 打分 ----
+    GOTY = {"年度游戏"}
+    out = []
+    for c in rows:
+        won_cats = {x["cat"] for x in c["won"]}
+        nom_cats = {x["cat"] for x in c["nom"]}
+        if "年度游戏" in won_cats:
+            tier, tier_txt = 1.0, "TGA 年度游戏"
+        elif won_cats:
+            tier, tier_txt = 0.62, "TGA 获奖（%s）" % "、".join(sorted(won_cats)[:2])
+        elif "年度游戏" in nom_cats:
+            tier, tier_txt = 0.5, "TGA 年度游戏提名"
+        else:
+            tier, tier_txt = 0.28, "TGA 提名（%s）" % "、".join(sorted(nom_cats)[:2])
+
+        mc = c.get("metacritic") or 0
+        s_mc = max(0.0, min(1.0, (mc - 70) / 25)) if mc else 0.35
+
+        hit = [g for g in c.get("genres", []) if prof.get(g)]
+        s_genre = min(1.0, sum(prof[g] for g in hit) * 2.2) if hit else 0.15
+
+        score = tier * 40 + s_mc * 35 + s_genre * 25
+
+        why = [tier_txt]
+        if mc:
+            why.append(f"M 站 {mc}")
+        if hit:
+            why.append("你常玩的：" + "、".join(hit[:3]))
+        if c.get("release"):
+            why.append(f"{c['release'][:4]} 年发售")
+        out.append({**c, "score": round(score, 1), "why": why, "tier": round(tier, 2)})
+
+    out.sort(key=lambda x: -x["score"])
+    out = out[:args.limit]
+
+    doc = {
+        "updated": date.today().isoformat(),
+        "basis": {
+            "minYear": args.min_year,
+            "library": len(games) + len(extra),
+            "topGenres": [{"genre": k, "share": round(v, 3)} for k, v in top],
+            "source": "TGA 2017–2025 获奖与年度游戏提名 + Metacritic",
+        },
+        "items": out,
+    }
+    path = os.path.join(D, "recommend.json")
+    json.dump(doc, open(path + ".tmp", "w"), ensure_ascii=False, indent=1)
+    os.replace(path + ".tmp", path)
+    print(f"完成：推荐 {len(out)} 条 → {path}")
+    for r in out[:12]:
+        print(f"  {r['score']:>5} {r['name'][:38]:<40} M{r.get('metacritic') or '-':<4} {r['why'][0]}")
+
+
+if __name__ == "__main__":
+    main()

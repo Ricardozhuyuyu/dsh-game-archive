@@ -1,0 +1,3388 @@
+{
+ "updated": "2026-11-26",
+ "source": "https://en.wikipedia.org/wiki/The_Game_Awards_<YEAR>",
+ "years": [
+  {
+   "year": 2014,
+   "categories": [
+    {
+     "category": "年度游戏",
+     "categoryEn": "Game of the Year",
+     "winner": "Dragon Age: Inquisition",
+     "nominees": [
+      "Bayonetta 2",
+      "Dark Souls II",
+      "Hearthstone",
+      "Middle-earth: Shadow of Mordor"
+     ]
+    },
+    {
+     "category": "年度最佳开发商",
+     "categoryEn": "Developer of the Year",
+     "winner": "Nintendo",
+     "nominees": [
+      "Blizzard Entertainment",
+      "Monolith Productions",
+      "Telltale Games",
+      "Ubisoft Montreal"
+     ]
+    },
+    {
+     "category": "最佳独立游戏",
+     "categoryEn": "Best Independent Game",
+     "winner": "Shovel Knight",
+     "nominees": [
+      "Broken Age Act I",
+      "Monument Valley",
+      "Transistor",
+      "The Vanishing of Ethan Carter"
+     ]
+    },
+    {
+     "category": "最佳移动/掌机游戏",
+     "categoryEn": "Best Mobile/Handheld Game",
+     "winner": "Hearthstone",
+     "nominees": [
+      "Bravely Default",
+      "Monument Valley",
+      "Super Smash Bros. for Nintendo 3DS",
+      "Threes"
+     ]
+    },
+    {
+     "category": "最佳叙事",
+     "categoryEn": "Best Narrative",
+     "winner": "Valiant Hearts: The Great War",
+     "nominees": [
+      "South Park: The Stick of Truth",
+      "The Walking Dead: Season Two",
+      "The Wolf Among Us",
+      "Wolfenstein: The New Order"
+     ]
+    },
+    {
+     "category": "最佳配乐/原声",
+     "categoryEn": "Best Score/Soundtrack",
+     "winner": "Destiny",
+     "nominees": [
+      "Alien: Isolation",
+      "Child of Light",
+      "Sunset Overdrive",
+      "Transistor"
+     ]
+    },
+    {
+     "category": "最佳演出",
+     "categoryEn": "Best Performance",
+     "winner": "Trey Parker as Various Voices",
+     "nominees": [
+      "Adam Harrington as Bigby Wolf",
+      "Kevin Spacey as Jonathan Irons",
+      "Melissa Hutchison as Clementine",
+      "Troy Baker as Talion"
+     ]
+    },
+    {
+     "category": "最具影响力游戏",
+     "categoryEn": "Games for Change",
+     "winner": "Valiant Hearts: The Great War",
+     "nominees": [
+      "Mountain",
+      "Never Alone",
+      "The Last of Us: Left Behind",
+      "This War of Mine"
+     ]
+    },
+    {
+     "category": "最佳射击游戏",
+     "categoryEn": "Best Shooter",
+     "winner": "Far Cry 4",
+     "nominees": [
+      "Call of Duty: Advanced Warfare",
+      "Destiny",
+      "Titanfall",
+      "Wolfenstein: The New Order"
+     ]
+    },
+    {
+     "category": "最佳动作冒险游戏",
+     "categoryEn": "Best Action/Adventure",
+     "winner": "Middle-earth: Shadow of Mordor",
+     "nominees": [
+      "Assassin's Creed Unity",
+      "Alien: Isolation",
+      "Bayonetta 2",
+      "Sunset Overdrive"
+     ]
+    },
+    {
+     "category": "最佳角色扮演游戏",
+     "categoryEn": "Best Role Playing Game",
+     "winner": "Dragon Age: Inquisition",
+     "nominees": [
+      "Bravely Default",
+      "Dark Souls II",
+      "Divinity: Original Sin",
+      "South Park: The Stick of Truth"
+     ]
+    },
+    {
+     "category": "最佳格斗游戏",
+     "categoryEn": "Best Fighting Game",
+     "winner": "Super Smash Bros. for Wii U",
+     "nominees": [
+      "Killer Instinct: Season Two",
+      "Persona 4 Arena Ultimax",
+      "Super Smash Bros. for Nintendo 3DS",
+      "Ultra Street Fighter IV"
+     ]
+    },
+    {
+     "category": "最佳家庭游戏",
+     "categoryEn": "Best Family Game",
+     "winner": "Mario Kart 8",
+     "nominees": [
+      "Disney Infinity: Marvel Super Heroes",
+      "Fantasia: Music Evolved",
+      "Skylanders: Trap Team",
+      "Tomodachi Life"
+     ]
+    },
+    {
+     "category": "最佳体育竞速游戏",
+     "categoryEn": "Best Sports/Racing Game",
+     "winner": "Mario Kart 8",
+     "nominees": [
+      "FIFA 15",
+      "Forza Horizon 2",
+      "NBA 2K15",
+      "Trials Fusion"
+     ]
+    },
+    {
+     "category": "最佳在线体验",
+     "categoryEn": "Best Online Experience",
+     "winner": "Destiny",
+     "nominees": [
+      "Call of Duty: Advanced Warfare",
+      "Dark Souls II",
+      "Hearthstone",
+      "Titanfall"
+     ]
+    },
+    {
+     "category": "最佳重制游戏",
+     "categoryEn": "Best Remaster",
+     "winner": "Grand Theft Auto V",
+     "nominees": [
+      "Halo: The Master Chief Collection",
+      "Pokémon Omega Ruby and Alpha Sapphire",
+      "The Last of Us Remastered",
+      "Tomb Raider: Definitive Edition"
+     ]
+    }
+   ]
+  },
+  {
+   "year": 2015,
+   "categories": [
+    {
+     "category": "年度游戏",
+     "categoryEn": "Game of the Year",
+     "winner": "The Witcher 3: Wild Hunt",
+     "nominees": [
+      "Bloodborne",
+      "Fallout 4",
+      "Metal Gear Solid V: The Phantom Pain",
+      "Super Mario Maker"
+     ]
+    },
+    {
+     "category": "年度最佳开发商",
+     "categoryEn": "Developer of the Year",
+     "winner": "CD Projekt Red",
+     "nominees": [
+      "Bethesda Game Studios",
+      "FromSoftware",
+      "Kojima Productions",
+      "Nintendo"
+     ]
+    },
+    {
+     "category": "最佳独立游戏",
+     "categoryEn": "Best Independent Game",
+     "winner": "Rocket League",
+     "nominees": [
+      "Axiom Verge",
+      "Her Story",
+      "Ori and the Blind Forest",
+      "Undertale"
+     ]
+    },
+    {
+     "category": "最佳移动/掌机游戏",
+     "categoryEn": "Best Mobile/Handheld Game",
+     "winner": "Lara Croft Go",
+     "nominees": [
+      "Downwell",
+      "Fallout Shelter",
+      "Monster Hunter 4 Ultimate",
+      "Pac-Man 256"
+     ]
+    },
+    {
+     "category": "最佳叙事",
+     "categoryEn": "Best Narrative",
+     "winner": "Her Story",
+     "nominees": [
+      "Life Is Strange",
+      "Tales from the Borderlands",
+      "The Witcher 3: Wild Hunt",
+      "Until Dawn"
+     ]
+    },
+    {
+     "category": "最佳美术指导",
+     "categoryEn": "Best Art Direction",
+     "winner": "Ori and the Blind Forest",
+     "nominees": [
+      "Batman: Arkham Knight",
+      "Bloodborne",
+      "Metal Gear Solid V: The Phantom Pain",
+      "The Witcher 3: Wild Hunt"
+     ]
+    },
+    {
+     "category": "最佳配乐/原声",
+     "categoryEn": "Best Score/Soundtrack",
+     "winner": "Metal Gear Solid V: The Phantom Pain",
+     "nominees": [
+      "Fallout 4",
+      "Halo 5: Guardians",
+      "Ori and the Blind Forest",
+      "The Witcher 3: Wild Hunt"
+     ]
+    },
+    {
+     "category": "最佳演出",
+     "categoryEn": "Best Performance",
+     "winner": "Viva Seifert as Hannah Smith",
+     "nominees": [
+      "Ashly Burch as Chloe Price",
+      "Camilla Luddington as Lara Croft",
+      "Doug Cockle as Geralt of Rivia",
+      "Mark Hamill as the Joker"
+     ]
+    },
+    {
+     "category": "最具影响力游戏",
+     "categoryEn": "Games for Impact",
+     "winner": "Life Is Strange",
+     "nominees": [
+      "Cibele",
+      "Her Story",
+      "Sunset",
+      "Undertale"
+     ]
+    },
+    {
+     "category": "最佳射击游戏",
+     "categoryEn": "Best Shooter",
+     "winner": "Splatoon",
+     "nominees": [
+      "Call of Duty: Black Ops III",
+      "Destiny: The Taken King",
+      "Halo 5: Guardians",
+      "Star Wars Battlefront"
+     ]
+    },
+    {
+     "category": "最佳动作冒险游戏",
+     "categoryEn": "Best Action/Adventure",
+     "winner": "Metal Gear Solid V: The Phantom Pain",
+     "nominees": [
+      "Assassin's Creed Syndicate",
+      "Batman: Arkham Knight",
+      "Ori and the Blind Forest",
+      "Rise of the Tomb Raider"
+     ]
+    },
+    {
+     "category": "最佳角色扮演游戏",
+     "categoryEn": "Best Role Playing Game",
+     "winner": "The Witcher 3: Wild Hunt",
+     "nominees": [
+      "Bloodborne",
+      "Fallout 4",
+      "Pillars of Eternity",
+      "Undertale"
+     ]
+    },
+    {
+     "category": "最佳格斗游戏",
+     "categoryEn": "Best Fighting Game",
+     "winner": "Mortal Kombat X",
+     "nominees": [
+      "Guilty Gear Xrd –SIGN–",
+      "Rise of Incarnates",
+      "Rising Thunder"
+     ]
+    },
+    {
+     "category": "最佳家庭游戏",
+     "categoryEn": "Best Family Game",
+     "winner": "Super Mario Maker",
+     "nominees": [
+      "Disney Infinity 3.0",
+      "Lego Dimensions",
+      "Skylanders: SuperChargers",
+      "Splatoon"
+     ]
+    },
+    {
+     "category": "最佳体育竞速游戏",
+     "categoryEn": "Best Sports/Racing Game",
+     "winner": "Rocket League",
+     "nominees": [
+      "FIFA 16",
+      "Forza Motorsport 6",
+      "NBA 2K16",
+      "Pro Evolution Soccer 2016"
+     ]
+    },
+    {
+     "category": "最佳多人游戏",
+     "categoryEn": "Best Multiplayer",
+     "winner": "Splatoon",
+     "nominees": [
+      "Call of Duty: Black Ops III",
+      "Destiny: The Taken King",
+      "Halo 5: Guardians",
+      "Rocket League"
+     ]
+    }
+   ]
+  },
+  {
+   "year": 2016,
+   "categories": [
+    {
+     "category": "年度游戏",
+     "categoryEn": "Game of the Year",
+     "winner": "Overwatch",
+     "nominees": [
+      "Doom",
+      "Inside",
+      "Titanfall 2",
+      "Uncharted 4: A Thief's End"
+     ]
+    },
+    {
+     "category": "最佳游戏指导",
+     "categoryEn": "Best Game Direction",
+     "winner": "Overwatch",
+     "nominees": [
+      "Battlefield 1",
+      "Doom",
+      "Titanfall 2",
+      "Uncharted 4: A Thief's End"
+     ]
+    },
+    {
+     "category": "最佳叙事",
+     "categoryEn": "Best Narrative",
+     "winner": "Uncharted 4: A Thief's End",
+     "nominees": [
+      "Firewatch",
+      "Inside",
+      "Mafia III",
+      "Oxenfree"
+     ]
+    },
+    {
+     "category": "最佳美术指导",
+     "categoryEn": "Best Art Direction",
+     "winner": "Inside",
+     "nominees": [
+      "Abzû",
+      "Firewatch",
+      "Overwatch",
+      "Uncharted 4: A Thief's End"
+     ]
+    },
+    {
+     "category": "最佳音乐/音效设计",
+     "categoryEn": "Best Music/Sound Design",
+     "winner": "Doom",
+     "nominees": [
+      "Battlefield 1",
+      "Inside",
+      "Rez Infinite",
+      "Thumper"
+     ]
+    },
+    {
+     "category": "最佳演出",
+     "categoryEn": "Best Performance",
+     "winner": "Nolan North as Nathan Drake",
+     "nominees": [
+      "Alex Hernandez as Lincoln Clay",
+      "Cissy Jones as Delilah",
+      "Emily Rose as Elena Fisher",
+      "Rich Sommer as Henry",
+      "Troy Baker as Sam Drake"
+     ]
+    },
+    {
+     "category": "最具影响力游戏",
+     "categoryEn": "Games for Impact",
+     "winner": "That Dragon, Cancer",
+     "nominees": [
+      "Block'hood",
+      "Orwell",
+      "Sea Hero Quest",
+      "1979 Revolution: Black Friday"
+     ]
+    },
+    {
+     "category": "最佳独立游戏",
+     "categoryEn": "Best Independent Game",
+     "winner": "Inside",
+     "nominees": [
+      "Firewatch",
+      "Hyper Light Drifter",
+      "Stardew Valley",
+      "The Witness"
+     ]
+    },
+    {
+     "category": "最佳移动/掌机游戏",
+     "categoryEn": "Best Mobile/Handheld Game",
+     "winner": "Pokémon Go",
+     "nominees": [
+      "Clash Royale",
+      "Fire Emblem Fates",
+      "Monster Hunter Generations",
+      "Severed"
+     ]
+    },
+    {
+     "category": "最佳VR游戏",
+     "categoryEn": "Best VR Game",
+     "winner": "Rez Infinite",
+     "nominees": [
+      "Batman: Arkham VR",
+      "Eve: Valkyrie",
+      "Job Simulator",
+      "Thumper"
+     ]
+    },
+    {
+     "category": "最佳动作游戏",
+     "categoryEn": "Best Action Game",
+     "winner": "Doom",
+     "nominees": [
+      "Battlefield 1",
+      "Gears of War 4",
+      "Overwatch",
+      "Titanfall 2"
+     ]
+    },
+    {
+     "category": "最佳动作冒险游戏",
+     "categoryEn": "Best Action/Adventure",
+     "winner": "Dishonored 2",
+     "nominees": [
+      "Hitman",
+      "Hyper Light Drifter",
+      "Ratchet & Clank",
+      "Uncharted 4: A Thief's End"
+     ]
+    },
+    {
+     "category": "最佳角色扮演游戏",
+     "categoryEn": "Best Role Playing Game",
+     "winner": "The Witcher 3: Wild Hunt",
+     "nominees": [
+      "Dark Souls III",
+      "Deus Ex: Mankind Divided",
+      "World of Warcraft: Legion",
+      "Xenoblade Chronicles X"
+     ]
+    },
+    {
+     "category": "最佳格斗游戏",
+     "categoryEn": "Best Fighting Game",
+     "winner": "Street Fighter V",
+     "nominees": [
+      "Killer Instinct Season Three",
+      "The King of Fighters XIV",
+      "Pokkén Tournament"
+     ]
+    },
+    {
+     "category": "最佳策略游戏",
+     "categoryEn": "Best Strategy Game",
+     "winner": "Civilization VI",
+     "nominees": [
+      "Fire Emblem Fates",
+      "The Banner Saga 2",
+      "Total War: Warhammer",
+      "XCOM 2"
+     ]
+    },
+    {
+     "category": "最佳家庭游戏",
+     "categoryEn": "Best Family Game",
+     "winner": "Pokémon Go",
+     "nominees": [
+      "Dragon Quest Builders",
+      "Lego Star Wars: The Force Awakens",
+      "Ratchet & Clank",
+      "Skylanders: Imaginators"
+     ]
+    },
+    {
+     "category": "最佳体育竞速游戏",
+     "categoryEn": "Best Sports/Racing Game",
+     "winner": "Forza Horizon 3",
+     "nominees": [
+      "FIFA 17",
+      "MLB The Show 16",
+      "NBA 2K17",
+      "Pro Evolution Soccer 2017"
+     ]
+    },
+    {
+     "category": "最佳多人游戏",
+     "categoryEn": "Best Multiplayer",
+     "winner": "Overwatch",
+     "nominees": [
+      "Battlefield 1",
+      "Gears of War 4",
+      "Overcooked",
+      "Titanfall 2",
+      "Tom Clancy's Rainbow Six Siege"
+     ]
+    }
+   ]
+  },
+  {
+   "year": 2017,
+   "categories": [
+    {
+     "category": "年度游戏",
+     "categoryEn": "Game of the Year",
+     "winner": "The Legend of Zelda: Breath of the Wild",
+     "nominees": [
+      "Horizon Zero Dawn",
+      "Persona 5",
+      "PlayerUnknown's Battlegrounds",
+      "Super Mario Odyssey"
+     ]
+    },
+    {
+     "category": "最佳游戏指导",
+     "categoryEn": "Best Game Direction",
+     "winner": "The Legend of Zelda: Breath of the Wild",
+     "nominees": [
+      "Horizon Zero Dawn",
+      "Resident Evil 7: Biohazard",
+      "Super Mario Odyssey",
+      "Wolfenstein II: The New Colossus"
+     ]
+    },
+    {
+     "category": "最佳叙事",
+     "categoryEn": "Best Narrative",
+     "winner": "What Remains of Edith Finch",
+     "nominees": [
+      "Hellblade: Senua's Sacrifice",
+      "Horizon Zero Dawn",
+      "Nier: Automata",
+      "Wolfenstein II: The New Colossus"
+     ]
+    },
+    {
+     "category": "最佳美术指导",
+     "categoryEn": "Best Art Direction",
+     "winner": "Cuphead",
+     "nominees": [
+      "Destiny 2",
+      "Horizon Zero Dawn",
+      "Persona 5",
+      "The Legend of Zelda: Breath of the Wild"
+     ]
+    },
+    {
+     "category": "最佳配乐",
+     "categoryEn": "Best Score/Music",
+     "winner": "Nier: Automata",
+     "nominees": [
+      "Cuphead",
+      "Destiny 2",
+      "Persona 5",
+      "Super Mario Odyssey",
+      "The Legend of Zelda: Breath of the Wild"
+     ]
+    },
+    {
+     "category": "最佳音效设计",
+     "categoryEn": "Best Audio Design",
+     "winner": "Hellblade: Senua's Sacrifice",
+     "nominees": [
+      "Destiny 2",
+      "Resident Evil 7: Biohazard",
+      "Super Mario Odyssey",
+      "The Legend of Zelda: Breath of the Wild"
+     ]
+    },
+    {
+     "category": "最佳演出",
+     "categoryEn": "Best Performance",
+     "winner": "Melina Juergens as Senua",
+     "nominees": [
+      "Ashly Burch as Aloy",
+      "Brian Bloom as B.J. Blazkowicz",
+      "Claudia Black as Chloe Frazer",
+      "Laura Bailey as Nadine Ross"
+     ]
+    },
+    {
+     "category": "最具影响力游戏",
+     "categoryEn": "Games for Impact",
+     "winner": "Hellblade: Senua's Sacrifice",
+     "nominees": [
+      "Bury Me, My Love",
+      "Life Is Strange: Before the Storm",
+      "Night in the Woods",
+      "Please Knock on My Door",
+      "What Remains of Edith Finch"
+     ]
+    },
+    {
+     "category": "最佳持续运营游戏",
+     "categoryEn": "Best Ongoing Game",
+     "winner": "Overwatch",
+     "nominees": [
+      "Destiny 2",
+      "Grand Theft Auto Online",
+      "PlayerUnknown's Battlegrounds",
+      "Tom Clancy's Rainbow Six Siege",
+      "Warframe"
+     ]
+    },
+    {
+     "category": "最佳独立游戏",
+     "categoryEn": "Best Independent Game",
+     "winner": "Cuphead",
+     "nominees": [
+      "Hellblade: Senua's Sacrifice",
+      "Night in the Woods",
+      "Pyre",
+      "What Remains of Edith Finch"
+     ]
+    },
+    {
+     "category": "最佳移动游戏",
+     "categoryEn": "Best Mobile Game",
+     "winner": "Monument Valley 2",
+     "nominees": [
+      "Fire Emblem Heroes",
+      "Hidden Folks",
+      "Old Man's Journey",
+      "Super Mario Run"
+     ]
+    },
+    {
+     "category": "最佳掌机游戏",
+     "categoryEn": "Best Handheld Game",
+     "winner": "Metroid: Samus Returns",
+     "nominees": [
+      "Ever Oasis",
+      "Fire Emblem Echoes: Shadows of Valentia",
+      "Monster Hunter Stories",
+      "Poochy and Yoshi's Woolly World"
+     ]
+    },
+    {
+     "category": "最佳 VR/AR 游戏",
+     "categoryEn": "Best VR/AR Game",
+     "winner": "Resident Evil 7: Biohazard",
+     "nominees": [
+      "Farpoint",
+      "Lone Echo",
+      "Star Trek: Bridge Crew",
+      "Superhot VR"
+     ]
+    },
+    {
+     "category": "最佳动作游戏",
+     "categoryEn": "Best Action Game",
+     "winner": "Wolfenstein II: The New Colossus",
+     "nominees": [
+      "Cuphead",
+      "Destiny 2",
+      "Nioh",
+      "Prey"
+     ]
+    },
+    {
+     "category": "最佳动作冒险游戏",
+     "categoryEn": "Best Action/Adventure",
+     "winner": "The Legend of Zelda: Breath of the Wild",
+     "nominees": [
+      "Assassin's Creed: Origins",
+      "Horizon Zero Dawn",
+      "Super Mario Odyssey",
+      "Uncharted: The Lost Legacy"
+     ]
+    },
+    {
+     "category": "最佳角色扮演游戏",
+     "categoryEn": "Best Role Playing Game",
+     "winner": "Persona 5",
+     "nominees": [
+      "Divinity: Original Sin II",
+      "Final Fantasy XV",
+      "Nier: Automata",
+      "South Park: The Fractured but Whole"
+     ]
+    },
+    {
+     "category": "最佳格斗游戏",
+     "categoryEn": "Best Fighting Game",
+     "winner": "Injustice 2",
+     "nominees": [
+      "ARMS",
+      "Marvel vs. Capcom: Infinite",
+      "Nidhogg 2",
+      "Tekken 7"
+     ]
+    },
+    {
+     "category": "最佳家庭游戏",
+     "categoryEn": "Best Family Game",
+     "winner": "Super Mario Odyssey",
+     "nominees": [
+      "Mario Kart 8 Deluxe",
+      "Mario + Rabbids Kingdom Battle",
+      "Sonic Mania",
+      "Splatoon 2"
+     ]
+    },
+    {
+     "category": "最佳策略游戏",
+     "categoryEn": "Best Strategy Game",
+     "winner": "Mario + Rabbids Kingdom Battle",
+     "nominees": [
+      "Halo Wars 2",
+      "Total War: Warhammer II",
+      "Tooth and Tail",
+      "XCOM 2: War of the Chosen"
+     ]
+    },
+    {
+     "category": "最佳体育竞速游戏",
+     "categoryEn": "Best Sports/Racing Game",
+     "winner": "Forza Motorsport 7",
+     "nominees": [
+      "FIFA 18",
+      "Gran Turismo Sport",
+      "NBA 2K18",
+      "Pro Evolution Soccer 2018",
+      "Project Cars 2"
+     ]
+    },
+    {
+     "category": "最佳多人游戏",
+     "categoryEn": "Best Multiplayer",
+     "winner": "PlayerUnknown's Battlegrounds",
+     "nominees": [
+      "Call of Duty: WWII",
+      "Destiny 2",
+      "Fortnite",
+      "Mario Kart 8 Deluxe",
+      "Splatoon 2"
+     ]
+    },
+    {
+     "category": "学生游戏奖",
+     "categoryEn": "Student Game Award",
+     "winner": "Level Squared",
+     "nominees": [
+      "Falling Sky",
+      "From Light",
+      "Hollowed",
+      "Impulsion",
+      "Meaning"
+     ]
+    },
+    {
+     "category": "最佳新晋独立游戏",
+     "categoryEn": "Best Debut Indie Game",
+     "winner": "Cuphead",
+     "nominees": [
+      "Golf Story",
+      "Hollow Knight",
+      "Mr. Shifty",
+      "Slime Rancher"
+     ]
+    }
+   ]
+  },
+  {
+   "year": 2018,
+   "categories": [
+    {
+     "category": "年度游戏",
+     "categoryEn": "Game of the Year",
+     "winner": "God of War",
+     "nominees": [
+      "Assassin's Creed Odyssey",
+      "Celeste",
+      "Marvel's Spider-Man",
+      "Monster Hunter: World",
+      "Red Dead Redemption 2"
+     ]
+    },
+    {
+     "category": "最佳游戏指导",
+     "categoryEn": "Best Game Direction",
+     "winner": "God of War",
+     "nominees": [
+      "A Way Out",
+      "Detroit: Become Human",
+      "Marvel's Spider-Man",
+      "Red Dead Redemption 2"
+     ]
+    },
+    {
+     "category": "最佳叙事",
+     "categoryEn": "Best Narrative",
+     "winner": "Red Dead Redemption 2",
+     "nominees": [
+      "Detroit: Become Human",
+      "God of War",
+      "Life Is Strange 2: Episode 1",
+      "Marvel's Spider-Man"
+     ]
+    },
+    {
+     "category": "最佳美术指导",
+     "categoryEn": "Best Art Direction",
+     "winner": "Return of the Obra Dinn",
+     "nominees": [
+      "Assassin's Creed Odyssey",
+      "God of War",
+      "Red Dead Redemption 2",
+      "Octopath Traveler"
+     ]
+    },
+    {
+     "category": "最佳配乐",
+     "categoryEn": "Best Score/Music",
+     "winner": "Red Dead Redemption 2",
+     "nominees": [
+      "Celeste",
+      "God of War",
+      "Marvel's Spider-Man",
+      "Ni no Kuni II: Revenant Kingdom",
+      "Octopath Traveler"
+     ]
+    },
+    {
+     "category": "最佳音效设计",
+     "categoryEn": "Best Audio Design",
+     "winner": "Red Dead Redemption 2",
+     "nominees": [
+      "Call of Duty: Black Ops 4",
+      "Forza Horizon 4",
+      "God of War",
+      "Marvel's Spider-Man"
+     ]
+    },
+    {
+     "category": "最佳演出",
+     "categoryEn": "Best Performance",
+     "winner": "Roger Clark as Arthur Morgan",
+     "nominees": [
+      "Bryan Dechart as Connor",
+      "Christopher Judge as Kratos",
+      "Yuri Lowenthal as Spider-Man",
+      "Melissanthi Mahut as Kassandra"
+     ]
+    },
+    {
+     "category": "最具影响力游戏",
+     "categoryEn": "Games for Impact",
+     "winner": "Celeste",
+     "nominees": [
+      "11-11: Memories Retold",
+      "Florence",
+      "Life Is Strange 2: Episode 1",
+      "The Missing: J.J. Macfield and the Island of Memories"
+     ]
+    },
+    {
+     "category": "最佳持续运营游戏",
+     "categoryEn": "Best Ongoing Game",
+     "winner": "Fortnite",
+     "nominees": [
+      "Destiny 2: Forsaken",
+      "No Man's Sky",
+      "Overwatch",
+      "Tom Clancy's Rainbow Six Siege"
+     ]
+    },
+    {
+     "category": "最佳独立游戏",
+     "categoryEn": "Best Independent Game",
+     "winner": "Celeste",
+     "nominees": [
+      "Dead Cells",
+      "Into the Breach",
+      "The Messenger",
+      "Return of the Obra Dinn"
+     ]
+    },
+    {
+     "category": "最佳移动游戏",
+     "categoryEn": "Best Mobile Game",
+     "winner": "Florence",
+     "nominees": [
+      "Donut County",
+      "Fortnite",
+      "PUBG Mobile",
+      "Reigns: Game of Thrones"
+     ]
+    },
+    {
+     "category": "最佳 VR/AR 游戏",
+     "categoryEn": "Best VR/AR Game",
+     "winner": "Astro Bot Rescue Mission",
+     "nominees": [
+      "Beat Saber",
+      "Firewall: Zero Hour",
+      "Moss",
+      "Tetris Effect"
+     ]
+    },
+    {
+     "category": "最佳动作游戏",
+     "categoryEn": "Best Action Game",
+     "winner": "Dead Cells",
+     "nominees": [
+      "Call of Duty: Black Ops 4",
+      "Destiny 2: Forsaken",
+      "Far Cry 5",
+      "Mega Man 11"
+     ]
+    },
+    {
+     "category": "最佳动作冒险游戏",
+     "categoryEn": "Best Action/Adventure Game",
+     "winner": "God of War",
+     "nominees": [
+      "Assassin's Creed Odyssey",
+      "Marvel's Spider-Man",
+      "Red Dead Redemption 2",
+      "Shadow of the Tomb Raider"
+     ]
+    },
+    {
+     "category": "最佳角色扮演游戏",
+     "categoryEn": "Best Role Playing Game",
+     "winner": "Monster Hunter: World",
+     "nominees": [
+      "Dragon Quest XI",
+      "Ni no Kuni II: Revenant Kingdom",
+      "Octopath Traveler",
+      "Pillars of Eternity II: Deadfire"
+     ]
+    },
+    {
+     "category": "最佳格斗游戏",
+     "categoryEn": "Best Fighting Game",
+     "winner": "Dragon Ball FighterZ",
+     "nominees": [
+      "BlazBlue: Cross Tag Battle",
+      "Soulcalibur VI",
+      "Street Fighter V: Arcade Edition"
+     ]
+    },
+    {
+     "category": "最佳家庭游戏",
+     "categoryEn": "Best Family Game",
+     "winner": "Overcooked 2",
+     "nominees": [
+      "Mario Tennis Aces",
+      "Nintendo Labo",
+      "Starlink: Battle for Atlas",
+      "Super Mario Party"
+     ]
+    },
+    {
+     "category": "最佳策略游戏",
+     "categoryEn": "Best Strategy Game",
+     "winner": "Into the Breach",
+     "nominees": [
+      "The Banner Saga 3",
+      "BattleTech",
+      "Frostpunk",
+      "Valkyria Chronicles 4"
+     ]
+    },
+    {
+     "category": "最佳体育竞速游戏",
+     "categoryEn": "Best Sports/Racing Game",
+     "winner": "Forza Horizon 4",
+     "nominees": [
+      "FIFA 19",
+      "Mario Tennis Aces",
+      "NBA 2K19",
+      "Pro Evolution Soccer 2019"
+     ]
+    },
+    {
+     "category": "最佳多人游戏",
+     "categoryEn": "Best Multiplayer Game",
+     "winner": "Fortnite",
+     "nominees": [
+      "Call of Duty: Black Ops 4",
+      "Destiny 2: Forsaken",
+      "Monster Hunter: World",
+      "Sea of Thieves"
+     ]
+    },
+    {
+     "category": "最佳学生游戏",
+     "categoryEn": "Best Student Game",
+     "winner": "Combat 2018",
+     "nominees": [
+      "Dash Quasar",
+      "JERA",
+      "LIFF",
+      "RE: Charge"
+     ]
+    },
+    {
+     "category": "最佳新晋独立游戏",
+     "categoryEn": "Best Debut Indie Game",
+     "winner": "The Messenger",
+     "nominees": [
+      "Donut County",
+      "Florence",
+      "Moss",
+      "Yoku's Island Express"
+     ]
+    }
+   ]
+  },
+  {
+   "year": 2019,
+   "categories": [
+    {
+     "category": "年度游戏",
+     "categoryEn": "Game of the Year",
+     "winner": "Sekiro: Shadows Die Twice",
+     "nominees": [
+      "Control",
+      "Death Stranding",
+      "The Outer Worlds",
+      "Resident Evil 2",
+      "Super Smash Bros. Ultimate"
+     ]
+    },
+    {
+     "category": "最佳游戏指导",
+     "categoryEn": "Best Game Direction",
+     "winner": "Death Stranding",
+     "nominees": [
+      "Control",
+      "Outer Wilds",
+      "Resident Evil 2",
+      "Sekiro: Shadows Die Twice"
+     ]
+    },
+    {
+     "category": "最佳叙事",
+     "categoryEn": "Best Narrative",
+     "winner": "Disco Elysium",
+     "nominees": [
+      "A Plague Tale: Innocence",
+      "Control",
+      "Death Stranding",
+      "The Outer Worlds"
+     ]
+    },
+    {
+     "category": "最佳美术指导",
+     "categoryEn": "Best Art Direction",
+     "winner": "Control",
+     "nominees": [
+      "Death Stranding",
+      "Gris",
+      "The Legend of Zelda: Link's Awakening",
+      "Sayonara Wild Hearts",
+      "Sekiro: Shadows Die Twice"
+     ]
+    },
+    {
+     "category": "最佳配乐",
+     "categoryEn": "Best Score/Music",
+     "winner": "Death Stranding",
+     "nominees": [
+      "Cadence of Hyrule",
+      "Devil May Cry 5",
+      "Kingdom Hearts III",
+      "Sayonara Wild Hearts"
+     ]
+    },
+    {
+     "category": "最佳音效设计",
+     "categoryEn": "Best Audio Design",
+     "winner": "Call of Duty: Modern Warfare",
+     "nominees": [
+      "Control",
+      "Death Stranding",
+      "Gears 5",
+      "Resident Evil 2",
+      "Sekiro: Shadows Die Twice"
+     ]
+    },
+    {
+     "category": "最佳演出",
+     "categoryEn": "Best Performance",
+     "winner": "Mads Mikkelsen as Cliff",
+     "nominees": [
+      "Laura Bailey as Kait Diaz",
+      "Ashly Burch as Parvati Holcomb",
+      "Courtney Hope as Jesse Faden",
+      "Matthew Porretta as Dr. Casper Darling",
+      "Norman Reedus as Sam Porter Bridges"
+     ]
+    },
+    {
+     "category": "最具影响力游戏",
+     "categoryEn": "Games for Impact",
+     "winner": "Gris",
+     "nominees": [
+      "Concrete Genie",
+      "Kind Words",
+      "Life Is Strange 2",
+      "Sea of Solitude"
+     ]
+    },
+    {
+     "category": "最佳持续运营游戏",
+     "categoryEn": "Best Ongoing Game",
+     "winner": "Fortnite",
+     "nominees": [
+      "Apex Legends",
+      "Destiny 2",
+      "Final Fantasy XIV",
+      "Tom Clancy's Rainbow Six Siege"
+     ]
+    },
+    {
+     "category": "最佳独立游戏",
+     "categoryEn": "Best Independent Game",
+     "winner": "Disco Elysium",
+     "nominees": [
+      "Baba Is You",
+      "Katana Zero",
+      "Outer Wilds",
+      "Untitled Goose Game"
+     ]
+    },
+    {
+     "category": "最佳移动游戏",
+     "categoryEn": "Best Mobile Game",
+     "winner": "Call of Duty: Mobile",
+     "nominees": [
+      "Grindstone",
+      "Sayonara Wild Hearts",
+      "Sky: Children of the Light",
+      "What the Golf?"
+     ]
+    },
+    {
+     "category": "最佳 VR/AR 游戏",
+     "categoryEn": "Best VR/AR Game",
+     "winner": "Beat Saber",
+     "nominees": [
+      "Asgard's Wrath",
+      "Blood & Truth",
+      "No Man's Sky",
+      "Trover Saves the Universe"
+     ]
+    },
+    {
+     "category": "最佳动作游戏",
+     "categoryEn": "Best Action Game",
+     "winner": "Devil May Cry 5",
+     "nominees": [
+      "Apex Legends",
+      "Astral Chain",
+      "Call of Duty: Modern Warfare",
+      "Gears 5",
+      "Metro Exodus"
+     ]
+    },
+    {
+     "category": "最佳动作冒险游戏",
+     "categoryEn": "Best Action/Adventure Game",
+     "winner": "Sekiro: Shadows Die Twice",
+     "nominees": [
+      "Borderlands 3",
+      "Control",
+      "Death Stranding",
+      "The Legend of Zelda: Link's Awakening",
+      "Resident Evil 2"
+     ]
+    },
+    {
+     "category": "最佳角色扮演游戏",
+     "categoryEn": "Best Role Playing Game",
+     "winner": "Disco Elysium",
+     "nominees": [
+      "Final Fantasy XIV",
+      "Kingdom Hearts III",
+      "Monster Hunter World: Iceborne",
+      "The Outer Worlds"
+     ]
+    },
+    {
+     "category": "最佳格斗游戏",
+     "categoryEn": "Best Fighting Game",
+     "winner": "Super Smash Bros. Ultimate",
+     "nominees": [
+      "Dead or Alive 6",
+      "Jump Force",
+      "Mortal Kombat 11",
+      "Samurai Shodown"
+     ]
+    },
+    {
+     "category": "最佳家庭游戏",
+     "categoryEn": "Best Family Game",
+     "winner": "Luigi's Mansion 3",
+     "nominees": [
+      "Ring Fit Adventure",
+      "Super Mario Maker 2",
+      "Super Smash Bros. Ultimate",
+      "Yoshi's Crafted World"
+     ]
+    },
+    {
+     "category": "最佳策略游戏",
+     "categoryEn": "Best Strategy Game",
+     "winner": "Fire Emblem: Three Houses",
+     "nominees": [
+      "Age of Wonders: Planetfall",
+      "Anno 1800",
+      "Total War: Three Kingdoms",
+      "Tropico 6",
+      "Wargroove"
+     ]
+    },
+    {
+     "category": "最佳体育竞速游戏",
+     "categoryEn": "Best Sports/Racing Game",
+     "winner": "Crash Team Racing Nitro-Fueled",
+     "nominees": [
+      "Dirt Rally 2.0",
+      "eFootball Pro Evolution Soccer 2020",
+      "F1 2019",
+      "FIFA 20"
+     ]
+    },
+    {
+     "category": "最佳多人游戏",
+     "categoryEn": "Best Multiplayer Game",
+     "winner": "Apex Legends",
+     "nominees": [
+      "Borderlands 3",
+      "Call of Duty: Modern Warfare",
+      "Tetris 99",
+      "Tom Clancy's The Division 2"
+     ]
+    },
+    {
+     "category": "最佳独立游戏处女作",
+     "categoryEn": "Fresh Indie Game",
+     "winner": "Disco Elysium",
+     "nominees": [
+      "Gris",
+      "My Friend Pedro",
+      "Outer Wilds",
+      "Slay the Spire",
+      "Untitled Goose Game"
+     ]
+    },
+    {
+     "category": "最佳社区支持",
+     "categoryEn": "Best Community Support",
+     "winner": "Destiny 2",
+     "nominees": [
+      "Apex Legends",
+      "Final Fantasy XIV",
+      "Fortnite",
+      "Tom Clancy's Rainbow Six Siege"
+     ]
+    },
+    {
+     "category": "玩家之声",
+     "categoryEn": "Player's Voice",
+     "winner": "Fire Emblem: Three Houses",
+     "nominees": [
+      "Super Smash Bros. Ultimate",
+      "Star Wars Jedi: Fallen Order",
+      "Death Stranding"
+     ]
+    }
+   ]
+  },
+  {
+   "year": 2020,
+   "categories": [
+    {
+     "category": "年度游戏",
+     "categoryEn": "Game of the Year",
+     "winner": "The Last of Us Part II",
+     "nominees": [
+      "Animal Crossing: New Horizons",
+      "Doom Eternal",
+      "Final Fantasy VII Remake",
+      "Ghost of Tsushima",
+      "Hades"
+     ]
+    },
+    {
+     "category": "最佳游戏指导",
+     "categoryEn": "Best Game Direction",
+     "winner": "The Last of Us Part II",
+     "nominees": [
+      "Final Fantasy VII Remake",
+      "Ghost of Tsushima",
+      "Hades",
+      "Half-Life: Alyx"
+     ]
+    },
+    {
+     "category": "最佳叙事",
+     "categoryEn": "Best Narrative",
+     "winner": "The Last of Us Part II",
+     "nominees": [
+      "13 Sentinels: Aegis Rim",
+      "Final Fantasy VII Remake",
+      "Ghost of Tsushima",
+      "Hades"
+     ]
+    },
+    {
+     "category": "最佳美术指导",
+     "categoryEn": "Best Art Direction",
+     "winner": "Ghost of Tsushima",
+     "nominees": [
+      "Final Fantasy VII Remake",
+      "Hades",
+      "The Last of Us Part II",
+      "Ori and the Will of the Wisps"
+     ]
+    },
+    {
+     "category": "最佳配乐",
+     "categoryEn": "Best Score and Music",
+     "winner": "Final Fantasy VII Remake",
+     "nominees": [
+      "Doom Eternal",
+      "Hades",
+      "The Last of Us Part II",
+      "Ori and the Will of the Wisps"
+     ]
+    },
+    {
+     "category": "最佳音效设计",
+     "categoryEn": "Best Audio Design",
+     "winner": "The Last of Us Part II",
+     "nominees": [
+      "Doom Eternal",
+      "Ghost of Tsushima",
+      "Half-Life: Alyx",
+      "Resident Evil 3"
+     ]
+    },
+    {
+     "category": "最佳演出",
+     "categoryEn": "Best Performance",
+     "winner": "Laura Bailey as Abby",
+     "nominees": [
+      "Logan Cunningham as Hades",
+      "Nadji Jeter as Miles Morales",
+      "Ashley Johnson as Ellie",
+      "Daisuke Tsuji as Jin Sakai"
+     ]
+    },
+    {
+     "category": "最具影响力游戏",
+     "categoryEn": "Games for Impact",
+     "winner": "Tell Me Why",
+     "nominees": [
+      "If Found...",
+      "Kentucky Route Zero",
+      "Spiritfarer",
+      "Through the Darkest of Times"
+     ]
+    },
+    {
+     "category": "最佳持续运营游戏",
+     "categoryEn": "Best Ongoing Game",
+     "winner": "No Man's Sky",
+     "nominees": [
+      "Apex Legends",
+      "Call of Duty: Warzone",
+      "Destiny 2",
+      "Fortnite"
+     ]
+    },
+    {
+     "category": "最佳独立游戏",
+     "categoryEn": "Best Indie Game",
+     "winner": "Hades",
+     "nominees": [
+      "Carrion",
+      "Fall Guys",
+      "Spelunky 2",
+      "Spiritfarer"
+     ]
+    },
+    {
+     "category": "最佳移动游戏",
+     "categoryEn": "Best Mobile Game",
+     "winner": "Among Us",
+     "nominees": [
+      "Call of Duty: Mobile",
+      "Genshin Impact",
+      "Legends of Runeterra",
+      "Pokémon Café Mix"
+     ]
+    },
+    {
+     "category": "最佳社区支持",
+     "categoryEn": "Best Community Support",
+     "winner": "Fall Guys",
+     "nominees": [
+      "Apex Legends",
+      "Destiny 2",
+      "Fortnite",
+      "No Man's Sky",
+      "Valorant"
+     ]
+    },
+    {
+     "category": "最佳 VR/AR 游戏",
+     "categoryEn": "Best VR / AR Game",
+     "winner": "Half-Life: Alyx",
+     "nominees": [
+      "Dreams",
+      "Iron Man VR",
+      "Star Wars Squadrons",
+      "The Walking Dead: Saints & Sinners"
+     ]
+    },
+    {
+     "category": "无障碍创新奖",
+     "categoryEn": "Innovation in Accessibility",
+     "winner": "The Last of Us Part II",
+     "nominees": [
+      "Assassin's Creed Valhalla",
+      "Grounded",
+      "HyperDot",
+      "Watch Dogs Legion"
+     ]
+    },
+    {
+     "category": "最佳动作游戏",
+     "categoryEn": "Best Action Game",
+     "winner": "Hades",
+     "nominees": [
+      "Doom Eternal",
+      "Half-Life: Alyx",
+      "Nioh 2",
+      "Streets of Rage 4"
+     ]
+    },
+    {
+     "category": "最佳动作冒险游戏",
+     "categoryEn": "Best Action/Adventure Game",
+     "winner": "The Last of Us Part II",
+     "nominees": [
+      "Assassin's Creed Valhalla",
+      "Ghost of Tsushima",
+      "Ori and the Will of the Wisps",
+      "Spider-Man: Miles Morales",
+      "Star Wars Jedi: Fallen Order"
+     ]
+    },
+    {
+     "category": "最佳角色扮演游戏",
+     "categoryEn": "Best Role Playing Game",
+     "winner": "Final Fantasy VII Remake",
+     "nominees": [
+      "Genshin Impact",
+      "Persona 5 Royal",
+      "Wasteland 3",
+      "Yakuza: Like a Dragon"
+     ]
+    },
+    {
+     "category": "最佳格斗游戏",
+     "categoryEn": "Best Fighting Game",
+     "winner": "Mortal Kombat 11: Ultimate Edition",
+     "nominees": [
+      "Granblue Fantasy Versus",
+      "One-Punch Man: A Hero Nobody Knows",
+      "Street Fighter V Champion Edition",
+      "Under Night In-Birth Exe:Late[cl-r]"
+     ]
+    },
+    {
+     "category": "最佳家庭游戏",
+     "categoryEn": "Best Family Game",
+     "winner": "Animal Crossing: New Horizons",
+     "nominees": [
+      "Crash Bandicoot 4: It's About Time",
+      "Fall Guys",
+      "Mario Kart Live: Home Circuit",
+      "Minecraft Dungeons",
+      "Paper Mario: The Origami King"
+     ]
+    },
+    {
+     "category": "最佳模拟策略游戏",
+     "categoryEn": "Best Sim/Strategy Game",
+     "winner": "Microsoft Flight Simulator",
+     "nominees": [
+      "Crusader Kings III",
+      "Desperados III",
+      "Gears Tactics",
+      "XCOM: Chimera Squad"
+     ]
+    },
+    {
+     "category": "最佳体育竞速游戏",
+     "categoryEn": "Best Sports/Racing Game",
+     "winner": "Tony Hawk's Pro Skater 1 + 2",
+     "nominees": [
+      "Dirt 5",
+      "F1 2020",
+      "FIFA 21",
+      "NBA 2K21"
+     ]
+    },
+    {
+     "category": "最佳多人游戏",
+     "categoryEn": "Best Multiplayer Game",
+     "winner": "Among Us",
+     "nominees": [
+      "Animal Crossing: New Horizons",
+      "Call of Duty: Warzone",
+      "Fall Guys",
+      "Valorant"
+     ]
+    },
+    {
+     "category": "最佳新晋独立游戏",
+     "categoryEn": "Best Debut Game",
+     "winner": "Phasmophobia",
+     "nominees": [
+      "Carrion",
+      "Mortal Shell",
+      "Raji: An Ancient Epic",
+      "Röki"
+     ]
+    },
+    {
+     "category": "最受期待游戏",
+     "categoryEn": "Most Anticipated Game",
+     "winner": "Elden Ring",
+     "nominees": [
+      "God of War sequel",
+      "Halo Infinite",
+      "Horizon Forbidden West",
+      "The Legend of Zelda: Breath of the Wild sequel",
+      "Resident Evil Village"
+     ]
+    },
+    {
+     "category": "玩家之声",
+     "categoryEn": "Player's Voice",
+     "winner": "Ghost of Tsushima",
+     "nominees": [
+      "The Last of Us Part II",
+      "Doom Eternal",
+      "Hades",
+      "Spider-Man: Miles Morales"
+     ]
+    }
+   ]
+  },
+  {
+   "year": 2021,
+   "categories": [
+    {
+     "category": "年度游戏",
+     "categoryEn": "Game of the Year",
+     "winner": "It Takes Two",
+     "nominees": [
+      "Deathloop",
+      "Metroid Dread",
+      "Psychonauts 2",
+      "Ratchet & Clank: Rift Apart",
+      "Resident Evil Village"
+     ]
+    },
+    {
+     "category": "最佳游戏指导",
+     "categoryEn": "Best Game Direction",
+     "winner": "Deathloop",
+     "nominees": [
+      "It Takes Two",
+      "Psychonauts 2",
+      "Ratchet & Clank: Rift Apart",
+      "Returnal"
+     ]
+    },
+    {
+     "category": "最佳叙事",
+     "categoryEn": "Best Narrative",
+     "winner": "Marvel's Guardians of the Galaxy",
+     "nominees": [
+      "Deathloop",
+      "It Takes Two",
+      "Life Is Strange: True Colors",
+      "Psychonauts 2"
+     ]
+    },
+    {
+     "category": "最佳美术指导",
+     "categoryEn": "Best Art Direction",
+     "winner": "Deathloop",
+     "nominees": [
+      "Kena: Bridge of Spirits",
+      "Psychonauts 2",
+      "Ratchet & Clank: Rift Apart",
+      "The Artful Escape"
+     ]
+    },
+    {
+     "category": "最佳配乐",
+     "categoryEn": "Best Score and Music",
+     "winner": "Nier Replicant ver 1.22474487139",
+     "nominees": [
+      "Cyberpunk 2077",
+      "Deathloop",
+      "Marvel's Guardians of the Galaxy",
+      "The Artful Escape"
+     ]
+    },
+    {
+     "category": "最佳音效设计",
+     "categoryEn": "Best Audio Design",
+     "winner": "Forza Horizon 5",
+     "nominees": [
+      "Deathloop",
+      "Ratchet & Clank: Rift Apart",
+      "Resident Evil Village",
+      "Returnal"
+     ]
+    },
+    {
+     "category": "最佳演出",
+     "categoryEn": "Best Performance",
+     "winner": "Maggie Robertson as Lady Dimitrescu",
+     "nominees": [
+      "Erika Mori as Alex Chen",
+      "Giancarlo Esposito as Antón Castillo",
+      "Jason E. Kelley as Colt Vahn",
+      "Ozioma Akagha as Juliana Blake"
+     ]
+    },
+    {
+     "category": "最具影响力游戏",
+     "categoryEn": "Games for Impact",
+     "winner": "Life Is Strange: True Colors",
+     "nominees": [
+      "Before Your Eyes",
+      "Boyfriend Dungeon",
+      "Chicory: A Colorful Tale",
+      "No Longer Home"
+     ]
+    },
+    {
+     "category": "最佳持续运营游戏",
+     "categoryEn": "Best Ongoing Game",
+     "winner": "Final Fantasy XIV",
+     "nominees": [
+      "Apex Legends",
+      "Call of Duty: Warzone",
+      "Fortnite",
+      "Genshin Impact"
+     ]
+    },
+    {
+     "category": "最佳独立游戏",
+     "categoryEn": "Best Independent Game",
+     "winner": "Kena: Bridge of Spirits",
+     "nominees": [
+      "12 Minutes",
+      "Death's Door",
+      "Inscryption",
+      "Loop Hero"
+     ]
+    },
+    {
+     "category": "最佳移动游戏",
+     "categoryEn": "Best Mobile Game",
+     "winner": "Genshin Impact",
+     "nominees": [
+      "Fantasian",
+      "League of Legends: Wild Rift",
+      "Marvel Future Revolution",
+      "Pokémon Unite"
+     ]
+    },
+    {
+     "category": "最佳社区支持",
+     "categoryEn": "Best Community Support",
+     "winner": "Final Fantasy XIV",
+     "nominees": [
+      "Apex Legends",
+      "Destiny 2: Beyond Light",
+      "Fortnite",
+      "No Man's Sky"
+     ]
+    },
+    {
+     "category": "最佳 VR/AR 游戏",
+     "categoryEn": "Best VR / AR Game",
+     "winner": "Resident Evil 4",
+     "nominees": [
+      "Hitman 3",
+      "I Expect You to Die 2: The Spy and the Liar",
+      "Lone Echo II",
+      "Sniper Elite VR"
+     ]
+    },
+    {
+     "category": "无障碍创新奖",
+     "categoryEn": "Innovation in Accessibility",
+     "winner": "Forza Horizon 5",
+     "nominees": [
+      "Far Cry 6",
+      "Marvel's Guardians of the Galaxy",
+      "Ratchet & Clank: Rift Apart",
+      "The Vale: Shadow of the Crown"
+     ]
+    },
+    {
+     "category": "最佳动作游戏",
+     "categoryEn": "Best Action Game",
+     "winner": "Returnal",
+     "nominees": [
+      "Back 4 Blood",
+      "Chivalry II",
+      "Deathloop",
+      "Far Cry 6"
+     ]
+    },
+    {
+     "category": "最佳动作冒险游戏",
+     "categoryEn": "Best Action / Adventure Game",
+     "winner": "Metroid Dread",
+     "nominees": [
+      "Marvel's Guardians of the Galaxy",
+      "Psychonauts 2",
+      "Ratchet & Clank: Rift Apart",
+      "Resident Evil Village"
+     ]
+    },
+    {
+     "category": "最佳角色扮演游戏",
+     "categoryEn": "Best Role Playing Game",
+     "winner": "Tales of Arise",
+     "nominees": [
+      "Cyberpunk 2077",
+      "Monster Hunter Rise",
+      "Scarlet Nexus",
+      "Shin Megami Tensei V"
+     ]
+    },
+    {
+     "category": "最佳格斗游戏",
+     "categoryEn": "Best Fighting Game",
+     "winner": "Guilty Gear Strive",
+     "nominees": [
+      "Demon Slayer: Kimetsu no Yaiba",
+      "Melty Blood: Type Lumina",
+      "Nickelodeon All-Star Brawl",
+      "Virtua Fighter 5: Ultimate Showdown"
+     ]
+    },
+    {
+     "category": "最佳家庭游戏",
+     "categoryEn": "Best Family Game",
+     "winner": "It Takes Two",
+     "nominees": [
+      "Mario Party Superstars",
+      "New Pokémon Snap",
+      "Super Mario 3D World + Bowser's Fury",
+      "WarioWare: Get It Together!"
+     ]
+    },
+    {
+     "category": "最佳体育竞速游戏",
+     "categoryEn": "Best Sports / Racing Game",
+     "winner": "Forza Horizon 5",
+     "nominees": [
+      "F1 2021",
+      "FIFA 22",
+      "Hot Wheels Unleashed",
+      "Riders Republic"
+     ]
+    },
+    {
+     "category": "最佳模拟策略游戏",
+     "categoryEn": "Best Sim / Strategy Game",
+     "winner": "Age of Empires IV",
+     "nominees": [
+      "Evil Genius 2: World Domination",
+      "Humankind",
+      "Inscryption",
+      "Microsoft Flight Simulator"
+     ]
+    },
+    {
+     "category": "最佳多人游戏",
+     "categoryEn": "Best Multiplayer Game",
+     "winner": "It Takes Two",
+     "nominees": [
+      "Back 4 Blood",
+      "Knockout City",
+      "Monster Hunter Rise",
+      "New World",
+      "Valheim"
+     ]
+    },
+    {
+     "category": "最佳新晋独立游戏",
+     "categoryEn": "Best Debut Indie Game",
+     "winner": "Kena: Bridge of Spirits",
+     "nominees": [
+      "Sable",
+      "The Artful Escape",
+      "The Forgotten City",
+      "Valheim"
+     ]
+    },
+    {
+     "category": "最受期待游戏",
+     "categoryEn": "Most Anticipated Game",
+     "winner": "Elden Ring",
+     "nominees": [
+      "God of War Ragnarök",
+      "Horizon Forbidden West",
+      "The Legend of Zelda: Breath of the Wild sequel",
+      "Starfield"
+     ]
+    },
+    {
+     "category": "玩家之声",
+     "categoryEn": "Players' Voice",
+     "winner": "Halo Infinite",
+     "nominees": [
+      "Forza Horizon 5",
+      "It Takes Two",
+      "Metroid Dread",
+      "Resident Evil Village"
+     ]
+    }
+   ]
+  },
+  {
+   "year": 2022,
+   "categories": [
+    {
+     "category": "年度游戏",
+     "categoryEn": "Game of the Year",
+     "winner": "Elden Ring",
+     "nominees": [
+      "A Plague Tale: Requiem",
+      "God of War Ragnarök",
+      "Horizon Forbidden West",
+      "Stray",
+      "Xenoblade Chronicles 3"
+     ]
+    },
+    {
+     "category": "最佳游戏指导",
+     "categoryEn": "Best Game Direction",
+     "winner": "Elden Ring",
+     "nominees": [
+      "God of War Ragnarök",
+      "Horizon Forbidden West",
+      "Immortality",
+      "Stray"
+     ]
+    },
+    {
+     "category": "最佳叙事",
+     "categoryEn": "Best Narrative",
+     "winner": "God of War Ragnarök",
+     "nominees": [
+      "A Plague Tale: Requiem",
+      "Elden Ring",
+      "Horizon Forbidden West",
+      "Immortality"
+     ]
+    },
+    {
+     "category": "最佳美术指导",
+     "categoryEn": "Best Art Direction",
+     "winner": "Elden Ring",
+     "nominees": [
+      "God of War Ragnarök",
+      "Horizon Forbidden West",
+      "Scorn",
+      "Stray"
+     ]
+    },
+    {
+     "category": "最佳配乐",
+     "categoryEn": "Best Score and Music",
+     "winner": "God of War Ragnarök",
+     "nominees": [
+      "A Plague Tale: Requiem",
+      "Elden Ring",
+      "Metal: Hellsinger",
+      "Xenoblade Chronicles 3"
+     ]
+    },
+    {
+     "category": "最佳音效设计",
+     "categoryEn": "Best Audio Design",
+     "winner": "God of War Ragnarök",
+     "nominees": [
+      "Call of Duty: Modern Warfare II",
+      "Elden Ring",
+      "Gran Turismo 7",
+      "Horizon Forbidden West"
+     ]
+    },
+    {
+     "category": "最佳演出",
+     "categoryEn": "Best Performance",
+     "winner": "Christopher Judge as Kratos",
+     "nominees": [
+      "Ashly Burch as Aloy",
+      "Manon Gage as Marissa Marcel",
+      "Charlotte McBurney as Amicia de Rune",
+      "Sunny Suljic as Atreus"
+     ]
+    },
+    {
+     "category": "最具影响力游戏",
+     "categoryEn": "Games for Impact",
+     "winner": "As Dusk Falls",
+     "nominees": [
+      "A Memoir Blue",
+      "Citizen Sleeper",
+      "Endling: Extinction is Forever",
+      "Hindsight",
+      "I Was a Teenage Exocolonist"
+     ]
+    },
+    {
+     "category": "最佳持续运营游戏",
+     "categoryEn": "Best Ongoing Game",
+     "winner": "Final Fantasy XIV",
+     "nominees": [
+      "Apex Legends",
+      "Destiny 2: The Witch Queen",
+      "Fortnite",
+      "Genshin Impact"
+     ]
+    },
+    {
+     "category": "最佳独立游戏",
+     "categoryEn": "Best Independent Game",
+     "winner": "Stray",
+     "nominees": [
+      "Cult of the Lamb",
+      "Neon White",
+      "Sifu",
+      "Tunic"
+     ]
+    },
+    {
+     "category": "最佳移动游戏",
+     "categoryEn": "Best Mobile Game",
+     "winner": "Marvel Snap",
+     "nominees": [
+      "Apex Legends Mobile",
+      "Diablo Immortal",
+      "Genshin Impact",
+      "Tower of Fantasy"
+     ]
+    },
+    {
+     "category": "最佳社区支持",
+     "categoryEn": "Best Community Support",
+     "winner": "Final Fantasy XIV",
+     "nominees": [
+      "Apex Legends",
+      "Destiny 2: The Witch Queen",
+      "Fortnite",
+      "No Man's Sky"
+     ]
+    },
+    {
+     "category": "最佳 VR/AR 游戏",
+     "categoryEn": "Best VR / AR Game",
+     "winner": "Moss: Book II",
+     "nominees": [
+      "After the Fall",
+      "Among Us VR",
+      "Bonelab",
+      "Red Matter 2"
+     ]
+    },
+    {
+     "category": "无障碍创新奖",
+     "categoryEn": "Innovation in Accessibility",
+     "winner": "God of War Ragnarök",
+     "nominees": [
+      "As Dusk Falls",
+      "Return to Monkey Island",
+      "The Last of Us Part I",
+      "The Quarry"
+     ]
+    },
+    {
+     "category": "最佳动作游戏",
+     "categoryEn": "Best Action Game",
+     "winner": "Bayonetta 3",
+     "nominees": [
+      "Call of Duty: Modern Warfare II",
+      "Neon White",
+      "Sifu",
+      "Teenage Mutant Ninja Turtles: Shredder's Revenge"
+     ]
+    },
+    {
+     "category": "最佳动作冒险游戏",
+     "categoryEn": "Best Action/Adventure Game",
+     "winner": "God of War Ragnarök",
+     "nominees": [
+      "A Plague Tale: Requiem",
+      "Horizon Forbidden West",
+      "Stray",
+      "Tunic"
+     ]
+    },
+    {
+     "category": "最佳角色扮演游戏",
+     "categoryEn": "Best Role Playing Game",
+     "winner": "Elden Ring",
+     "nominees": [
+      "Live a Live",
+      "Pokémon Legends: Arceus",
+      "Triangle Strategy",
+      "Xenoblade Chronicles 3"
+     ]
+    },
+    {
+     "category": "最佳格斗游戏",
+     "categoryEn": "Best Fighting Game",
+     "winner": "MultiVersus",
+     "nominees": [
+      "DNF Duel",
+      "JoJo's Bizarre Adventure: All Star Battle R",
+      "The King of Fighters XV",
+      "Sifu"
+     ]
+    },
+    {
+     "category": "最佳家庭游戏",
+     "categoryEn": "Best Family Game",
+     "winner": "Kirby and the Forgotten Land",
+     "nominees": [
+      "Lego Star Wars: The Skywalker Saga",
+      "Mario + Rabbids Sparks of Hope",
+      "Nintendo Switch Sports",
+      "Splatoon 3"
+     ]
+    },
+    {
+     "category": "最佳体育竞速游戏",
+     "categoryEn": "Best Sports/Racing Game",
+     "winner": "Gran Turismo 7",
+     "nominees": [
+      "F1 22",
+      "FIFA 23",
+      "NBA 2K23",
+      "OlliOlli World"
+     ]
+    },
+    {
+     "category": "最佳模拟策略游戏",
+     "categoryEn": "Best Sim/Strategy Game",
+     "winner": "Mario + Rabbids Sparks of Hope",
+     "nominees": [
+      "Dune: Spice Wars",
+      "Total War: Warhammer III",
+      "Two Point Campus",
+      "Victoria 3"
+     ]
+    },
+    {
+     "category": "最佳多人游戏",
+     "categoryEn": "Best Multiplayer Game",
+     "winner": "Splatoon 3",
+     "nominees": [
+      "Call of Duty: Modern Warfare II",
+      "MultiVersus",
+      "Overwatch 2",
+      "Teenage Mutant Ninja Turtles: Shredder's Revenge"
+     ]
+    },
+    {
+     "category": "最佳新晋独立游戏",
+     "categoryEn": "Best Debut Indie Game",
+     "winner": "Stray",
+     "nominees": [
+      "Neon White",
+      "Norco",
+      "Tunic",
+      "Vampire Survivors"
+     ]
+    },
+    {
+     "category": "最受期待游戏",
+     "categoryEn": "Most Anticipated Game",
+     "winner": "The Legend of Zelda: Tears of the Kingdom",
+     "nominees": [
+      "Final Fantasy XVI",
+      "Hogwarts Legacy",
+      "Resident Evil 4",
+      "Starfield"
+     ]
+    },
+    {
+     "category": "最佳改编作品",
+     "categoryEn": "Best Adaptation",
+     "winner": "Arcane (animated series)",
+     "nominees": [
+      "Cyberpunk: Edgerunners (anime series)",
+      "The Cuphead Show! (animated series)",
+      "Sonic the Hedgehog 2 (film)",
+      "Uncharted (film)"
+     ]
+    },
+    {
+     "category": "玩家之声",
+     "categoryEn": "Players' Voice",
+     "winner": "Genshin Impact",
+     "nominees": [
+      "Elden Ring",
+      "God of War Ragnarök",
+      "Sonic Frontiers",
+      "Stray"
+     ]
+    }
+   ]
+  },
+  {
+   "year": 2023,
+   "categories": [
+    {
+     "category": "年度游戏",
+     "categoryEn": "Game of the Year",
+     "winner": "Baldur's Gate 3",
+     "nominees": [
+      "Alan Wake 2",
+      "The Legend of Zelda: Tears of the Kingdom",
+      "Marvel's Spider-Man 2",
+      "Resident Evil 4",
+      "Super Mario Bros. Wonder"
+     ]
+    },
+    {
+     "category": "最佳游戏指导",
+     "categoryEn": "Best Game Direction",
+     "winner": "Alan Wake 2",
+     "nominees": [
+      "Baldur's Gate 3",
+      "The Legend of Zelda: Tears of the Kingdom",
+      "Marvel's Spider-Man 2",
+      "Super Mario Bros. Wonder"
+     ]
+    },
+    {
+     "category": "最佳叙事",
+     "categoryEn": "Best Narrative",
+     "winner": "Alan Wake 2",
+     "nominees": [
+      "Baldur's Gate 3",
+      "Cyberpunk 2077: Phantom Liberty",
+      "Final Fantasy XVI",
+      "Marvel's Spider-Man 2"
+     ]
+    },
+    {
+     "category": "最佳美术指导",
+     "categoryEn": "Best Art Direction",
+     "winner": "Alan Wake 2",
+     "nominees": [
+      "Hi-Fi Rush",
+      "The Legend of Zelda: Tears of the Kingdom",
+      "Lies of P",
+      "Super Mario Bros. Wonder"
+     ]
+    },
+    {
+     "category": "最佳配乐",
+     "categoryEn": "Best Score and Music",
+     "winner": "Final Fantasy XVI",
+     "nominees": [
+      "Alan Wake 2",
+      "Baldur's Gate 3",
+      "Hi-Fi Rush",
+      "The Legend of Zelda: Tears of the Kingdom"
+     ]
+    },
+    {
+     "category": "最佳音效设计",
+     "categoryEn": "Best Audio Design",
+     "winner": "Hi-Fi Rush",
+     "nominees": [
+      "Alan Wake 2",
+      "Dead Space",
+      "Marvel's Spider-Man 2",
+      "Resident Evil 4"
+     ]
+    },
+    {
+     "category": "最佳演出",
+     "categoryEn": "Best Performance",
+     "winner": "Neil Newbon as Astarion",
+     "nominees": [
+      "Idris Elba as Solomon Reed",
+      "Melanie Liburd as Saga Anderson",
+      "Yuri Lowenthal as Peter Parker / Spider-Man",
+      "Cameron Monaghan as Cal Kestis",
+      "Ben Starr as Clive Rosfield"
+     ]
+    },
+    {
+     "category": "最具影响力游戏",
+     "categoryEn": "Games for Impact",
+     "winner": "Tchia",
+     "nominees": [
+      "A Space for the Unbound",
+      "Chants of Sennaar",
+      "Goodbye Volcano High",
+      "Terra Nil",
+      "Venba"
+     ]
+    },
+    {
+     "category": "最佳独立游戏",
+     "categoryEn": "Best Independent Game",
+     "winner": "Sea of Stars",
+     "nominees": [
+      "Cocoon",
+      "Dave the Diver",
+      "Dredge",
+      "Viewfinder"
+     ]
+    },
+    {
+     "category": "最佳新晋独立游戏",
+     "categoryEn": "Best Debut Indie Game",
+     "winner": "Cocoon",
+     "nominees": [
+      "Dredge",
+      "Pizza Tower",
+      "Venba",
+      "Viewfinder"
+     ]
+    },
+    {
+     "category": "最佳持续运营游戏",
+     "categoryEn": "Best Ongoing Game",
+     "winner": "Cyberpunk 2077",
+     "nominees": [
+      "Apex Legends",
+      "Final Fantasy XIV",
+      "Fortnite",
+      "Genshin Impact"
+     ]
+    },
+    {
+     "category": "最佳社区支持",
+     "categoryEn": "Best Community Support",
+     "winner": "Baldur's Gate 3",
+     "nominees": [
+      "Cyberpunk 2077",
+      "Destiny 2",
+      "Final Fantasy XIV",
+      "No Man's Sky"
+     ]
+    },
+    {
+     "category": "最佳移动游戏",
+     "categoryEn": "Best Mobile Game",
+     "winner": "Honkai: Star Rail",
+     "nominees": [
+      "Final Fantasy VII: Ever Crisis",
+      "Hello Kitty Island Adventure",
+      "Monster Hunter Now",
+      "Terra Nil"
+     ]
+    },
+    {
+     "category": "最佳 VR/AR 游戏",
+     "categoryEn": "Best VR / AR Game",
+     "winner": "Resident Evil Village",
+     "nominees": [
+      "Gran Turismo 7",
+      "Humanity",
+      "Horizon Call of the Mountain",
+      "Synapse"
+     ]
+    },
+    {
+     "category": "最佳动作游戏",
+     "categoryEn": "Best Action Game",
+     "winner": "Armored Core VI: Fires of Rubicon",
+     "nominees": [
+      "Dead Island 2",
+      "Ghostrunner 2",
+      "Hi-Fi Rush",
+      "Remnant 2"
+     ]
+    },
+    {
+     "category": "最佳动作冒险游戏",
+     "categoryEn": "Best Action / Adventure Game",
+     "winner": "The Legend of Zelda: Tears of the Kingdom",
+     "nominees": [
+      "Alan Wake 2",
+      "Marvel's Spider-Man 2",
+      "Resident Evil 4",
+      "Star Wars Jedi: Survivor"
+     ]
+    },
+    {
+     "category": "最佳角色扮演游戏",
+     "categoryEn": "Best Role Playing Game",
+     "winner": "Baldur's Gate 3",
+     "nominees": [
+      "Final Fantasy XVI",
+      "Lies of P",
+      "Sea of Stars",
+      "Starfield"
+     ]
+    },
+    {
+     "category": "最佳格斗游戏",
+     "categoryEn": "Best Fighting Game",
+     "winner": "Street Fighter 6",
+     "nominees": [
+      "God of Rock",
+      "Mortal Kombat 1",
+      "Nickelodeon All-Star Brawl 2",
+      "Pocket Bravery"
+     ]
+    },
+    {
+     "category": "最佳家庭游戏",
+     "categoryEn": "Best Family Game",
+     "winner": "Super Mario Bros. Wonder",
+     "nominees": [
+      "Disney Illusion Island",
+      "Party Animals",
+      "Pikmin 4",
+      "Sonic Superstars"
+     ]
+    },
+    {
+     "category": "最佳模拟策略游戏",
+     "categoryEn": "Best Sim / Strategy Game",
+     "winner": "Pikmin 4",
+     "nominees": [
+      "Advance Wars 1+2: Re-Boot Camp",
+      "Cities: Skylines II",
+      "Company of Heroes 3",
+      "Fire Emblem Engage"
+     ]
+    },
+    {
+     "category": "最佳体育竞速游戏",
+     "categoryEn": "Best Sports / Racing Game",
+     "winner": "Forza Motorsport",
+     "nominees": [
+      "EA Sports FC 24",
+      "F1 23",
+      "Hot Wheels Unleashed 2: Turbocharged",
+      "The Crew Motorfest"
+     ]
+    },
+    {
+     "category": "最佳多人游戏",
+     "categoryEn": "Best Multiplayer Game",
+     "winner": "Baldur's Gate 3",
+     "nominees": [
+      "Diablo IV",
+      "Party Animals",
+      "Street Fighter 6",
+      "Super Mario Bros. Wonder"
+     ]
+    },
+    {
+     "category": "无障碍创新奖",
+     "categoryEn": "Innovation in Accessibility",
+     "winner": "Forza Motorsport",
+     "nominees": [
+      "Diablo IV",
+      "Hi-Fi Rush",
+      "Marvel's Spider-Man 2",
+      "Mortal Kombat 1",
+      "Street Fighter 6"
+     ]
+    },
+    {
+     "category": "最佳改编作品",
+     "categoryEn": "Best Adaptation",
+     "winner": "The Last of Us (television series)",
+     "nominees": [
+      "Castlevania: Nocturne (animated series)",
+      "Gran Turismo (film)",
+      "The Super Mario Bros. Movie (animated film)",
+      "Twisted Metal (television series)"
+     ]
+    },
+    {
+     "category": "最受期待游戏",
+     "categoryEn": "Most Anticipated Game",
+     "winner": "Final Fantasy VII Rebirth",
+     "nominees": [
+      "Hades II",
+      "Like a Dragon: Infinite Wealth",
+      "Star Wars Outlaws",
+      "Tekken 8"
+     ]
+    },
+    {
+     "category": "玩家之声",
+     "categoryEn": "Players' Voice",
+     "winner": "Baldur's Gate 3",
+     "nominees": [
+      "Cyberpunk 2077: Phantom Liberty",
+      "Genshin Impact",
+      "The Legend of Zelda: Tears of the Kingdom",
+      "Marvel's Spider-Man 2"
+     ]
+    }
+   ]
+  },
+  {
+   "year": 2024,
+   "categories": [
+    {
+     "category": "年度游戏",
+     "categoryEn": "Game of the Year",
+     "winner": "Astro Bot",
+     "nominees": [
+      "Balatro",
+      "Black Myth: Wukong",
+      "Elden Ring Shadow of the Erdtree",
+      "Final Fantasy VII Rebirth",
+      "Metaphor: ReFantazio"
+     ]
+    },
+    {
+     "category": "最佳游戏指导",
+     "categoryEn": "Best Game Direction",
+     "winner": "Astro Bot",
+     "nominees": [
+      "Balatro",
+      "Black Myth: Wukong",
+      "Elden Ring Shadow of the Erdtree",
+      "Final Fantasy VII Rebirth",
+      "Metaphor: ReFantazio"
+     ]
+    },
+    {
+     "category": "最佳叙事",
+     "categoryEn": "Best Narrative",
+     "winner": "Metaphor: ReFantazio",
+     "nominees": [
+      "Final Fantasy VII Rebirth",
+      "Like a Dragon: Infinite Wealth",
+      "Senua's Saga: Hellblade II",
+      "Silent Hill 2"
+     ]
+    },
+    {
+     "category": "最佳美术指导",
+     "categoryEn": "Best Art Direction",
+     "winner": "Metaphor: ReFantazio",
+     "nominees": [
+      "Astro Bot",
+      "Black Myth: Wukong",
+      "Elden Ring Shadow of the Erdtree",
+      "Neva"
+     ]
+    },
+    {
+     "category": "最佳配乐",
+     "categoryEn": "Best Score and Music",
+     "winner": "Final Fantasy VII Rebirth",
+     "nominees": [
+      "Astro Bot",
+      "Metaphor: ReFantazio",
+      "Silent Hill 2",
+      "Stellar Blade"
+     ]
+    },
+    {
+     "category": "最佳音效设计",
+     "categoryEn": "Best Audio Design",
+     "winner": "Senua's Saga: Hellblade II",
+     "nominees": [
+      "Astro Bot",
+      "Call of Duty: Black Ops 6",
+      "Final Fantasy VII Rebirth",
+      "Silent Hill 2"
+     ]
+    },
+    {
+     "category": "最佳演出",
+     "categoryEn": "Best Performance",
+     "winner": "Melina Juergens as Senua",
+     "nominees": [
+      "Briana White as Aerith Gainsborough",
+      "Hannah Telle as Max Caulfield",
+      "Humberly González as Kay Vess",
+      "Luke Roberts as James Sunderland"
+     ]
+    },
+    {
+     "category": "最具影响力游戏",
+     "categoryEn": "Games for Impact",
+     "winner": "Neva",
+     "nominees": [
+      "Closer the Distance",
+      "Indika",
+      "Life Is Strange: Double Exposure",
+      "Senua's Saga: Hellblade II",
+      "Tales of Kenzera: Zau"
+     ]
+    },
+    {
+     "category": "最佳独立游戏",
+     "categoryEn": "Best Independent Game",
+     "winner": "Balatro",
+     "nominees": [
+      "Animal Well",
+      "Lorelei and the Laser Eyes",
+      "Neva",
+      "UFO 50"
+     ]
+    },
+    {
+     "category": "最佳新晋独立游戏",
+     "categoryEn": "Best Debut Indie Game",
+     "winner": "Balatro",
+     "nominees": [
+      "Animal Well",
+      "Manor Lords",
+      "Pacific Drive",
+      "The Plucky Squire"
+     ]
+    },
+    {
+     "category": "最佳持续运营游戏",
+     "categoryEn": "Best Ongoing Game",
+     "winner": "Helldivers II",
+     "nominees": [
+      "Destiny 2: The Final Shape",
+      "Diablo IV: Vessel of Hatred",
+      "Final Fantasy XIV: Dawntrail",
+      "Fortnite"
+     ]
+    },
+    {
+     "category": "最佳社区支持",
+     "categoryEn": "Best Community Support",
+     "winner": "Baldur's Gate 3",
+     "nominees": [
+      "Final Fantasy XIV: Dawntrail",
+      "Fortnite",
+      "Helldivers II",
+      "No Man's Sky"
+     ]
+    },
+    {
+     "category": "最佳移动游戏",
+     "categoryEn": "Best Mobile Game",
+     "winner": "Balatro",
+     "nominees": [
+      "AFK Journey",
+      "Pokémon Trading Card Game Pocket",
+      "Wuthering Waves",
+      "Zenless Zone Zero"
+     ]
+    },
+    {
+     "category": "最佳 VR/AR 游戏",
+     "categoryEn": "Best VR / AR Game",
+     "winner": "Batman: Arkham Shadow",
+     "nominees": [
+      "Arizona Sunshine Remake",
+      "Asgard's Wrath 2",
+      "Metal: Hellsinger VR",
+      "Metro Awakening"
+     ]
+    },
+    {
+     "category": "最佳动作游戏",
+     "categoryEn": "Best Action Game",
+     "winner": "Black Myth: Wukong",
+     "nominees": [
+      "Call of Duty: Black Ops 6",
+      "Helldivers II",
+      "Stellar Blade",
+      "Warhammer 40,000: Space Marine 2"
+     ]
+    },
+    {
+     "category": "最佳动作冒险游戏",
+     "categoryEn": "Best Action / Adventure Game",
+     "winner": "Astro Bot",
+     "nominees": [
+      "The Legend of Zelda: Echoes of Wisdom",
+      "Prince of Persia: The Lost Crown",
+      "Silent Hill 2",
+      "Star Wars Outlaws"
+     ]
+    },
+    {
+     "category": "最佳角色扮演游戏",
+     "categoryEn": "Best Role Playing Game",
+     "winner": "Metaphor: ReFantazio",
+     "nominees": [
+      "Dragon's Dogma 2",
+      "Elden Ring: Shadow of the Erdtree",
+      "Final Fantasy VII Rebirth",
+      "Like a Dragon: Infinite Wealth"
+     ]
+    },
+    {
+     "category": "最佳格斗游戏",
+     "categoryEn": "Best Fighting Game",
+     "winner": "Tekken 8",
+     "nominees": [
+      "Dragon Ball: Sparking! Zero",
+      "Granblue Fantasy Versus: Rising",
+      "Marvel vs. Capcom Fighting Collection: Arcade Classics",
+      "MultiVersus"
+     ]
+    },
+    {
+     "category": "最佳家庭游戏",
+     "categoryEn": "Best Family Game",
+     "winner": "Astro Bot",
+     "nominees": [
+      "The Legend of Zelda: Echoes of Wisdom",
+      "The Plucky Squire",
+      "Princess Peach: Showtime!",
+      "Super Mario Party Jamboree"
+     ]
+    },
+    {
+     "category": "最佳模拟策略游戏",
+     "categoryEn": "Best Sim / Strategy Game",
+     "winner": "Frostpunk 2",
+     "nominees": [
+      "Age of Mythology: Retold",
+      "Kunitsu-Gami: Path of the Goddess",
+      "Manor Lords",
+      "Unicorn Overlord"
+     ]
+    },
+    {
+     "category": "最佳体育竞速游戏",
+     "categoryEn": "Best Sports / Racing Game",
+     "winner": "EA Sports FC 25",
+     "nominees": [
+      "F1 24",
+      "NBA 2K25",
+      "TopSpin 2K25",
+      "WWE 2K24"
+     ]
+    },
+    {
+     "category": "最佳多人游戏",
+     "categoryEn": "Best Multiplayer Game",
+     "winner": "Helldivers II",
+     "nominees": [
+      "Call of Duty: Black Ops 6",
+      "Super Mario Party Jamboree",
+      "Tekken 8",
+      "Warhammer 40,000: Space Marine 2"
+     ]
+    },
+    {
+     "category": "无障碍创新奖",
+     "categoryEn": "Innovation in Accessibility",
+     "winner": "Prince of Persia: The Lost Crown",
+     "nominees": [
+      "Call of Duty: Black Ops 6",
+      "Diablo IV: Vessel of Hatred",
+      "Dragon Age: The Veilguard",
+      "Star Wars Outlaws"
+     ]
+    },
+    {
+     "category": "最佳改编作品",
+     "categoryEn": "Best Adaptation",
+     "winner": "Fallout (television series)",
+     "nominees": [
+      "Arcane (animated series)",
+      "Knuckles (television series)",
+      "Like a Dragon: Yakuza (television series)",
+      "Tomb Raider: The Legend of Lara Croft (animated series)"
+     ]
+    },
+    {
+     "category": "最受期待游戏",
+     "categoryEn": "Most Anticipated Game",
+     "winner": "Grand Theft Auto VI",
+     "nominees": [
+      "Death Stranding 2: On the Beach",
+      "Ghost of Yōtei",
+      "Metroid Prime 4: Beyond",
+      "Monster Hunter Wilds"
+     ]
+    },
+    {
+     "category": "玩家之声",
+     "categoryEn": "Players' Voice",
+     "winner": "Black Myth: Wukong",
+     "nominees": [
+      "Genshin Impact",
+      "Elden Ring: Shadow of the Erdtree",
+      "Wuthering Waves",
+      "Zenless Zone Zero"
+     ]
+    }
+   ]
+  },
+  {
+   "year": 2025,
+   "categories": [
+    {
+     "category": "年度游戏",
+     "categoryEn": "Game of the Year",
+     "winner": "Clair Obscur: Expedition 33",
+     "nominees": [
+      "Death Stranding 2: On the Beach",
+      "Donkey Kong Bananza",
+      "Hades II",
+      "Hollow Knight: Silksong",
+      "Kingdom Come: Deliverance II"
+     ]
+    },
+    {
+     "category": "最佳游戏指导",
+     "categoryEn": "Best Game Direction",
+     "winner": "Clair Obscur: Expedition 33",
+     "nominees": [
+      "Death Stranding 2: On the Beach",
+      "Ghost of Yōtei",
+      "Hades II",
+      "Split Fiction"
+     ]
+    },
+    {
+     "category": "最佳叙事",
+     "categoryEn": "Best Narrative",
+     "winner": "Clair Obscur: Expedition 33",
+     "nominees": [
+      "Death Stranding 2: On the Beach",
+      "Ghost of Yōtei",
+      "Kingdom Come: Deliverance II",
+      "Silent Hill f"
+     ]
+    },
+    {
+     "category": "最佳美术指导",
+     "categoryEn": "Best Art Direction",
+     "winner": "Clair Obscur: Expedition 33",
+     "nominees": [
+      "Death Stranding 2: On the Beach",
+      "Ghost of Yōtei",
+      "Hades II",
+      "Hollow Knight: Silksong"
+     ]
+    },
+    {
+     "category": "最佳配乐",
+     "categoryEn": "Best Score and Music",
+     "winner": "Clair Obscur: Expedition 33",
+     "nominees": [
+      "Death Stranding 2: On the Beach",
+      "Ghost of Yōtei",
+      "Hades II",
+      "Hollow Knight: Silksong"
+     ]
+    },
+    {
+     "category": "最佳音效设计",
+     "categoryEn": "Best Audio Design",
+     "winner": "Battlefield 6",
+     "nominees": [
+      "Clair Obscur: Expedition 33",
+      "Death Stranding 2: On the Beach",
+      "Ghost of Yōtei",
+      "Silent Hill f"
+     ]
+    },
+    {
+     "category": "最佳演出",
+     "categoryEn": "Best Performance",
+     "winner": "Jennifer English as Maelle",
+     "nominees": [
+      "Troy Baker as Indiana Jones",
+      "Charlie Cox as Gustave",
+      "Erika Ishii as Atsu",
+      "Konatsu Kato as Hinako Shimizu",
+      "Ben Starr as Verso"
+     ]
+    },
+    {
+     "category": "最具影响力游戏",
+     "categoryEn": "Games for Impact",
+     "winner": "South of Midnight",
+     "nominees": [
+      "Consume Me",
+      "Despelote",
+      "Lost Records: Bloom & Rage",
+      "Wanderstop"
+     ]
+    },
+    {
+     "category": "最佳独立游戏",
+     "categoryEn": "Best Independent Game",
+     "winner": "Clair Obscur: Expedition 33",
+     "nominees": [
+      "Absolum",
+      "Ball x Pit",
+      "Blue Prince",
+      "Hades II",
+      "Hollow Knight: Silksong"
+     ]
+    },
+    {
+     "category": "最佳新晋独立游戏",
+     "categoryEn": "Best Debut Indie Game",
+     "winner": "Clair Obscur: Expedition 33",
+     "nominees": [
+      "Blue Prince",
+      "Despelote",
+      "Dispatch",
+      "Megabonk"
+     ]
+    },
+    {
+     "category": "最佳持续运营游戏",
+     "categoryEn": "Best Ongoing Game",
+     "winner": "No Man's Sky",
+     "nominees": [
+      "Final Fantasy XIV",
+      "Fortnite",
+      "Helldivers II",
+      "Marvel Rivals"
+     ]
+    },
+    {
+     "category": "最佳社区支持",
+     "categoryEn": "Best Community Support",
+     "winner": "Baldur's Gate 3",
+     "nominees": [
+      "Final Fantasy XIV: Dawntrail",
+      "Fortnite",
+      "Helldivers II",
+      "No Man's Sky"
+     ]
+    },
+    {
+     "category": "最佳移动游戏",
+     "categoryEn": "Best Mobile Game",
+     "winner": "Umamusume: Pretty Derby",
+     "nominees": [
+      "Destiny: Rising",
+      "Persona 5: The Phantom X",
+      "Sonic Rumble",
+      "Wuthering Waves"
+     ]
+    },
+    {
+     "category": "最佳 VR/AR 游戏",
+     "categoryEn": "Best VR / AR Game",
+     "winner": "The Midnight Walk",
+     "nominees": [
+      "Alien: Rogue Incursion",
+      "Arken Age",
+      "Ghost Town",
+      "Marvel's Deadpool VR"
+     ]
+    },
+    {
+     "category": "最佳动作游戏",
+     "categoryEn": "Best Action Game",
+     "winner": "Hades II",
+     "nominees": [
+      "Battlefield 6",
+      "Doom: The Dark Ages",
+      "Ninja Gaiden 4",
+      "Shinobi: Art of Vengeance"
+     ]
+    },
+    {
+     "category": "最佳动作冒险游戏",
+     "categoryEn": "Best Action / Adventure Game",
+     "winner": "Hollow Knight: Silksong",
+     "nominees": [
+      "Death Stranding 2: On the Beach",
+      "Ghost of Yōtei",
+      "Indiana Jones and the Great Circle",
+      "Split Fiction"
+     ]
+    },
+    {
+     "category": "最佳角色扮演游戏",
+     "categoryEn": "Best Role Playing Game",
+     "winner": "Clair Obscur: Expedition 33",
+     "nominees": [
+      "Avowed",
+      "Kingdom Come: Deliverance II",
+      "Monster Hunter Wilds",
+      "The Outer Worlds 2"
+     ]
+    },
+    {
+     "category": "最佳格斗游戏",
+     "categoryEn": "Best Fighting Game",
+     "winner": "Fatal Fury: City of the Wolves",
+     "nominees": [
+      "2XKO",
+      "Capcom Fighting Collection 2",
+      "Mortal Kombat: Legacy Kollection",
+      "Virtua Fighter 5 R.E.V.O. World Stage"
+     ]
+    },
+    {
+     "category": "最佳家庭游戏",
+     "categoryEn": "Best Family Game",
+     "winner": "Donkey Kong Bananza",
+     "nominees": [
+      "Lego Party",
+      "Lego Voyagers",
+      "Mario Kart World",
+      "Sonic Racing: CrossWorlds",
+      "Split Fiction"
+     ]
+    },
+    {
+     "category": "最佳模拟策略游戏",
+     "categoryEn": "Best Sim / Strategy Game",
+     "winner": "Final Fantasy Tactics: The Ivalice Chronicles",
+     "nominees": [
+      "The Alters",
+      "Civilization VII",
+      "Jurassic World Evolution 3",
+      "Tempest Rising",
+      "Two Point Museum"
+     ]
+    },
+    {
+     "category": "最佳体育竞速游戏",
+     "categoryEn": "Best Sports / Racing Game",
+     "winner": "Mario Kart World",
+     "nominees": [
+      "EA Sports FC 26",
+      "F1 25",
+      "Rematch",
+      "Sonic Racing: CrossWorlds"
+     ]
+    },
+    {
+     "category": "最佳多人游戏",
+     "categoryEn": "Best Multiplayer Game",
+     "winner": "ARC Raiders",
+     "nominees": [
+      "Battlefield 6",
+      "Elden Ring Nightreign",
+      "Peak",
+      "Split Fiction"
+     ]
+    },
+    {
+     "category": "无障碍创新奖",
+     "categoryEn": "Innovation in Accessibility",
+     "winner": "Doom: The Dark Ages",
+     "nominees": [
+      "Assassin's Creed Shadows",
+      "Atomfall",
+      "EA Sports FC 26",
+      "South of Midnight"
+     ]
+    },
+    {
+     "category": "最佳改编作品",
+     "categoryEn": "Best Adaptation",
+     "winner": "The Last of Us season 2 (television series)",
+     "nominees": [
+      "A Minecraft Movie (feature film)",
+      "Devil May Cry (animated series)",
+      "Splinter Cell: Deathwatch (animated series)",
+      "Until Dawn (feature film)"
+     ]
+    },
+    {
+     "category": "最受期待游戏",
+     "categoryEn": "Most Anticipated Game",
+     "winner": "Grand Theft Auto VI",
+     "nominees": [
+      "007 First Light",
+      "Marvel's Wolverine",
+      "Resident Evil Requiem",
+      "The Witcher IV"
+     ]
+    },
+    {
+     "category": "玩家之声",
+     "categoryEn": "Players' Voice",
+     "winner": "Wuthering Waves",
+     "nominees": [
+      "Clair Obscur: Expedition 33",
+      "Dispatch",
+      "Genshin Impact",
+      "Hollow Knight: Silksong"
+     ]
+    }
+   ]
+  },
+  {
+   "year": 2026,
+   "categories": [
+    {
+     "category": "年度游戏",
+     "categoryEn": "Game of the Year",
+     "winner": "TBD",
+     "nominees": [
+      "Control Resonant",
+      "Grand Theft Auto VI",
+      "The Legend of Zelda: Ocarina of Time",
+      "Phantom Blade Zero",
+      "Resident Evil Requiem"
+     ]
+    },
+    {
+     "category": "最佳游戏指导",
+     "categoryEn": "Best Game Direction",
+     "winner": "TBD",
+     "nominees": [
+      "Grand Theft Auto VI",
+      "Pragmata",
+      "Phantom Blade Zero",
+      "Resident Evil Requiem"
+     ]
+    },
+    {
+     "category": "最佳叙事",
+     "categoryEn": "Best Narrative",
+     "winner": "TBD",
+     "nominees": [
+      "The Blood of Dawnwalker",
+      "Control Resonant",
+      "Grand Theft Auto VI",
+      "Resident Evil Requiem"
+     ]
+    },
+    {
+     "category": "最佳美术指导",
+     "categoryEn": "Best Art Direction",
+     "winner": "TBD",
+     "nominees": [
+      "Grand Theft Auto VI",
+      "Mouse: P.I. for Hire",
+      "Phantom Blade Zero",
+      "The Legend of Zelda: Ocarina of Time"
+     ]
+    },
+    {
+     "category": "最佳配乐",
+     "categoryEn": "Best Score and Music",
+     "winner": "TBD",
+     "nominees": [
+      "Grand Theft Auto VI",
+      "The Legend of Zelda: Ocarina of Time",
+      "Mixtape",
+      "Phantom Blade Zero"
+     ]
+    },
+    {
+     "category": "最佳音效设计",
+     "categoryEn": "Best Audio Design",
+     "winner": "TBD",
+     "nominees": [
+      "Control Resonant",
+      "Grand Theft Auto VI",
+      "Resident Evil Requiem",
+      "Star Wars: Galactic Racer"
+     ]
+    },
+    {
+     "category": "最佳演出",
+     "categoryEn": "Best Performance",
+     "winner": "TBD",
+     "nominees": [
+      "Liam McIntyre as Wolverine",
+      "Manni L. Perez as Lucia Caminos",
+      "Patrick Gibson as James Bond",
+      "Rahul Kohli as Arjun Devraj"
+     ]
+    },
+    {
+     "category": "最具影响力游戏",
+     "categoryEn": "Games for Impact",
+     "winner": "TBD",
+     "nominees": [
+      "Cairn",
+      "Forever Ago",
+      "Life Is Strange: Reunion",
+      "lily's world XD",
+      "Mixtape"
+     ]
+    },
+    {
+     "category": "最佳独立游戏",
+     "categoryEn": "Best Independent Game",
+     "winner": "TBD",
+     "nominees": [
+      "Cairn",
+      "Denshattack!",
+      "Mewgenics",
+      "Mina the Hollower"
+     ]
+    },
+    {
+     "category": "最佳新晋独立游戏",
+     "categoryEn": "Best Debut Indie Game",
+     "winner": "TBD",
+     "nominees": [
+      "Esoteric Ebb",
+      "Orbitals",
+      "Replaced",
+      "Silver Pines"
+     ]
+    },
+    {
+     "category": "最佳持续运营游戏",
+     "categoryEn": "Best Ongoing Game",
+     "winner": "TBD",
+     "nominees": [
+      "Final Fantasy XIV",
+      "Fortnite",
+      "No Man's Sky",
+      "The Witcher 3: Wild Hunt"
+     ]
+    },
+    {
+     "category": "最佳社区支持",
+     "categoryEn": "Best Community Support",
+     "winner": "TBD",
+     "nominees": [
+      "Helldivers II",
+      "No Man's Sky",
+      "Warframe",
+      "The Witcher 3: Wild Hunt"
+     ]
+    },
+    {
+     "category": "最佳移动游戏",
+     "categoryEn": "Best Mobile Game",
+     "winner": "TBD",
+     "nominees": [
+      "Monster Hunter Outlanders",
+      "Neverness to Everness",
+      "Pokémon Champions",
+      "Where Winds Meet"
+     ]
+    },
+    {
+     "category": "最佳 VR/AR 游戏",
+     "categoryEn": "Best VR / AR Game",
+     "winner": "TBD",
+     "nominees": [
+      "Into the Radius 2",
+      "Little Nightmares VR: Altered Echoes",
+      "Teenage Mutant Ninja Turtles: Empire City",
+      "Thief VR: Legacy of Shadow"
+     ]
+    },
+    {
+     "category": "最佳动作游戏",
+     "categoryEn": "Best Action Game",
+     "winner": "TBD",
+     "nominees": [
+      "Gears of War: E-Day",
+      "Onimusha: Way of the Sword",
+      "Phantom Blade Zero",
+      "Saros"
+     ]
+    },
+    {
+     "category": "最佳动作冒险游戏",
+     "categoryEn": "Best Action / Adventure Game",
+     "winner": "TBD",
+     "nominees": [
+      "Control Resonant",
+      "Grand Theft Auto VI",
+      "The Legend of Zelda: Ocarina of Time",
+      "Pragmata",
+      "Resident Evil Requiem"
+     ]
+    },
+    {
+     "category": "最佳角色扮演游戏",
+     "categoryEn": "Best Role Playing Game",
+     "winner": "TBD",
+     "nominees": [
+      "Final Fantasy Resonance",
+      "Fire Emblem: Fortune's Weave",
+      "Monster Hunter Stories 3: Twisted Reflection",
+      "Trails in the Sky 2nd Chapter"
+     ]
+    },
+    {
+     "category": "最佳格斗游戏",
+     "categoryEn": "Best Fighting Game",
+     "winner": "TBD",
+     "nominees": [
+      "Avatar Legends: The Fighting Game",
+      "Invincible VS",
+      "Marvel Tōkon: Fighting Souls",
+      "My Hero Academia: All's Justice"
+     ]
+    },
+    {
+     "category": "最佳家庭游戏",
+     "categoryEn": "Best Family Game",
+     "winner": "TBD",
+     "nominees": [
+      "Lego Batman: Legacy of the Dark Knight",
+      "Nintendo Switch Sports Resort",
+      "Pokémon Pokopia",
+      "Yoshi and the Mysterious Book"
+     ]
+    },
+    {
+     "category": "最佳模拟策略游戏",
+     "categoryEn": "Best Sim / Strategy Game",
+     "winner": "TBD",
+     "nominees": [
+      "Planet Zoo 2",
+      "Pokémon Pokopia",
+      "Slay the Spire II",
+      "Star Wars Zero Company"
+     ]
+    },
+    {
+     "category": "最佳体育竞速游戏",
+     "categoryEn": "Best Sports / Racing Game",
+     "winner": "TBD",
+     "nominees": [
+      "Forza Horizon 6",
+      "Nintendo Switch Sports Resort",
+      "Screamer",
+      "Star Wars: Galactic Racer"
+     ]
+    },
+    {
+     "category": "最佳多人游戏",
+     "categoryEn": "Best Multiplayer Game",
+     "winner": "TBD",
+     "nominees": [
+      "Call of Duty: Modern Warfare 4",
+      "Gears of War: E-Day",
+      "Marathon",
+      "Meccha Chameleon",
+      "Orbitals"
+     ]
+    },
+    {
+     "category": "无障碍创新奖",
+     "categoryEn": "Innovation in Accessibility",
+     "winner": "TBD",
+     "nominees": [
+      "Forza Horizon 6",
+      "Gears of War: E-Day",
+      "Marvel's Wolverine",
+      "Rhythm Heaven Groove"
+     ]
+    },
+    {
+     "category": "最受期待游戏",
+     "categoryEn": "Most Anticipated Game",
+     "winner": "TBD",
+     "nominees": [
+      "Final Fantasy VII Revelation",
+      "God of War Laufey",
+      "Resident Evil Veronica",
+      "The Witcher IV"
+     ]
+    },
+    {
+     "category": "最佳用户创作",
+     "categoryEn": "Best User Creation",
+     "winner": "TBD",
+     "nominees": [
+      "Create Aeronautics",
+      "nopixel V",
+      "Star Wars Droid Tycoon",
+      "TTK"
+     ]
+    },
+    {
+     "category": "最佳改编作品",
+     "categoryEn": "Best Adaptation",
+     "winner": "TBD",
+     "nominees": [
+      "Fallout season 2 (television series)",
+      "Mortal Kombat II (feature film)",
+      "Resident Evil (feature film)",
+      "The Super Mario Galaxy Movie (animated film)"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+- insert:
+    - id: game-archive
+      name: 'dsh-game-archive'
+      config:
+        # 档案数据放哪。留空 = ~/Documents/deepseek-harness/work/游戏档案
+        dataDir: ''
+        # 同步用的浏览器调试端口（Chrome 需带 --remote-debugging-port=9333 启动）
+        cdpPort: 9333
