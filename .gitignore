@@ -1,10 +1,8 @@
-# 个人数据（同步出来的，不该进仓库）
-data/records.json
+# data/ 里带 *_records/accounts/switch-override 的是空模板（首次启动会被拷到数据目录）
+# 下面这些是你自己机器上跑出来的，不该进仓库
 data/userdata.json
 data/manual.json
 data/enrichment.json
-data/accounts.json
-data/switch-override.json
 data/recommend.json
 data/covers/
 *.bak-*
