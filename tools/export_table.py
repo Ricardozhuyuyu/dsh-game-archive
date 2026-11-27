@@ -40,8 +40,27 @@ def load(out):
         manual = json.load(open(os.path.join(out, "manual.json"), encoding="utf-8"))
     except Exception:
         manual = {}
+    try:
+        extra = json.load(open(os.path.join(out, "extra-games.json"), encoding="utf-8"))
+    except Exception:
+        extra = {}
+    games = list(rec.get("games") or [])
+    # 手动补录的游戏（任天堂老游戏这类）也要进总表，否则没法回填
+    for g in (extra.get("games") or []):
+        if not (g and g.get("id") and g.get("name")):
+            continue
+        games.append({
+            "id": g["id"],
+            "name": g["name"],
+            "platform": g.get("platform") or "Switch",
+            "hours": g.get("hours") or 0,
+            "progress": g.get("progress"),
+            "ach": g.get("ach") or "",
+            "last": g.get("last") or ((g.get("months") or {}).get("to") or ""),
+            "cn": g.get("cn") or "",
+        })
     rows = []
-    for g in rec.get("games") or []:
+    for g in games:
         nm0 = g.get("name") or ""
         if NOT_A_GAME.search(nm0):
             continue

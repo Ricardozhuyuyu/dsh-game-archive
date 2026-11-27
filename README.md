@@ -192,6 +192,7 @@ tools/covers.py             给缺封面的补图（Steam header → Wikipedia �
 tools/build_tga_history.py  抓 Wikipedia 生成历年 TGA 获奖/提名
 tools/build_tga_alias.py    生成 TGA 英文名 → 中文名对照
 tools/tga_media.py          陈列室的中文名 + 封面（维基 langlinks / pageimages 批量 + Steam 兜底）
+tools/enrich_extra.py       给「手动补录」的游戏补封面/M 站分/发售日/类型（写进 enrichment.json）
 tools/fill_tga_covers.py    给陈列室补封面（Steam header → 维基原图；演员/公司/影剧自动跳过，网络失败不记 skip）
                             用法：python3 tools/fill_tga_covers.py --retry-skip
 tools/epic_price.py         给白嫖来的游戏标真实原价（Epic→Steam 商店价，只认名字规范化后完全一致的）

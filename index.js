@@ -597,7 +597,8 @@ async function buildPayload() {
     const ov = coverByKey.get(normalizeName(g.name)) || null;
     // 封面优先用 Steam 商店给的正版头图（库里存的偶有 appid 变更导致 404）
     const cov = en.cover || g.cover || (ov ? ov.url : '');
-    const covFit = en.cover ? 'cover' : (g.cover ? 'cover' : (ov ? ov.fit : 'cover'));
+    const covFit = (en.cover && en.coverFit === 'contain') ? 'contain'
+      : (en.cover ? 'cover' : (g.cover ? 'cover' : (ov ? ov.fit : 'cover')));
     const man = manual[g.id] || {};
     return {
       ...g,
