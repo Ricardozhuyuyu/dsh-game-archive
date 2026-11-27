@@ -91,7 +91,8 @@
   "appid": 1446650
  },
  "Super Smash Bros. for Nintendo 3DS": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/c/c1/Super_Smash_Bros._for_Nintendo_3DS_and_Wii_U.png",
+  "src": "wiki"
  },
  "Threes": {
   "cn": "",
@@ -101,8 +102,8 @@
  },
  "Valiant Hearts: The Great War": {
   "cn": "英勇之心：偉大戰爭",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/e/ea/Valiant_Hearts_The_Great_War.jpg"
  },
  "South Park: The Stick of Truth": {
   "cn": "南方公园",
@@ -180,8 +181,8 @@
  },
  "The Last of Us: Left Behind": {
   "cn": "最后生还者：遗落",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/e/ed/The_Last_of_Us_Left_Behind_cover.jpg"
  },
  "This War of Mine": {
   "cn": "这是我的战争",
@@ -221,8 +222,8 @@
  },
  "Super Smash Bros. for Wii U": {
   "cn": "任天堂明星大亂鬥 for 3DS/Wii U",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/c/c1/Super_Smash_Bros._for_Nintendo_3DS_and_Wii_U.png"
  },
  "Killer Instinct: Season Two": {
   "skip": true
@@ -241,17 +242,17 @@
  "Mario Kart 8": {
   "cn": "玛利欧赛车8",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/b/b5/MarioKart8Boxart.jpg"
  },
  "Disney Infinity: Marvel Super Heroes": {
   "cn": "迪士尼無限世界2.0",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/6/63/Disney_Infinity_2.0_%282014%29_cover.jpg"
  },
  "Fantasia: Music Evolved": {
   "cn": "幻想",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/4/45/Fantasia_Music_Evolved_artwork.jpeg"
  },
  "Skylanders: Trap Team": {
   "cn": "宝贝龙世界系列",
@@ -264,15 +265,17 @@
   "src": "wiki"
  },
  "FIFA 15": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/2/23/FIFA_15_Cover_Art.jpg",
+  "src": "wiki"
  },
  "Forza Horizon 2": {
   "cn": "极限竞速 地平线2",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/2/2e/Forza_Horizon_2_Cover_Art.png"
  },
  "NBA 2K15": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/f/f9/NBA_2K15_cover_art.jpg",
+  "src": "wiki"
  },
  "Trials Fusion": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/245490/header.jpg",
@@ -294,7 +297,7 @@
  "Pokémon Omega Ruby and Alpha Sapphire": {
   "cn": "宝可梦 欧米加红宝石／阿尔法蓝宝石",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/f/f1/AlphaSapphire.jpg"
  },
  "The Last of Us Remastered": {
   "cn": "最後生還者",
@@ -334,12 +337,12 @@
  "Super Mario Maker": {
   "cn": "超级玛利欧创作家",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/d/da/Super_Mario_Maker_Artwork.jpg"
  },
  "CD Projekt Red": {
   "cn": "",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://thumb.wikimedia.org/wikipedia/en/thumb/0/00/CD_Projekt_Red.svg/250px-CD_Projekt_Red.svg.png"
  },
  "Bethesda Game Studios": {
   "cn": "贝塞斯达游戏工作室",
@@ -405,8 +408,8 @@
  },
  "Monster Hunter 4 Ultimate": {
   "cn": "怪物猎人4",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/3/39/Monster-Hunter_4Boxart.png"
  },
  "Pac-Man 256": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/455400/header.jpg",
@@ -438,8 +441,8 @@
  },
  "Halo 5: Guardians": {
   "cn": "最後一戰5：守護者",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/6/68/Halo_Guardians.png"
  },
  "Viva Seifert as Hannah Smith": {
   "skip": true
@@ -483,7 +486,7 @@
  "Destiny: The Taken King": {
   "cn": "命运",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/2/2c/Destiny_The_Taken_King_cover.png"
  },
  "Star Wars Battlefront": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1058020/header.jpg",
@@ -520,10 +523,12 @@
   "appid": 376300
  },
  "Rise of Incarnates": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/9/9f/Rise_of_Incarnates_logo.jpg",
+  "src": "wiki"
  },
  "Rising Thunder": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/9/96/HH_A_Rising_Thunder_cover.jpg",
+  "src": "wiki"
  },
  "Disney Infinity 3.0": {
   "cn": "迪士尼无限世界3.0",
@@ -532,26 +537,30 @@
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/541670/header.jpg"
  },
  "Lego Dimensions": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/f/ff/Lego_Dimensions_PS4_Box_Cover.jpg",
+  "src": "wiki"
  },
  "Skylanders: SuperChargers": {
   "cn": "宝贝龙世界系列",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/e/e1/Skylanders_SuperChargers_cover_art.jpg"
  },
  "FIFA 16": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/2/27/FIFA_16_cover.jpg",
+  "src": "wiki"
  },
  "Forza Motorsport 6": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/4/44/Forza_Motorsport_6_Cover.jpg",
+  "src": "wiki"
  },
  "NBA 2K16": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/e/e0/NBA_2K16_cover_art.jpg",
+  "src": "wiki"
  },
  "Pro Evolution Soccer 2016": {
   "cn": "胜利十一人2016",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/3/38/Pro_Evolution_Soccer_2016_cover_art.jpg"
  },
  "Overwatch": {
   "cn": "守望先锋",
@@ -578,8 +587,8 @@
  },
  "Uncharted 4: A Thief's End": {
   "cn": "神秘海域4：盗贼末路",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/1/1a/Uncharted_4_box_artwork.jpg"
  },
  "Battlefield 1": {
   "cn": "战地1",
@@ -650,11 +659,12 @@
  },
  "Orwell": {
   "cn": "乔治·奥威尔",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/7/7e/George_Orwell_press_photo.jpg"
  },
  "Sea Hero Quest": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/b/be/Sea_Hero_Quest_cover.jpg",
+  "src": "wiki"
  },
  "1979 Revolution: Black Friday": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/388320/header.jpg",
@@ -678,22 +688,23 @@
   "appid": 210970
  },
  "Pokémon Go": {
-  "skip": true
+  "cover": "https://thumb.wikimedia.org/wikipedia/en/thumb/0/0f/Pokemon_Go.svg/500px-Pokemon_Go.svg.png",
+  "src": "wiki"
  },
  "Clash Royale": {
   "cn": "部落衝突：皇室戰爭",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/b/b8/Clash_Royale_game_logo.png"
  },
  "Fire Emblem Fates": {
   "cn": "火焰之纹章if",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/1/1c/Fire_Emblem_Fates_special_edition_cover_art.jpg"
  },
  "Monster Hunter Generations": {
   "cn": "怪物猎人X",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/2/23/Monster_hunter_generations_cover_art.jpg"
  },
  "Severed": {
   "appid": 4269720,
@@ -719,8 +730,8 @@
  },
  "Gears of War 4": {
   "cn": "戰爭機器4",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/f/ff/Gears_of_War_4.jpg"
  },
  "Dishonored 2": {
   "cn": "冤罪杀机2",
@@ -730,13 +741,13 @@
  },
  "Hitman": {
   "cn": "買兇殺人",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/9/99/Jean_Louis_Ernest_Meissonier_%281815-1891%29_-_The_Hired_Assassins_%28Les_Bravi%29_-_P327_-_The_Wallace_Collection.jpg"
  },
  "Ratchet & Clank": {
   "cn": "拉捷特与克拉克系列",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/e/e4/Logo_of_the_Ratchet_%26_Clank_franchise.png"
  },
  "Dark Souls III": {
   "cn": "黑暗之魂III",
@@ -753,12 +764,12 @@
  "World of Warcraft: Legion": {
   "cn": "魔兽世界",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/2/22/Legion_cover.jpg"
  },
  "Xenoblade Chronicles X": {
   "cn": "异度神剑X",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/7/7f/Xenoblade_Chronicles_X_-_Boxart.jpg"
  },
  "Street Fighter V": {
   "cn": "街头霸王V",
@@ -778,7 +789,7 @@
  "Pokkén Tournament": {
   "cn": "宝可拳",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/9/99/PokkenTournamentBoxart.png"
  },
  "Civilization VI": {
   "cn": "文明帝国VI",
@@ -817,26 +828,29 @@
  "Skylanders: Imaginators": {
   "cn": "宝贝龙世界系列",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/4/45/Skylanders_Imaginators_cover_art.jpg"
  },
  "Forza Horizon 3": {
   "cn": "极限竞速 地平线3",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/5/54/Forza_horizon_3_cover_art.jpg"
  },
  "FIFA 17": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/0/08/FIFA_17_cover.jpeg",
+  "src": "wiki"
  },
  "MLB The Show 16": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/b/b8/MLBTheShow16.jpg",
+  "src": "wiki"
  },
  "NBA 2K17": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/a/a0/NBA_2K17_cover_art.jpg",
+  "src": "wiki"
  },
  "Pro Evolution Soccer 2017": {
   "cn": "胜利十一人2017",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/f/f7/Pro_Evolution_2017_Cover_Art.png"
  },
  "Overcooked": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/448510/header.jpg",
@@ -851,8 +865,8 @@
  },
  "The Legend of Zelda: Breath of the Wild": {
   "cn": "塞尔达传说 旷野之息",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg"
  },
  "Horizon Zero Dawn": {
   "cn": "地平線 黎明時分",
@@ -873,7 +887,7 @@
  "Super Mario Odyssey": {
   "cn": "超级马力欧 奥德赛",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg"
  },
  "Resident Evil 7: Biohazard": {
   "cn": "生化危机7 恶灵古堡",
@@ -957,7 +971,7 @@
  "Grand Theft Auto Online": {
   "cn": "侠盗猎车手Online",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/a/ab/Grand_Theft_Auto_Online.jpg"
  },
  "Warframe": {
   "cn": "戰甲神兵",
@@ -978,7 +992,7 @@
  "Fire Emblem Heroes": {
   "cn": "火焰之纹章 英雄",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/f/f6/Fire_Emblem_Heroes_logo.png"
  },
  "Hidden Folks": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/435400/header.jpg",
@@ -993,20 +1007,21 @@
  "Super Mario Run": {
   "cn": "超级马力欧酷跑",
   "src": "wiki",
-  "skip": true
+  "cover": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Super_Mario_Run_logo.svg/500px-Super_Mario_Run_logo.svg.png"
  },
  "Metroid: Samus Returns": {
   "cn": "密特罗德系列",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/1/16/Metroid_Samus_Returns.jpg"
  },
  "Ever Oasis": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/c/c9/Ever_Oasis_NA_and_PAL_Cover_Artwork.png",
+  "src": "wiki"
  },
  "Fire Emblem Echoes: Shadows of Valentia": {
   "cn": "火焰之纹章 回声 另一位英雄王",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/9/98/Fire_Emblem_Echoes_cover.png"
  },
  "Monster Hunter Stories": {
   "cn": "魔物猎人物语",
@@ -1015,18 +1030,20 @@
   "appid": 2356560
  },
  "Poochy and Yoshi's Woolly World": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/b/b9/UK_box_art_of_Yoshi%27s_Woolly_World.jpg",
+  "src": "wiki"
  },
  "Farpoint": {
   "skip": true
  },
  "Lone Echo": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/e/ef/Lone_Echo_game.png",
+  "src": "wiki"
  },
  "Star Trek: Bridge Crew": {
   "cn": "星舰奇航记",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/8/85/Star_Trek_Bridge_Crew.jpg"
  },
  "Superhot VR": {
   "cn": "",
@@ -1053,7 +1070,7 @@
  "Uncharted: The Lost Legacy": {
   "cn": "神秘海域系列",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/8/85/Uncharted_The_Lost_Legacy_box_artwork_%28fair_use%29.jpg"
  },
  "Divinity: Original Sin II": {
   "cn": "神性",
@@ -1100,13 +1117,13 @@
  },
  "Mario Kart 8 Deluxe": {
   "cn": "瑪利歐賽車8",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/b/b5/MarioKart8Boxart.jpg"
  },
  "Mario + Rabbids Kingdom Battle": {
   "cn": "马力欧+疯狂兔子 王国之战",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/f/f5/Mario_%2B_Rabbids_Kingdom_Battle.jpg"
  },
  "Sonic Mania": {
   "cn": "索尼克狂欢",
@@ -1123,7 +1140,7 @@
  "Halo Wars 2": {
   "cn": "星环战役2",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/f/f6/Hw2_coverart.png"
  },
  "Total War: Warhammer II": {
   "cn": "全面战争：战锤2",
@@ -1144,26 +1161,29 @@
  "Forza Motorsport 7": {
   "cn": "极限竞速7",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/2/2f/Forza_7_art.jpg"
  },
  "FIFA 18": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/d/d4/FIFA18cover.png",
+  "src": "wiki"
  },
  "Gran Turismo Sport": {
   "cn": "跑车浪漫旅 竞速",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/9/96/GT_Sport_cover_art.jpg"
  },
  "NBA 2K18": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/8/82/NBA_2K18_cover_art.jpg",
+  "src": "wiki"
  },
  "Pro Evolution Soccer 2018": {
   "cn": "实况足球2018",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/f/f7/Pro_Evolution_Soccer_2018_Cover_Art.png"
  },
  "Project Cars 2": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/d/d7/Project_CARS_2_cover_art.jpg",
+  "src": "wiki"
  },
  "Call of Duty: WWII": {
   "cn": "使命召唤：二战",
@@ -1180,7 +1200,8 @@
   "skip": true
  },
  "Falling Sky": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/c/c9/Falling-sky-1999-poster.jpg",
+  "src": "wiki"
  },
  "From Light": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2551840/header.jpg",
@@ -1203,7 +1224,8 @@
   "appid": 2000480
  },
  "Golf Story": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/7/70/Golf_Story.jpg",
+  "src": "wiki"
  },
  "Hollow Knight": {
   "cn": "Hollow Knight: 虚空之心版",
@@ -1298,7 +1320,7 @@
  "Forza Horizon 4": {
   "cn": "极限竞速 地平线4",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/8/87/Forza_Horizon_4_cover.jpg"
  },
  "Roger Clark as Arthur Morgan": {
   "skip": true
@@ -1334,7 +1356,7 @@
  "Destiny 2: Forsaken": {
   "cn": "命运2",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/e/ec/Destiny_2_Forsaken_cover.png"
  },
  "No Man's Sky": {
   "cn": "无人深空",
@@ -1376,7 +1398,8 @@
   "src": "steam"
  },
  "Astro Bot Rescue Mission": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/2/2c/Astro_Bot_Rescue_Mission_NA_Box_Art.jpg",
+  "src": "wiki"
  },
  "Beat Saber": {
   "cn": "节奏光剑",
@@ -1385,7 +1408,8 @@
   "appid": 620980
  },
  "Firewall: Zero Hour": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/9/9f/Firewall_Zero_Hour.jpg",
+  "src": "wiki"
  },
  "Moss": {
   "cn": "藓類植物門",
@@ -1394,7 +1418,8 @@
   "appid": 846470
  },
  "Tetris Effect": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/a/ae/Tetris_Effect_cover.jpg",
+  "src": "wiki"
  },
  "Far Cry 5": {
   "cn": "孤岛惊魂5",
@@ -1446,7 +1471,7 @@
  "Street Fighter V: Arcade Edition": {
   "cn": "街头霸王V",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/8/80/Street_Fighter_V_box_artwork.png"
  },
  "Overcooked 2": {
   "cn": "胡闹厨房2",
@@ -1456,8 +1481,8 @@
  },
  "Mario Tennis Aces": {
   "cn": "瑪利歐網球 王牌高手",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/1/13/Mario_Tennis_Aces.jpg"
  },
  "Nintendo Labo": {
   "cn": "任天堂Labo",
@@ -1496,24 +1521,26 @@
  },
  "Valkyria Chronicles 4": {
   "cn": "战场女武神4",
-  "src": "wiki",
-  "skip": true
+  "src": "steam",
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/790820/header.jpg"
  },
  "FIFA 19": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/7/71/FIFA_19_cover.jpg",
+  "src": "wiki"
  },
  "NBA 2K19": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/a/ac/NBA_2K19_cover_art.jpg",
+  "src": "wiki"
  },
  "Pro Evolution Soccer 2019": {
   "cn": "实况足球2019",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/c/cf/Pro_Evolution_Soccer_2019_Cover_Art.jpg"
  },
  "Sea of Thieves": {
   "cn": "盗贼之海",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/7/77/Sea_of_thieves_cover_art.jpg"
  },
  "Combat 2018": {
   "skip": true
@@ -1582,8 +1609,8 @@
  },
  "Disco Elysium": {
   "cn": "Disco Elysium - The Final Cut",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/0/0d/Disco_Elysium_Poster.jpeg"
  },
  "A Plague Tale: Innocence": {
   "cn": "瘟疫傳說：無罪",
@@ -1598,8 +1625,8 @@
  },
  "The Legend of Zelda: Link's Awakening": {
   "cn": "薩爾達傳說 織夢島",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/c/c1/Link%27s_Awakening.png"
  },
  "Sayonara Wild Hearts": {
   "cn": "再见狂野之心",
@@ -1610,7 +1637,7 @@
  "Cadence of Hyrule": {
   "cn": "凯登丝勇闯海拉鲁",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/b/b1/Cadence_of_Hyrule.jpg"
  },
  "Devil May Cry 5": {
   "cn": "惡魔獵人5",
@@ -1620,8 +1647,8 @@
  },
  "Kingdom Hearts III": {
   "cn": "王國之心III",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/5/5c/Kingdom_Hearts_III_box_art.jpg"
  },
  "Call of Duty: Modern Warfare": {
   "cn": "決勝時刻系列",
@@ -1654,7 +1681,8 @@
   "skip": true
  },
  "Concrete Genie": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/0/06/Concrete_Genie_artwork.png",
+  "src": "wiki"
  },
  "Kind Words": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2777710/header.jpg",
@@ -1723,20 +1751,22 @@
   "appid": 785790
  },
  "Asgard's Wrath": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/7/7e/Asgard%27s_Wrath_cover_art.jpg",
+  "src": "wiki"
  },
  "Blood & Truth": {
   "cn": "鲜血与真相",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/6/6c/Blood_and_Truth_cover_art.jpg"
  },
  "Trover Saves the Universe": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/9/9f/Trover_Saves_the_Universe_cover_art.jpg",
+  "src": "wiki"
  },
  "Astral Chain": {
   "cn": "异界锁链",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/6/67/Astral_Chain.jpg"
  },
  "Metro Exodus": {
   "cn": "战栗深隧：流亡",
@@ -1763,7 +1793,8 @@
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/4144680/header.jpg"
  },
  "Jump Force": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/0/0c/Jumpforcegame.jpg",
+  "src": "wiki"
  },
  "Mortal Kombat 11": {
   "cn": "真人快打11",
@@ -1780,7 +1811,7 @@
  "Luigi's Mansion 3": {
   "cn": "路易吉洋楼3",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/3/38/Luigi%27s_Mansion_3.jpg"
  },
  "Ring Fit Adventure": {
   "cn": "健身环大冒险",
@@ -1791,17 +1822,17 @@
  "Super Mario Maker 2": {
   "cn": "超级玛利欧创作家2",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/c/c7/Super_Mario_Maker_2.jpg"
  },
  "Yoshi's Crafted World": {
   "cn": "耀西的手工世界",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/3/38/Yoshi%27s_Crafted_World.jpg"
  },
  "Fire Emblem: Three Houses": {
   "cn": "Fire Emblem 风花雪月",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/1/16/Fire_Emblem_Three_Houses.jpg"
  },
  "Age of Wonders: Planetfall": {
   "cn": "奇迹时代",
@@ -1836,7 +1867,7 @@
  "Crash Team Racing Nitro-Fueled": {
   "cn": "古惑狼赛车：氮气爆冲",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/3/36/Crash_Team_Racing_Nitro-Fueled_cover_art.jpg"
  },
  "Dirt Rally 2.0": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/690790/header.jpg",
@@ -1844,18 +1875,21 @@
   "appid": 690790
  },
  "eFootball Pro Evolution Soccer 2020": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/2/2b/Pro_Evolution_Soccer_2020.jpg",
+  "src": "wiki"
  },
  "F1 2019": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Lewis_Hamilton_2016_Malaysia_1.jpg",
+  "src": "wiki"
  },
  "FIFA 20": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/2/21/FIFA_20_Standard_Edition_Cover.jpg",
+  "src": "wiki"
  },
  "Tetris 99": {
   "cn": "俄罗斯方块99",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/7/76/Tetris99-coverart.png"
  },
  "Tom Clancy's The Division 2": {
   "cn": "汤姆克兰西：全境封锁2",
@@ -1964,8 +1998,8 @@
  },
  "Kentucky Route Zero": {
   "cn": "肯塔基州零號公路",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/6/67/Kentucky_Route_Zero_title.png"
  },
  "Spiritfarer": {
   "cn": "灵魂远去",
@@ -2015,10 +2049,11 @@
  "Legends of Runeterra": {
   "cn": "符文之地传奇",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/b/b0/Legends_of_Runeterra_logo.png"
  },
  "Pokémon Café Mix": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/9/93/Pok%C3%A9mon_Caf%C3%A9_Mix_Cover_Art.jpg",
+  "src": "wiki"
  },
  "Valorant": {
   "cn": "无畏契约",
@@ -2028,11 +2063,12 @@
  },
  "Dreams": {
   "cn": "夢",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/a/af/A_dream_%28BM_1868%2C0808.9057%29.jpg"
  },
  "Iron Man VR": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/f/f0/Iron_Man_VR_cover_art.jpg",
+  "src": "wiki"
  },
  "Star Wars Squadrons": {
   "appid": 1222730,
@@ -2120,8 +2156,8 @@
  },
  "Street Fighter V Champion Edition": {
   "cn": "街頭霸王V",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/8/80/Street_Fighter_V_box_artwork.png"
  },
  "Under Night In-Birth Exe:Late[cl-r]": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/801630/header.jpg",
@@ -2137,7 +2173,7 @@
  "Mario Kart Live: Home Circuit": {
   "cn": "玛利欧赛车实况：家庭赛车场",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/f/f5/Mario_Kart_Live_Home_Circuit.jpeg"
  },
  "Minecraft Dungeons": {
   "cn": "我的世界：地下城",
@@ -2148,7 +2184,7 @@
  "Paper Mario: The Origami King": {
   "cn": "纸片马力欧：折纸国王",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/5/59/Paper_Mario_The_Origami_King.jpg"
  },
  "Microsoft Flight Simulator": {
   "cn": "微軟模擬飛行系列",
@@ -2181,7 +2217,8 @@
   "appid": 882100
  },
  "Tony Hawk's Pro Skater 1 + 2": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/8/8f/Tony_Hawk_Pro_Skater_Remaster_cover_art.png",
+  "src": "wiki"
  },
  "Dirt 5": {
   "cn": "尘埃5",
@@ -2190,13 +2227,16 @@
   "appid": 1038250
  },
  "F1 2020": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/1/18/Lewis_Hamilton_2016_Malaysia_2.jpg",
+  "src": "wiki"
  },
  "FIFA 21": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/b/bb/FIFA_21_Standard_Edition_Cover.jpg",
+  "src": "wiki"
  },
  "NBA 2K21": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/a/a2/NBA_2K21_-_Damian_Lilliard_cover_art.jpg",
+  "src": "wiki"
  },
  "Phasmophobia": {
   "cn": "Phasmophobia 恐鬼症",
@@ -2235,13 +2275,13 @@
  },
  "Horizon Forbidden West": {
   "cn": "地平线 西域禁地",
-  "src": "wiki",
-  "skip": true
+  "src": "steam",
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2420110/header.jpg"
  },
  "The Legend of Zelda: Breath of the Wild sequel": {
   "cn": "萨尔达传说系列",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/f/fb/The_Legend_of_Zelda_Tears_of_the_Kingdom_cover.jpg"
  },
  "Resident Evil Village": {
   "cn": "恶灵古堡 村庄",
@@ -2263,8 +2303,8 @@
  },
  "Metroid Dread": {
   "cn": "密特罗德 生存恐惧",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/f/f7/Metroid_Dread_Banner.png"
  },
  "Psychonauts 2": {
   "cn": "脑航员2",
@@ -2361,7 +2401,8 @@
   "src": "steam"
  },
  "12 Minutes": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/d/d0/Twelve_minutes_cover.png",
+  "src": "wiki"
  },
  "Death's Door": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3163470/header.jpg",
@@ -2380,7 +2421,8 @@
   "appid": 1519390
  },
  "Fantasian": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/3/3c/Fantasian_Cover_Art.png",
+  "src": "wiki"
  },
  "League of Legends: Wild Rift": {
   "cn": "英雄联盟",
@@ -2391,7 +2433,7 @@
  "Marvel Future Revolution": {
   "cn": "MARVEL未来革命",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/3/37/Marvel_Future_Revolution_logo.jpg"
  },
  "Pokémon Unite": {
   "cn": "宝可梦大集结",
@@ -2401,8 +2443,8 @@
  },
  "Destiny 2: Beyond Light": {
   "cn": "命运2：Bungie30周年纪念组合包",
-  "src": "steam",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/b/be/Destiny_2_Beyond_Light_cover.jpeg"
  },
  "Resident Evil 4": {
   "cn": "生化危机4",
@@ -2413,7 +2455,7 @@
  "Hitman 3": {
   "cn": "刺客任务3",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/4/4b/Hitman_3_Packart.jpg"
  },
  "I Expect You to Die 2: The Spy and the Liar": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1499120/header.jpg",
@@ -2421,7 +2463,8 @@
   "appid": 1499120
  },
  "Lone Echo II": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/e/e3/Lone_Echo_II_Game.jpg",
+  "src": "wiki"
  },
  "Sniper Elite VR": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/752480/header.jpg",
@@ -2470,8 +2513,8 @@
  },
  "Shin Megami Tensei V": {
   "cn": "真·女神转生Ⅴ Vengeance",
-  "src": "steam",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/b/bd/Shin_Megami_Tensei_V.png"
  },
  "Guilty Gear Strive": {
   "cn": "圣骑士之战 -奋战-",
@@ -2482,7 +2525,7 @@
  "Demon Slayer: Kimetsu no Yaiba": {
   "cn": "鬼灭之刃",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/0/09/Demon_Slayer_-_Kimetsu_no_Yaiba%2C_volume_1.jpg"
  },
  "Melty Blood: Type Lumina": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1372280/header.jpg",
@@ -2497,30 +2540,31 @@
  "Virtua Fighter 5: Ultimate Showdown": {
   "cn": "VR快打5",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/c/c0/Virtua_Fighter_5_Box_Art.jpg"
  },
  "Mario Party Superstars": {
   "cn": "玛利欧派对 超级巨星",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/1/1a/Mario_Party_Superstars_cover_art.jpg"
  },
  "New Pokémon Snap": {
   "cn": "New 宝可梦随乐拍",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/f/f1/Newpokemonsnap.png"
  },
  "Super Mario 3D World + Bowser's Fury": {
   "cn": "超級瑪利歐3D世界",
-  "src": "alias",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/5/5e/Super_Mario_3D_World_box_art.jpg"
  },
  "WarioWare: Get It Together!": {
   "cn": "瓦力欧制造系列",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/c/c5/WarioWare_Get_it_Together_icon.png"
  },
  "F1 2021": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/commons/7/75/Max_Verstappen_2017_Malaysia_3.jpg",
+  "src": "wiki"
  },
  "FIFA 22": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1506830/header.jpg",
@@ -2557,7 +2601,8 @@
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2581850/header.jpg"
  },
  "Knockout City": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/1/1f/Knockout_City_cover_art.png",
+  "src": "wiki"
  },
  "New World": {
   "cn": "新大陸",
@@ -2608,7 +2653,7 @@
  "Xenoblade Chronicles 3": {
   "cn": "异度神剑3",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/7/76/Xenoblade_3.png"
  },
  "Immortality": {
   "cn": "长生不老",
@@ -2636,7 +2681,7 @@
  "Gran Turismo 7": {
   "cn": "GT赛车7",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/1/14/Gran_Turismo_7_cover_art.jpg"
  },
  "Manon Gage as Marissa Marcel": {
   "skip": true
@@ -2722,7 +2767,7 @@
  "Diablo Immortal": {
   "cn": "暗黑破坏神：不朽",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/c/c0/Diablo_Immortal_App_Logo.png"
  },
  "Tower of Fantasy": {
   "cn": "幻塔",
@@ -2733,7 +2778,7 @@
  "Moss: Book II": {
   "cn": "藓类植物门",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/6/66/Moss_Book_II_Cover_Art.jpg"
  },
  "After the Fall": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/751630/header.jpg",
@@ -2775,7 +2820,7 @@
  "Bayonetta 3": {
   "cn": "魔兵惊天录3",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/f/fe/Bayonetta_3_cover.webp"
  },
  "Teenage Mutant Ninja Turtles: Shredder's Revenge": {
   "cn": "忍者龟",
@@ -2802,7 +2847,8 @@
   "appid": 1850510
  },
  "MultiVersus": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/1/1d/MultiVersus_Cover_Art.png",
+  "src": "wiki"
  },
  "DNF Duel": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1216060/header.jpg",
@@ -2832,12 +2878,13 @@
   "appid": 920210
  },
  "Mario + Rabbids Sparks of Hope": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/6/66/Mario_%2B_Rabbids_Sparks_of_Hope_cover_art.jpg",
+  "src": "wiki"
  },
  "Nintendo Switch Sports": {
   "cn": "Nintendo Switch 运动",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/2/29/Nintendo_Switch_Sports_cover_art.jpg"
  },
  "Splatoon 3": {
   "cn": "喷射战士3",
@@ -2845,13 +2892,16 @@
   "cover": "https://heyboxbj.max-c.com/gameimg/switch_game_image/e2301f0cb65f2ebbdf5bfb8795fc04e8.jpg?imageMogr2/thumbnail/460x215%3E/format/webp"
  },
  "F1 22": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/b/be/F1_22_cover_art.jpg",
+  "src": "wiki"
  },
  "FIFA 23": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/a/a6/FIFA_23_Cover.jpg",
+  "src": "wiki"
  },
  "NBA 2K23": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/d/d7/NBA_2K23_cover_art.jpg",
+  "src": "wiki"
  },
  "OlliOlli World": {
   "cn": "欧利欧利世界",
@@ -2884,7 +2934,8 @@
   "appid": 529340
  },
  "Overwatch 2": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/8/89/Overwatch_2_Steam_artwork.jpg",
+  "src": "wiki"
  },
  "Norco": {
   "appid": 1221250,
@@ -2950,7 +3001,7 @@
  "Alan Wake 2": {
   "cn": "心灵杀手2",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/e/ed/Alan_Wake_2_box_art.jpg"
  },
  "Marvel's Spider-Man 2": {
   "cn": "蜘蛛人2",
@@ -3078,12 +3129,12 @@
  "Honkai: Star Rail": {
   "cn": "崩坏系列",
   "src": "wiki",
-  "skip": true
+  "cover": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/8e/Honkai_Star_Rail_logo.svg/500px-Honkai_Star_Rail_logo.svg.png"
  },
  "Final Fantasy VII: Ever Crisis": {
   "cn": "最终幻想VII",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/4/46/Ever_Crisis_logo.png"
  },
  "Hello Kitty Island Adventure": {
   "cn": "",
@@ -3092,7 +3143,8 @@
   "appid": 2495100
  },
  "Monster Hunter Now": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/a/a7/Monster_Hunter_Now_logo.png",
+  "src": "wiki"
  },
  "Humanity": {
   "cn": "人類 (消歧義)",
@@ -3103,7 +3155,7 @@
  "Horizon Call of the Mountain": {
   "cn": "地平线 山之呼唤",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/a/a5/Horizon_Call_of_the_Mountain_cover_art.jpg"
  },
  "Synapse": {
   "cn": "突触",
@@ -3133,7 +3185,7 @@
  "Remnant 2": {
   "cn": "遗迹2",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/f/f1/Remnant_2_cover_art.jpg"
  },
  "Star Wars Jedi: Survivor": {
   "cn": "星际大战 绝地：幸存者",
@@ -3169,7 +3221,8 @@
   "appid": 1555150
  },
  "Disney Illusion Island": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/b/b5/Disney_Illusion_Island_cover.jpg",
+  "src": "wiki"
  },
  "Party Animals": {
   "appid": 1260320,
@@ -3179,7 +3232,7 @@
  "Pikmin 4": {
   "cn": "皮克敏4",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/4/4d/Pikmin_icon_4.jpg"
  },
  "Sonic Superstars": {
   "cn": "索尼克 超级巨星",
@@ -3188,7 +3241,8 @@
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2022670/header.jpg"
  },
  "Advance Wars 1+2: Re-Boot Camp": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/7/71/Advance_Wars_1-2_Re-Boot_Camp.jpg",
+  "src": "wiki"
  },
  "Cities: Skylines II": {
   "cn": "都市：天际线II",
@@ -3205,7 +3259,7 @@
  "Fire Emblem Engage": {
   "cn": "火焰之纹章 Engage",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/f/f6/Fire_Emblem_Engage.jpg"
  },
  "Forza Motorsport": {
   "cn": "極限競速系列",
@@ -3214,10 +3268,12 @@
   "appid": 2557400
  },
  "EA Sports FC 24": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/b/b3/EA_FC24_Cover.jpg",
+  "src": "wiki"
  },
  "F1 23": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/5/5b/F1_23_cover_art.jpg",
+  "src": "wiki"
  },
  "Hot Wheels Unleashed 2: Turbocharged": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2051120/header.jpg",
@@ -3285,8 +3341,8 @@
  },
  "Astro Bot": {
   "cn": "",
-  "src": "steam",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/a/a9/Astro_Bot_cover_art.jpg"
  },
  "Balatro": {
   "cn": "小丑牌",
@@ -3465,7 +3521,8 @@
   "appid": 2897700
  },
  "Asgard's Wrath 2": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/b/b4/Asgard%27s_Wrath_2_cover.jpg",
+  "src": "wiki"
  },
  "Metal: Hellsinger VR": {
   "cn": "金属",
@@ -3487,7 +3544,7 @@
  "The Legend of Zelda: Echoes of Wisdom": {
   "cn": "萨尔达传说 智慧的再现",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/1/1e/The_Legend_of_Zelda_%E2%80%93_Echoes_of_Wisdom.jpg"
  },
  "Prince of Persia: The Lost Crown": {
   "cn": "波斯王子系列",
@@ -3527,12 +3584,12 @@
  "Princess Peach: Showtime!": {
   "cn": "碧姬公主",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/8/86/Peachshowtime.png"
  },
  "Super Mario Party Jamboree": {
   "cn": "超级玛利欧派对 空前盛会",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/3/3a/Super_Mario_Party_Jamboree_cover_art.jpg"
  },
  "Frostpunk 2": {
   "cn": "冰汽时代2",
@@ -3555,7 +3612,7 @@
  "Unicorn Overlord": {
   "cn": "圣兽之王",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/a/a1/Unicorn_Overlord_cover.jpg"
  },
  "EA Sports FC 25": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/2669320/header.jpg",
@@ -3568,7 +3625,8 @@
   "appid": 2488620
  },
  "NBA 2K25": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/2/2f/NBA_2K25_cover_art.jpg",
+  "src": "wiki"
  },
  "TopSpin 2K25": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1785650/header.jpg",
@@ -3623,7 +3681,7 @@
  "Metroid Prime 4: Beyond": {
   "cn": "密特罗德 究极4 穿越未知",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/4/48/Metroid_Prime_4_Beyond_cover_art.png"
  },
  "Monster Hunter Wilds": {
   "cn": "魔物猎人 荒野",
@@ -3639,7 +3697,7 @@
  "Donkey Kong Bananza": {
   "cn": "咚奇刚 蕉力全开",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/0/01/Donkey_Kong_Bananza_updated_box_art.png"
  },
  "Hollow Knight: Silksong": {
   "cn": "空洞骑士",
@@ -3757,7 +3815,7 @@
  "Destiny: Rising": {
   "cn": "命运",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/e/ee/Destiny_Rising_Artwork.png"
  },
  "Persona 5: The Phantom X": {
   "cn": "女神异闻录5",
@@ -3793,7 +3851,8 @@
   "appid": 2496180
  },
  "Marvel's Deadpool VR": {
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/f/f3/Deadpool_VR_cover_art.jpg",
+  "src": "wiki"
  },
  "Doom: The Dark Ages": {
   "cn": "毁灭战士：黑暗时代",
@@ -3870,7 +3929,7 @@
  "Mario Kart World": {
   "cn": "玛利欧赛车世界",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/6/65/Mario_Kart_World_Cover_Artwork.png"
  },
  "Sonic Racing: CrossWorlds": {
   "cn": "索尼克赛车 交叉世界",
@@ -3892,8 +3951,8 @@
  },
  "Civilization VII": {
   "cn": "席德·梅尔的文明VII",
-  "src": "steam",
-  "skip": true
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/d/d5/Civilization_VII_cover.png"
  },
  "Jurassic World Evolution 3": {
   "cn": "侏罗纪世界：进化3",
@@ -3980,7 +4039,7 @@
  "Marvel's Wolverine": {
   "cn": "漫威金钢狼",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/3/3d/Marvel%27s_Wolverine_cover_art.jpg"
  },
  "Resident Evil Requiem": {
   "cn": "恶灵古堡 安魂曲",
@@ -3991,15 +4050,17 @@
  "The Witcher IV": {
   "cn": "巫师4",
   "src": "wiki",
-  "skip": true
+  "cover": "https://upload.wikimedia.org/wikipedia/en/4/4c/The_Witcher_IV_logo.png"
  },
  "Control Resonant": {
   "cn": "控制：共振",
-  "src": "wiki"
+  "src": "steam",
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3669870/header.jpg"
  },
  "The Legend of Zelda: Ocarina of Time": {
   "cn": "萨尔达传说系列",
-  "src": "wiki"
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg"
  },
  "Phantom Blade Zero": {
   "cn": "影之刃零",
@@ -4008,18 +4069,21 @@
  },
  "Pragmata": {
   "cn": "人机迷网",
-  "src": "wiki",
-  "appid": 3357650
+  "src": "steam",
+  "appid": 3357650,
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/header.jpg"
  },
  "The Blood of Dawnwalker": {
   "cn": "黎明行者之血",
   "src": "steam",
-  "appid": 3751260
+  "appid": 3751260,
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3751260/header.jpg"
  },
  "Mouse: P.I. for Hire": {
   "cn": "老鼠",
-  "src": "wiki",
-  "appid": 3912890
+  "src": "steam",
+  "appid": 3912890,
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2416450/header.jpg"
  },
  "Ace Combat 8: Wings of Theve": {
   "cn": "空战奇兵8 希孚之翼",
@@ -4035,13 +4099,22 @@
  },
  "Star Wars: Galactic Racer": {
   "cn": "星际大战",
-  "src": "wiki"
+  "src": "steam",
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4078430/header.jpg"
  },
  "Angela Sant'Albano as Grace Ashcroft": {},
- "Liam McIntyre as Wolverine": {},
- "Manni L. Perez as Lucia Caminos": {},
- "Patrick Gibson as James Bond": {},
- "Rahul Kohli as Arjun Devraj": {},
+ "Liam McIntyre as Wolverine": {
+  "skip": true
+ },
+ "Manni L. Perez as Lucia Caminos": {
+  "skip": true
+ },
+ "Patrick Gibson as James Bond": {
+  "skip": true
+ },
+ "Rahul Kohli as Arjun Devraj": {
+  "skip": true
+ },
  "Big Walk": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1478500/header.jpg",
   "src": "steam",
@@ -4049,7 +4122,8 @@
  },
  "Cairn": {
   "cn": "石堆",
-  "src": "wiki"
+  "src": "steam",
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588550/header.jpg"
  },
  "Forever Ago": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1215940/header.jpg",
@@ -4058,24 +4132,29 @@
  },
  "Life Is Strange: Reunion": {
   "cn": "奇异人生系列",
-  "src": "wiki",
-  "appid": 2624870
+  "src": "steam",
+  "appid": 2624870,
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2624870/header.jpg"
  },
  "lily's world XD": {
   "cn": "莉莉的世界 XD",
-  "src": "steam"
+  "src": "steam",
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3195580/header.jpg"
  },
  "Denshattack!": {
   "cn": "电车炫客",
-  "src": "wiki"
+  "src": "steam",
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/header.jpg"
  },
  "Mewgenics": {
   "cn": "喵喵的结合",
-  "src": "wiki"
+  "src": "steam",
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/686060/header.jpg"
  },
  "Mina the Hollower": {
   "cn": "挖掘者米娜",
-  "src": "wiki"
+  "src": "steam",
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875580/header.jpg"
  },
  "Dressmaker": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1487080/header.jpg",
@@ -4084,15 +4163,21 @@
  },
  "Esoteric Ebb": {
   "cn": "奥秘消退",
-  "src": "wiki"
+  "src": "steam",
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/header.jpg"
  },
- "Orbitals": {},
+ "Orbitals": {
+  "skip": true
+ },
  "Replaced": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/1663850/header.jpg",
   "src": "steam",
   "appid": 1663850
  },
- "Silver Pines": {},
+ "Silver Pines": {
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2333000/header.jpg",
+  "src": "steam"
+ },
  "Crimson Desert": {
   "cn": "赤血沙漠",
   "src": "wiki"
@@ -4101,15 +4186,23 @@
   "cn": "明日方舟",
   "src": "wiki"
  },
- "Monster Hunter Outlanders": {},
- "Neverness to Everness": {
-  "cn": "异环",
+ "Monster Hunter Outlanders": {
+  "cover": "https://upload.wikimedia.org/wikipedia/en/7/79/Logo_Monster_Hunter_Outlanders.png",
   "src": "wiki"
  },
- "Pokémon Champions": {},
+ "Neverness to Everness": {
+  "cn": "异环",
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/9/9c/Neverness_to_Everness_logo.png"
+ },
+ "Pokémon Champions": {
+  "cover": "https://upload.wikimedia.org/wikipedia/en/4/4c/Pok%C3%A9mon_Champions_key_art_logo.jpg",
+  "src": "wiki"
+ },
  "Where Winds Meet": {
   "cn": "燕云十六声",
-  "src": "wiki"
+  "src": "steam",
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3564740/header.jpg"
  },
  "Forefront": {
   "appid": 2981220,
@@ -4124,15 +4217,19 @@
  },
  "Little Nightmares VR: Altered Echoes": {
   "cn": "小小梦魇VR: 异境回响",
-  "src": "steam"
+  "src": "steam",
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2482940/header.jpg"
  },
  "Teenage Mutant Ninja Turtles: Empire City": {
   "cn": "忍者龟",
-  "src": "wiki",
-  "appid": 3713650
+  "src": "steam",
+  "appid": 3713650,
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3713650/header.jpg"
  },
  "Thief VR: Legacy of Shadow": {
-  "appid": 2800080
+  "appid": 2800080,
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2800080/header.jpg",
+  "src": "steam"
  },
  "Gears of War: E-Day": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3010850/header.jpg",
@@ -4141,9 +4238,12 @@
  },
  "Onimusha: Way of the Sword": {
   "cn": "鬼武者系列",
-  "src": "wiki"
+  "src": "steam",
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2638890/header.jpg"
  },
- "Saros": {},
+ "Saros": {
+  "skip": true
+ },
  "Final Fantasy Resonance": {
   "appid": 3259780,
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/3259780/header.jpg",
@@ -4152,16 +4252,19 @@
  },
  "Fire Emblem: Fortune's Weave": {
   "cn": "火焰之纹章系列",
-  "src": "wiki"
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/a/af/Fire_Emblem_Fortune%27s_Weave_cover.jpg"
  },
  "Monster Hunter Stories 3: Twisted Reflection": {
   "cn": "魔物猎人物语3 ～命运双龙～",
-  "src": "wiki",
-  "appid": 4600340
+  "src": "steam",
+  "appid": 4600340,
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2852190/header.jpg"
  },
  "Trails in the Sky 2nd Chapter": {
   "cn": "空之轨迹 the 2nd",
-  "src": "steam"
+  "src": "steam",
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4225980/header.jpg"
  },
  "Avatar Legends: The Fighting Game": {
   "appid": 2424420,
@@ -4177,23 +4280,36 @@
  },
  "Marvel Tōkon: Fighting Souls": {
   "cn": "漫威斗魂",
-  "src": "wiki"
+  "src": "steam",
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3787240/header.jpg"
  },
  "My Hero Academia: All's Justice": {
   "cn": "我的英雄学院",
-  "src": "wiki"
+  "src": "steam",
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2362050/header.jpg"
  },
  "Lego Batman: Legacy of the Dark Knight": {
   "cn": "LEGO蝙蝠侠：黑暗骑士传奇",
+  "src": "steam",
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2215200/header.jpg"
+ },
+ "Nintendo Switch Sports Resort": {
+  "cover": "https://upload.wikimedia.org/wikipedia/en/3/3e/Nintendo_Switch_Sports_Resort_cover_art.png",
   "src": "wiki"
  },
- "Nintendo Switch Sports Resort": {},
- "Pokémon Pokopia": {},
+ "Pokémon Pokopia": {
+  "cover": "https://upload.wikimedia.org/wikipedia/en/6/6a/Pok%C3%A9mon_Pokopia_box_art.png",
+  "src": "wiki"
+ },
  "Yoshi and the Mysterious Book": {
   "cn": "耀西与不可思议的图鉴",
-  "src": "wiki"
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/4/47/Yoshi_Book.png"
  },
- "Planet Zoo 2": {},
+ "Planet Zoo 2": {
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3219030/header.jpg",
+  "src": "steam"
+ },
  "Slay the Spire II": {
   "cn": "杀戮尖塔2",
   "src": "wiki",
@@ -4202,7 +4318,8 @@
  },
  "Star Wars Zero Company": {
   "cn": "星球大战 零号连队",
-  "src": "wiki"
+  "src": "wiki",
+  "skip": true
  },
  "EA Sports FC 27": {
   "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/4080220/header.jpg",
@@ -4216,7 +4333,8 @@
  },
  "Screamer": {
   "cn": "叫鸭科",
-  "src": "wiki"
+  "src": "steam",
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2814990/header.jpg"
  },
  "Call of Duty: Modern Warfare 4": {
   "cn": "决胜时刻系列",
@@ -4225,11 +4343,13 @@
  },
  "Marathon": {
   "cn": "马拉松",
-  "src": "wiki"
+  "src": "steam",
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065800/header.jpg"
  },
  "Meccha Chameleon": {
   "cn": "超级变色龙",
-  "src": "wiki"
+  "src": "steam",
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704690/header.jpg"
  },
  "Assassin's Creed Black Flag Resynced": {
   "cn": "刺客信条：黑旗 记忆重置",
@@ -4237,7 +4357,8 @@
  },
  "Rhythm Heaven Groove": {
   "cn": "节奏天国 奇迹之星",
-  "src": "wiki"
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/9/90/Rhythm_Heaven_Groove.jpg"
  },
  "Fable": {
   "cn": "寓言",
@@ -4250,23 +4371,44 @@
  },
  "God of War Laufey": {
   "cn": "战神：劳菲",
-  "src": "wiki"
+  "src": "wiki",
+  "cover": "https://upload.wikimedia.org/wikipedia/en/0/0b/God_of_War_Laufey_cover.webp"
  },
  "Resident Evil Veronica": {
   "cn": "恶灵古堡 圣女密码 重制版",
-  "src": "wiki"
+  "src": "steam",
+  "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4824610/header.jpg"
  },
  "A Dream of Silence ReVamped": {},
- "Create Aeronautics": {},
- "nopixel V": {},
- "Star Wars Droid Tycoon": {},
- "TTK": {},
+ "Create Aeronautics": {
+  "skip": true
+ },
+ "nopixel V": {
+  "skip": true
+ },
+ "Star Wars Droid Tycoon": {
+  "skip": true
+ },
+ "TTK": {
+  "skip": true
+ },
  "Cyberpunk: Edgerunners 2 (anime series)": {
   "cn": "赛博朋克",
   "src": "wiki"
  },
- "Fallout season 2 (television series)": {},
- "Mortal Kombat II (feature film)": {},
- "Resident Evil (feature film)": {},
- "The Super Mario Galaxy Movie (animated film)": {}
+ "Fallout season 2 (television series)": {
+  "skip": true
+ },
+ "Mortal Kombat II (feature film)": {
+  "skip": true
+ },
+ "Resident Evil (feature film)": {
+  "skip": true
+ },
+ "The Super Mario Galaxy Movie (animated film)": {
+  "skip": true
+ },
+ "TBD": {
+  "skip": true
+ }
 }

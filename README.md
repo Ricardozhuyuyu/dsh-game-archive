@@ -1,63 +1,7 @@
-# 游戏档案 · dsh-game-archive
+# 游戏档案（dsh-game-archive）
 
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
-把 **Steam / PSN / Switch / Xbox / Epic** 五个平台的游戏记录抓成一份自己的档案：画廊式浏览、状态机、评分短评、TGA 陈列室、年度回顾、库价值，还有「该接着玩什么」的排单。
-
-一个 [DeepSeek Harness](https://github.com/deepseek-ai) 的插件（Host 提供接口，Client 提供界面），纯本地运行，数据存在你自己机器上。
-
-![总览](docs/screenshot-recommend.png)
-
-## 安装
-
-需要 DSH（DeepSeek Harness）已经能跑起来，机器上有 Python 3.8+。
-
-```bash
-git clone https://github.com/<you>/dsh-game-archive.git
-# 然后在 DSH 里用 plugin_manager 的 install_bundle 指向这个目录（绝对路径）
-```
-
-装完重启 DSH，左栏会多一个「游戏档案」图标。
-
-## 配置
-
-第一次启动会在数据目录生成这些文件，**账号信息写在 `accounts.json`**（不含账号也能手动跑 `tools/sync.py --steam-id ...`）：
-
-```json
-{
-  "steam_id": "你的 Steam 自定义网址后缀",
-  "psn_id": "PSN 在线 ID",
-  "xbox_xuid": "16 位 xuid",
-  "switch_player": "SW-xxxx-xxxx-xxxx",
-  "heybox_user_id": "小黑盒 user_id"
-}
-```
-
-同步靠一个开了调试端口的浏览器（脚本自己连 CDP，不用装驱动）：
-
-```bash
-# 先起一个带调试端口的 Chrome，并在里面登录好 Steam / 小黑盒 / Epic
-python3 tools/sync.py --out ~/Documents/游戏档案 --port 9333
-```
-
-## 数据从哪来
-
-| 平台 | 拿什么 | 怎么拿 |
-|---|---|---|
-| Steam | 全部游戏、时长、成就 | 登录态下解析 `/id/<你>/games/?tab=all` 的 DOM |
-| PSN / Switch / Xbox | 时长、奖杯/成就 | 小黑盒的分享页接口（要登录态；签名 URL 每次现签） |
-| Epic | 订单（买了/白嫖了什么、花了多少） | `ajaxGetOrderHistory` 翻页；Epic 不给时长 |
-| 补充字段 | 发售日 / M 站分 / 类型 / 原价 | Steam `appdetails`、Metacritic 前端接口、Wikipedia |
-
-**没有任何数据上传到别处**，全部落在本地 `records.json` / `manual.json` / `enrichment.json`。
-
-## 一点说明
-
-- 只有「机器能证实」的状态才自动判定（没碰过 / 100% / 30 天内开过），**通关和弃坑必须你自己点**——完成度 97% 也可能是没全收集。
-- 时长不准的地方会标出来：Switch 用小任天堂 App 的数字覆盖，Epic 天生没有时长。
-- 白嫖来的付费游戏按**原价**计入库价值（Epic 每周免费也是资产），只有真·0 元又没怎么玩的 F2P 会被折起来。
-
----
+五个平台（Steam / PSN / Switch / Xbox / Epic）的游戏记录，一键同步成一份能看的档案：
+画廊式浏览、状态机、10 分制评分、短评、TGA 奖项徽章、年度回顾、以及「该接着玩」的排单。
 
 ## 它长什么样
 
@@ -137,7 +81,7 @@ python3 tools/sync.py --out ~/Documents/游戏档案 --port 9333
 生成器是 `tools/enrich.py`，产物 `enrichment.json`：
 
 ```bash
-python3 tools/enrich.py --out "$HOME/Documents/游戏档案"            # 只补缺的
+python3 tools/enrich.py --out "$HOME/Documents/deepseek-harness/work/游戏档案"            # 只补缺的
 python3 tools/enrich.py --out ... --force            # 全部重抓
 python3 tools/enrich.py --out ... --only "艾尔登法环,Dota 2"
 ```
@@ -149,7 +93,7 @@ python3 tools/enrich.py --out ... --only "艾尔登法环,Dota 2"
 
 ## 数据放哪
 
-默认 `~/Documents/游戏档案/`，可用插件 config 的 `dataDir` 或环境变量
+默认 `~/Documents/deepseek-harness/work/游戏档案/`，可用插件 config 的 `dataDir` 或环境变量
 `DSH_GAME_ARCHIVE_DIR` 改。里面三件套，职责严格分开：
 
 | 文件 | 谁写 | 内容 |
@@ -185,7 +129,7 @@ python3 tools/enrich.py --out ... --only "艾尔登法环,Dota 2"
 3. 点页面右上角「同步五平台」。或者命令行：
 
    ```bash
-   python3 tools/sync.py --port 9333 --out "$HOME/Documents/游戏档案"
+   python3 tools/sync.py --port 9333 --out "$HOME/Documents/deepseek-harness/work/游戏档案"
    ```
 
 参数：`--only steam,psn` / `--skip epic` / `--steam-id` / `--psn-id` / `--xbox-xuid`。
@@ -217,6 +161,8 @@ tools/covers.py             给缺封面的补图（Steam header → Wikipedia �
 tools/build_tga_history.py  抓 Wikipedia 生成历年 TGA 获奖/提名
 tools/build_tga_alias.py    生成 TGA 英文名 → 中文名对照
 tools/tga_media.py          陈列室的中文名 + 封面（维基 langlinks / pageimages 批量 + Steam 兜底）
+tools/fill_tga_covers.py    给陈列室补封面（Steam header → 维基原图；演员/公司/影剧自动跳过，网络失败不记 skip）
+                            用法：python3 tools/fill_tga_covers.py --retry-skip
 tools/epic_price.py         给白嫖来的游戏标真实原价（Epic→Steam 商店价，只认名字规范化后完全一致的）
 tools/export_platform.py    按平台导明细（默认 PSN+Switch）：python3 tools/export_platform.py --platforms PSN,Switch
 tools/meta_score.py         M 站评分 + 发售日 + 类型（打 backend.metacritic.com 前端接口，按名字模糊匹配）
@@ -239,7 +185,3 @@ locale/         zh / en
 - `tools`：工具 / 补丁 / 编辑器 / SDK 这类被平台标成 game 的东西（SKSE、Wallpaper Engine、Squad Mod SDK…），按 平台 → 名字 精确排除。
 - `lowfree`：`{ "enabled": true, "maxHours": 2 }` —— 时长不到 2 小时 **且 原价就是 0** 的（纯 F2P 网游、只打开看一眼的）自动隐藏。
   **白嫖来的付费游戏不算免费**：Epic 每周免费、PSN 会免拿到的，按游戏本身的原价计入库价值，原价 > 0 就一律保留。价格未知的也保留，不当免费处理。
-
-## 许可
-
-MIT。游戏名、封面、评分等数据版权归各自权利人；这里只做个人记录的整理。
